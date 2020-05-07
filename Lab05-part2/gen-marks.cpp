@@ -43,7 +43,7 @@ int main(){
                 // cout << "ERROR" << endl;
             }
             string eeno="E"+to_string(eNo);
-            if(count==5){
+            if((count-1)==4){
                 enoMarks[eeno]=1;
                 // cout << "E" << eNo << ", 1 "<< endl;
             }
