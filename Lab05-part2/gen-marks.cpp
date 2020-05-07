@@ -45,42 +45,25 @@ int main(){
             string eeno="E"+to_string(eNo);
             if((count-1)==4){
                 enoMarks[eeno]=1;
-                // cout << "E" << eNo << ", 1 "<< endl;
             }
             else{
                 enoMarks[eeno]=0;
-                // cout << "E" << eNo << ", 0 "<< endl;
             }
 
-
-
-            
-
-
-
-            // string compileIverilogCommand="iverilog "+DIRECTORY_UNZIP+to_string(eNo)+"/*.v -o "+DIRECTORY_COMPILED+to_string(eNo)+"/compiled.out";
-            // cout << compileIverilogCommand << endl;
-
-            // string runCompiledVerilog=DIRECTORY_COMPILED+to_string(eNo)+"/compiled.out > "+DIRECTORY_COMPILED+to_string(eNo)+"/ans.txt";
-            // cout << runCompiledVerilog << endl;
-
-            // string mkdirCommand3="mkdir "+DIRECTORY_DIFF+to_string(eNo)+"/";
-            // cout << mkdirCommand3 << endl;
-
-            // string checkDiff="diff ./groundtruth/ans.txt "+DIRECTORY_COMPILED+to_string(eNo)+"/ans.txt >"+DIRECTORY_DIFF+to_string(eNo)+"/diff.txt";
-            // cout << checkDiff << endl;
-
-
-
-
-            
         }
-        else
-            continue;
+        else continue;
 
         
     }
     map<string, int>::iterator it;
-    for(it=enoMarks.begin();it!=enoMarks.end();it++)
+    int totalStudents=0;
+    int correctStudents=0;
+    for(it=enoMarks.begin();it!=enoMarks.end();it++){
         cout << it->first+", "+to_string(it->second) << endl;
+        totalStudents++;
+        correctStudents+=it->second;
+    }
+
+    cout << "Total, "<<totalStudents<<endl;
+    cout << "Correct, "<<correctStudents<<endl;
 }
