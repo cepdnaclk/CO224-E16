@@ -30,6 +30,12 @@ int main(){
 
             string changedirCommand="cd "+DIRECTORY_UNZIP+to_string(eNo)+"/";
             cout << changedirCommand << endl;
+            cout << "rm *tb*" << endl;
+            cout << "rm *testbench*" << endl;
+            cout << "rm *test_bench*" << endl;
+            cout << "rm *TestBench*" << endl;
+            cout << "rm *Testbench*" << endl;
+            cout << "rm *testBench*" << endl;
 
             cout << "cp ../../groundtruth/reg_file_tb_groundtruth.v ./" << endl;
             cout<< "echo " <<"\"MSG: Compiling E" <<eNo << "\"" <<endl;

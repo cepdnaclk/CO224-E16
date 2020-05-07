@@ -5,11 +5,19 @@ Archive:  ./temp2/e16068_lab5_part2.zip
   inflating: ./temp3/16068/REG_file.v  
   inflating: ./temp3/16068/REG_file_testBench.v  
   inflating: ./temp3/16068/REG_file timing diagram.png  
+rm: cannot remove '*tb*': No such file or directory
+rm: cannot remove '*testbench*': No such file or directory
+rm: cannot remove '*test_bench*': No such file or directory
+rm: cannot remove '*TestBench*': No such file or directory
+rm: cannot remove '*Testbench*': No such file or directory
 MSG: Compiling E16068
-./REG_file.v:42: Module REG_file was already declared here: ./REG_file.v:8
-
+./reg_file_tb_groundtruth.v:8: error: Unknown module type: reg_file
+2 error(s) during elaboration.
+*** These modules were missing:
+        reg_file referenced 1 times.
+***
 MSG: Running E16068
-./tempscript.sh: line 11: ./compiled.out: No such file or directory
+./tempscript.sh: line 17: ./compiled.out: No such file or directory
 MSG: Checking difference E16068
 diff: waveDump.vcd: No such file or directory
  
@@ -19,6 +27,12 @@ Archive:  ./temp2/e16126_lab5_part2.zip
    creating: ./temp3/16126/e16126_lab5_part2/
   inflating: ./temp3/16126/e16126_lab5_part2/reg_file.v  
   inflating: ./temp3/16126/e16126_lab5_part2/Timing Diagram.PNG  
+rm: cannot remove '*tb*': No such file or directory
+rm: cannot remove '*testbench*': No such file or directory
+rm: cannot remove '*test_bench*': No such file or directory
+rm: cannot remove '*TestBench*': No such file or directory
+rm: cannot remove '*Testbench*': No such file or directory
+rm: cannot remove '*testBench*': No such file or directory
 MSG: Compiling E16126
 ./reg_file_tb_groundtruth.v:8: error: Unknown module type: reg_file
 2 error(s) during elaboration.
@@ -26,7 +40,7 @@ MSG: Compiling E16126
         reg_file referenced 1 times.
 ***
 MSG: Running E16126
-./tempscript.sh: line 25: ./compiled.out: No such file or directory
+./tempscript.sh: line 37: ./compiled.out: No such file or directory
 MSG: Checking difference E16126
 diff: waveDump.vcd: No such file or directory
  
@@ -39,6 +53,12 @@ Archive:  ./temp2/e16217_lab5_part2.zip
   inflating: ./temp3/16217/e16217_lab5_part2/register_file_test_bench.v  
   inflating: ./temp3/16217/e16217_lab5_part2/register_file_wave.vcd  
   inflating: ./temp3/16217/e16217_lab5_part2/wavedata_register_file_module.PNG  
+rm: cannot remove '*tb*': No such file or directory
+rm: cannot remove '*testbench*': No such file or directory
+rm: cannot remove '*test_bench*': No such file or directory
+rm: cannot remove '*TestBench*': No such file or directory
+rm: cannot remove '*Testbench*': No such file or directory
+rm: cannot remove '*testBench*': No such file or directory
 MSG: Compiling E16217
 ./reg_file_tb_groundtruth.v:8: error: Unknown module type: reg_file
 2 error(s) during elaboration.
@@ -46,7 +66,7 @@ MSG: Compiling E16217
         reg_file referenced 1 times.
 ***
 MSG: Running E16217
-./tempscript.sh: line 39: ./compiled.out: No such file or directory
+./tempscript.sh: line 57: ./compiled.out: No such file or directory
 MSG: Checking difference E16217
 diff: waveDump.vcd: No such file or directory
  
@@ -57,15 +77,16 @@ Archive:  ./temp2/e16369_lab5_part2.zip
   inflating: ./temp3/16369/myTestFinal.png  
   inflating: ./temp3/16369/reg_file.v  
   inflating: ./temp3/16369/reg_file_tb.v  
+rm: cannot remove '*testbench*': No such file or directory
+rm: cannot remove '*test_bench*': No such file or directory
+rm: cannot remove '*TestBench*': No such file or directory
+rm: cannot remove '*Testbench*': No such file or directory
+rm: cannot remove '*testBench*': No such file or directory
 MSG: Compiling E16369
 ./reg_file.v:34: syntax error
 ./reg_file.v:34: error: Error in for loop step assignment.
-./reg_file.v:34: syntax error
-./reg_file.v:34: error: Error in for loop step assignment.
-./reg_file.v:45: Module reg_file was already declared here: ./reg_file.v:5
-
 MSG: Running E16369
-./tempscript.sh: line 53: ./compiled.out: No such file or directory
+./tempscript.sh: line 77: ./compiled.out: No such file or directory
 MSG: Checking difference E16369
 diff: waveDump.vcd: No such file or directory
  
@@ -75,6 +96,11 @@ Archive:  ./temp2/e16290_lab5_part2.zip
   inflating: ./temp3/16290/reg_file_tb.v  
   inflating: ./temp3/16290/register.v  
   inflating: ./temp3/16290/reg_timing_diagram.png  
+rm: cannot remove '*testbench*': No such file or directory
+rm: cannot remove '*test_bench*': No such file or directory
+rm: cannot remove '*TestBench*': No such file or directory
+rm: cannot remove '*Testbench*': No such file or directory
+rm: cannot remove '*testBench*': No such file or directory
 MSG: Compiling E16290
 MSG: Running E16290
 MSG: Checking difference E16290
@@ -84,11 +110,17 @@ MSG: unzipping E16057
 Archive:  ./temp2/e16057_lab5_part2.zip
   inflating: ./temp3/16057/reg_file.v  
   inflating: ./temp3/16057/Screenshot from 2020-05-03 20-04-38.png  
+rm: cannot remove '*tb*': No such file or directory
+rm: cannot remove '*testbench*': No such file or directory
+rm: cannot remove '*test_bench*': No such file or directory
+rm: cannot remove '*TestBench*': No such file or directory
+rm: cannot remove '*Testbench*': No such file or directory
+rm: cannot remove '*testBench*': No such file or directory
 MSG: Compiling E16057
 ./reg_file.v:85: syntax error
 ./reg_file.v:85: error: invalid module item.
 MSG: Running E16057
-./tempscript.sh: line 81: ./compiled.out: No such file or directory
+./tempscript.sh: line 117: ./compiled.out: No such file or directory
 MSG: Checking difference E16057
 diff: waveDump.vcd: No such file or directory
  
@@ -98,6 +130,11 @@ Archive:  ./temp2/e16088_lab5_part2.zip
   inflating: ./temp3/16088/reg_file.v  
   inflating: ./temp3/16088/register_testbench.v  
   inflating: ./temp3/16088/testbench.png  
+rm: cannot remove '*testbench*': No such file or directory
+rm: cannot remove '*test_bench*': No such file or directory
+rm: cannot remove '*TestBench*': No such file or directory
+rm: cannot remove '*Testbench*': No such file or directory
+rm: cannot remove '*testBench*': No such file or directory
 MSG: Compiling E16088
 MSG: Running E16088
 MSG: Checking difference E16088
@@ -107,6 +144,12 @@ MSG: unzipping E16203
 Archive:  ./temp2/e16203_lab5_part2.zip
   inflating: ./temp3/16203/e16203_lab5_part2.v  
   inflating: ./temp3/16203/e16203_lab5_part2_waveform.png  
+rm: cannot remove '*tb*': No such file or directory
+rm: cannot remove '*testbench*': No such file or directory
+rm: cannot remove '*test_bench*': No such file or directory
+rm: cannot remove '*TestBench*': No such file or directory
+rm: cannot remove '*Testbench*': No such file or directory
+rm: cannot remove '*testBench*': No such file or directory
 MSG: Compiling E16203
 MSG: Running E16203
 MSG: Checking difference E16203
@@ -117,6 +160,11 @@ Archive:  ./temp2/e16094_lab5_part2.zip
   inflating: ./temp3/16094/reg_file.v  
   inflating: ./temp3/16094/testbenchReg.v  
   inflating: ./temp3/16094/timingDiagram.png  
+rm: cannot remove '*testbench*': No such file or directory
+rm: cannot remove '*test_bench*': No such file or directory
+rm: cannot remove '*TestBench*': No such file or directory
+rm: cannot remove '*Testbench*': No such file or directory
+rm: cannot remove '*testBench*': No such file or directory
 MSG: Compiling E16094
 MSG: Running E16094
 MSG: Checking difference E16094
@@ -126,11 +174,17 @@ MSG: unzipping E16389
 Archive:  ./temp2/e16389_lab5_part2.zip
   inflating: ./temp3/16389/Screenshot_wavedata.png  
   inflating: ./temp3/16389/e16389_reg_file.v  
+rm: cannot remove '*tb*': No such file or directory
+rm: cannot remove '*testbench*': No such file or directory
+rm: cannot remove '*test_bench*': No such file or directory
+rm: cannot remove '*TestBench*': No such file or directory
+rm: cannot remove '*Testbench*': No such file or directory
+rm: cannot remove '*testBench*': No such file or directory
 MSG: Compiling E16389
 ./e16389_reg_file.v:17: syntax error
 ./e16389_reg_file.v:17: error: syntax error in reg variable list.
 MSG: Running E16389
-./tempscript.sh: line 137: ./compiled.out: No such file or directory
+./tempscript.sh: line 197: ./compiled.out: No such file or directory
 MSG: Checking difference E16389
 diff: waveDump.vcd: No such file or directory
  
@@ -140,6 +194,11 @@ Archive:  ./temp2/e16261_lab5_part2.zip
   inflating: ./temp3/16261/e16261_lab5_part2.v  
   inflating: ./temp3/16261/e16261_screenshot.png  
   inflating: ./temp3/16261/reg_file_tb.v  
+rm: cannot remove '*testbench*': No such file or directory
+rm: cannot remove '*test_bench*': No such file or directory
+rm: cannot remove '*TestBench*': No such file or directory
+rm: cannot remove '*Testbench*': No such file or directory
+rm: cannot remove '*testBench*': No such file or directory
 MSG: Compiling E16261
 MSG: Running E16261
 MSG: Checking difference E16261
@@ -149,6 +208,12 @@ MSG: unzipping E16368
 Archive:  ./temp2/e16368_lab5_part2.zip
   inflating: ./temp3/16368/reg_file.v  
   inflating: ./temp3/16368/RegisterFileTiming.png  
+rm: cannot remove '*tb*': No such file or directory
+rm: cannot remove '*testbench*': No such file or directory
+rm: cannot remove '*test_bench*': No such file or directory
+rm: cannot remove '*TestBench*': No such file or directory
+rm: cannot remove '*Testbench*': No such file or directory
+rm: cannot remove '*testBench*': No such file or directory
 MSG: Compiling E16368
 MSG: Running E16368
 MSG: Checking difference E16368
@@ -159,6 +224,12 @@ Archive:  ./temp2/e16351_lab5_part2.zip
   inflating: ./temp3/16351/wavedata for given test bench.JPG  
   inflating: ./temp3/16351/wavedata for my test bench.PNG  
   inflating: ./temp3/16351/reg_file.v  
+rm: cannot remove '*tb*': No such file or directory
+rm: cannot remove '*testbench*': No such file or directory
+rm: cannot remove '*test_bench*': No such file or directory
+rm: cannot remove '*TestBench*': No such file or directory
+rm: cannot remove '*Testbench*': No such file or directory
+rm: cannot remove '*testBench*': No such file or directory
 MSG: Compiling E16351
 MSG: Running E16351
 MSG: Checking difference E16351
@@ -168,6 +239,11 @@ MSG: unzipping E16055
 Archive:  ./temp2/e16055_Lab5_Part2.zip
   inflating: ./temp3/16055/Lab5_Part2.v  
   inflating: ./temp3/16055/reg_file_tb.v  
+rm: cannot remove '*testbench*': No such file or directory
+rm: cannot remove '*test_bench*': No such file or directory
+rm: cannot remove '*TestBench*': No such file or directory
+rm: cannot remove '*Testbench*': No such file or directory
+rm: cannot remove '*testBench*': No such file or directory
 MSG: Compiling E16055
 MSG: Running E16055
 MSG: Checking difference E16055
@@ -178,15 +254,16 @@ Archive:  ./temp2/e16366_lab5_part2.zip
   inflating: ./temp3/16366/reg_file.v  
   inflating: ./temp3/16366/testbench.v  
   inflating: ./temp3/16366/wavefile_for_my testbench.png  
+rm: cannot remove '*testbench*': No such file or directory
+rm: cannot remove '*test_bench*': No such file or directory
+rm: cannot remove '*TestBench*': No such file or directory
+rm: cannot remove '*Testbench*': No such file or directory
+rm: cannot remove '*testBench*': No such file or directory
 MSG: Compiling E16366
 ./reg_file.v:31: syntax error
 ./reg_file.v:31: error: Error in for loop step assignment.
-./reg_file.v:31: syntax error
-./reg_file.v:31: error: Error in for loop step assignment.
-./reg_file.v:39: Module reg_file was already declared here: ./reg_file.v:1
-
 MSG: Running E16366
-./tempscript.sh: line 207: ./compiled.out: No such file or directory
+./tempscript.sh: line 297: ./compiled.out: No such file or directory
 MSG: Checking difference E16366
 diff: waveDump.vcd: No such file or directory
  
@@ -195,6 +272,12 @@ MSG: unzipping E16223
 Archive:  ./temp2/e16223_lab5_part2.zip
   inflating: ./temp3/16223/e16223_lab5_part2/alu2.v  
   inflating: ./temp3/16223/e16223_lab5_part2/e16223_lab5_part2 (2).png  
+rm: cannot remove '*tb*': No such file or directory
+rm: cannot remove '*testbench*': No such file or directory
+rm: cannot remove '*test_bench*': No such file or directory
+rm: cannot remove '*TestBench*': No such file or directory
+rm: cannot remove '*Testbench*': No such file or directory
+rm: cannot remove '*testBench*': No such file or directory
 MSG: Compiling E16223
 ./reg_file_tb_groundtruth.v:8: error: Unknown module type: reg_file
 2 error(s) during elaboration.
@@ -202,7 +285,7 @@ MSG: Compiling E16223
         reg_file referenced 1 times.
 ***
 MSG: Running E16223
-./tempscript.sh: line 221: ./compiled.out: No such file or directory
+./tempscript.sh: line 317: ./compiled.out: No such file or directory
 MSG: Checking difference E16223
 diff: waveDump.vcd: No such file or directory
  
@@ -212,6 +295,11 @@ Archive:  ./temp2/e16012_lab5_part2.zip
   inflating: ./temp3/16012/reg_file.v  
   inflating: ./temp3/16012/reg_file_tb.v  
   inflating: ./temp3/16012/reg_file_timing_diagram.png  
+rm: cannot remove '*testbench*': No such file or directory
+rm: cannot remove '*test_bench*': No such file or directory
+rm: cannot remove '*TestBench*': No such file or directory
+rm: cannot remove '*Testbench*': No such file or directory
+rm: cannot remove '*testBench*': No such file or directory
 MSG: Compiling E16012
 MSG: Running E16012
 MSG: Checking difference E16012
@@ -222,13 +310,14 @@ Archive:  ./temp2/e16049_lab5_part2.zip
   inflating: ./temp3/16049/reg_file.v  
   inflating: ./temp3/16049/reg_file_testbench.v  
   inflating: ./temp3/16049/timing_diagram.JPG  
+rm: cannot remove '*testbench*': No such file or directory
+rm: cannot remove '*test_bench*': No such file or directory
+rm: cannot remove '*TestBench*': No such file or directory
+rm: cannot remove '*Testbench*': No such file or directory
+rm: cannot remove '*testBench*': No such file or directory
 MSG: Compiling E16049
-./reg_file_testbench.v:57: syntax error
-./reg_file_testbench.v:58: Syntax in assignment statement l-value.
 MSG: Running E16049
-./tempscript.sh: line 249: ./compiled.out: No such file or directory
 MSG: Checking difference E16049
-diff: waveDump.vcd: No such file or directory
  
 ------STUDENT: E16275
 MSG: unzipping E16275
@@ -239,6 +328,11 @@ Archive:  ./temp2/e16275_lab5_part2.zip
   inflating: ./temp3/16275/Screenshot from 2020-05-03 23-42-45.png  
   inflating: ./temp3/16275/testbench.v  
   inflating: ./temp3/16275/wavedata.vcd  
+rm: cannot remove '*testbench*': No such file or directory
+rm: cannot remove '*test_bench*': No such file or directory
+rm: cannot remove '*TestBench*': No such file or directory
+rm: cannot remove '*Testbench*': No such file or directory
+rm: cannot remove '*testBench*': No such file or directory
 MSG: Compiling E16275
 MSG: Running E16275
 MSG: Checking difference E16275
@@ -248,6 +342,12 @@ MSG: unzipping E16399
 Archive:  ./temp2/e16399_lab5_part2.zip
   inflating: ./temp3/16399/reg_file.v  
   inflating: ./temp3/16399/Screenshot from 2020-05-03 23-46-50.png  
+rm: cannot remove '*tb*': No such file or directory
+rm: cannot remove '*testbench*': No such file or directory
+rm: cannot remove '*test_bench*': No such file or directory
+rm: cannot remove '*TestBench*': No such file or directory
+rm: cannot remove '*Testbench*': No such file or directory
+rm: cannot remove '*testBench*': No such file or directory
 MSG: Compiling E16399
 MSG: Running E16399
 MSG: Checking difference E16399
@@ -258,11 +358,16 @@ Archive:  ./temp2/e16069_lab5_part2.zip
   inflating: ./temp3/16069/reg_file.v  
   inflating: ./temp3/16069/RegisterFile Timing Diagram .png  
   inflating: ./temp3/16069/testbench.v  
+rm: cannot remove '*testbench*': No such file or directory
+rm: cannot remove '*test_bench*': No such file or directory
+rm: cannot remove '*TestBench*': No such file or directory
+rm: cannot remove '*Testbench*': No such file or directory
+rm: cannot remove '*testBench*': No such file or directory
 MSG: Compiling E16069
 ./reg_file.v:30: syntax error
 ./reg_file.v:30: error: Error in for loop step assignment.
 MSG: Running E16069
-./tempscript.sh: line 291: ./compiled.out: No such file or directory
+./tempscript.sh: line 417: ./compiled.out: No such file or directory
 MSG: Checking difference E16069
 diff: waveDump.vcd: No such file or directory
  
@@ -273,6 +378,12 @@ Archive:  ./temp2/e16232_lab5_part2.zip
   inflating: ./temp3/16232/e16232_lab5_part2/reg_file_tb.v  
   inflating: ./temp3/16232/e16232_lab5_part2/reg_file.v  
   inflating: ./temp3/16232/e16232_lab5_part2/wavedata_e16232_lab5_part2.png  
+rm: cannot remove '*tb*': No such file or directory
+rm: cannot remove '*testbench*': No such file or directory
+rm: cannot remove '*test_bench*': No such file or directory
+rm: cannot remove '*TestBench*': No such file or directory
+rm: cannot remove '*Testbench*': No such file or directory
+rm: cannot remove '*testBench*': No such file or directory
 MSG: Compiling E16232
 ./reg_file_tb_groundtruth.v:8: error: Unknown module type: reg_file
 2 error(s) during elaboration.
@@ -280,7 +391,7 @@ MSG: Compiling E16232
         reg_file referenced 1 times.
 ***
 MSG: Running E16232
-./tempscript.sh: line 305: ./compiled.out: No such file or directory
+./tempscript.sh: line 437: ./compiled.out: No such file or directory
 MSG: Checking difference E16232
 diff: waveDump.vcd: No such file or directory
  
@@ -289,6 +400,12 @@ MSG: unzipping E16286
 Archive:  ./temp2/e16286_lab5_part2.zip
   inflating: ./temp3/16286/reg_file.v  
   inflating: ./temp3/16286/timing_diagram.png  
+rm: cannot remove '*tb*': No such file or directory
+rm: cannot remove '*testbench*': No such file or directory
+rm: cannot remove '*test_bench*': No such file or directory
+rm: cannot remove '*TestBench*': No such file or directory
+rm: cannot remove '*Testbench*': No such file or directory
+rm: cannot remove '*testBench*': No such file or directory
 MSG: Compiling E16286
 MSG: Running E16286
 MSG: Checking difference E16286
@@ -298,6 +415,12 @@ MSG: unzipping E16087
 Archive:  ./temp2/e16087_lab5_part2.zip
   inflating: ./temp3/16087/e16087_lab5_part2_timingDiagramScreenshot.PNG  
   inflating: ./temp3/16087/e16087_lab5_part2.v  
+rm: cannot remove '*tb*': No such file or directory
+rm: cannot remove '*testbench*': No such file or directory
+rm: cannot remove '*test_bench*': No such file or directory
+rm: cannot remove '*TestBench*': No such file or directory
+rm: cannot remove '*Testbench*': No such file or directory
+rm: cannot remove '*testBench*': No such file or directory
 MSG: Compiling E16087
 MSG: Running E16087
 MSG: Checking difference E16087
@@ -311,13 +434,14 @@ Archive:  ./temp2/e16081_lab5_part2.zip
   inflating: ./temp3/16081/reg_file_tb.v.out  
   inflating: ./temp3/16081/reg_file_wavedata.vcd  
   inflating: ./temp3/16081/Screenshot from 2020-05-03 21-12-37.png  
+rm: cannot remove '*testbench*': No such file or directory
+rm: cannot remove '*test_bench*': No such file or directory
+rm: cannot remove '*TestBench*': No such file or directory
+rm: cannot remove '*Testbench*': No such file or directory
+rm: cannot remove '*testBench*': No such file or directory
 MSG: Compiling E16081
-./reg_file.v:141: Module reg_file was already declared here: ./reg_file.v:1
-
 MSG: Running E16081
-./tempscript.sh: line 347: ./compiled.out: No such file or directory
 MSG: Checking difference E16081
-diff: waveDump.vcd: No such file or directory
  
 ------STUDENT: E16172
 MSG: unzipping E16172
@@ -326,6 +450,12 @@ Archive:  ./temp2/e16172_lab5_part2.zip
   inflating: ./temp3/16172/e16172_lab5_part2/reg_file_tb.vcd  
   inflating: ./temp3/16172/e16172_lab5_part2/reg_test.v  
   inflating: ./temp3/16172/e16172_lab5_part2/reg_test_wave.png  
+rm: cannot remove '*tb*': No such file or directory
+rm: cannot remove '*testbench*': No such file or directory
+rm: cannot remove '*test_bench*': No such file or directory
+rm: cannot remove '*TestBench*': No such file or directory
+rm: cannot remove '*Testbench*': No such file or directory
+rm: cannot remove '*testBench*': No such file or directory
 MSG: Compiling E16172
 ./reg_file_tb_groundtruth.v:8: error: Unknown module type: reg_file
 2 error(s) during elaboration.
@@ -333,7 +463,7 @@ MSG: Compiling E16172
         reg_file referenced 1 times.
 ***
 MSG: Running E16172
-./tempscript.sh: line 361: ./compiled.out: No such file or directory
+./tempscript.sh: line 517: ./compiled.out: No such file or directory
 MSG: Checking difference E16172
 diff: waveDump.vcd: No such file or directory
  
@@ -344,6 +474,12 @@ Archive:  ./temp2/e16200_lab5_part2.zip
   inflating: ./temp3/16200/e16200_lab5_part2/reg_file.v  
   inflating: ./temp3/16200/e16200_lab5_part2/timing_diagram.png  
   inflating: ./temp3/16200/e16200_lab5_part2/regfile_testbench.v  
+rm: cannot remove '*tb*': No such file or directory
+rm: cannot remove '*testbench*': No such file or directory
+rm: cannot remove '*test_bench*': No such file or directory
+rm: cannot remove '*TestBench*': No such file or directory
+rm: cannot remove '*Testbench*': No such file or directory
+rm: cannot remove '*testBench*': No such file or directory
 MSG: Compiling E16200
 ./reg_file_tb_groundtruth.v:8: error: Unknown module type: reg_file
 2 error(s) during elaboration.
@@ -351,7 +487,7 @@ MSG: Compiling E16200
         reg_file referenced 1 times.
 ***
 MSG: Running E16200
-./tempscript.sh: line 375: ./compiled.out: No such file or directory
+./tempscript.sh: line 537: ./compiled.out: No such file or directory
 MSG: Checking difference E16200
 diff: waveDump.vcd: No such file or directory
  
@@ -362,6 +498,11 @@ Archive:  ./temp2/e16320_lab5_part2.zip
   inflating: ./temp3/16320/reg.v     
   inflating: ./temp3/16320/reg_file_tb.v  
   inflating: ./temp3/16320/reg_file_wavedata.vcd  
+rm: cannot remove '*testbench*': No such file or directory
+rm: cannot remove '*test_bench*': No such file or directory
+rm: cannot remove '*TestBench*': No such file or directory
+rm: cannot remove '*Testbench*': No such file or directory
+rm: cannot remove '*testBench*': No such file or directory
 MSG: Compiling E16320
 MSG: Running E16320
 MSG: Checking difference E16320
@@ -373,6 +514,12 @@ Archive:  ./temp2/e16313_lab5_part2.zip
   inflating: ./temp3/16313/e16313_lab5_part2/Screenshot from 2020-05-03 23-39-41.png  
   inflating: ./temp3/16313/e16313_lab5_part2/reg_file.v  
   inflating: ./temp3/16313/e16313_lab5_part2/reg_file_tb.v  
+rm: cannot remove '*tb*': No such file or directory
+rm: cannot remove '*testbench*': No such file or directory
+rm: cannot remove '*test_bench*': No such file or directory
+rm: cannot remove '*TestBench*': No such file or directory
+rm: cannot remove '*Testbench*': No such file or directory
+rm: cannot remove '*testBench*': No such file or directory
 MSG: Compiling E16313
 ./reg_file_tb_groundtruth.v:8: error: Unknown module type: reg_file
 2 error(s) during elaboration.
@@ -380,7 +527,7 @@ MSG: Compiling E16313
         reg_file referenced 1 times.
 ***
 MSG: Running E16313
-./tempscript.sh: line 403: ./compiled.out: No such file or directory
+./tempscript.sh: line 577: ./compiled.out: No such file or directory
 MSG: Checking difference E16313
 diff: waveDump.vcd: No such file or directory
  
@@ -390,6 +537,11 @@ Archive:  ./temp2/e16360_lab5_part2.zip
   inflating: ./temp3/16360/lab5_part2.JPG  
   inflating: ./temp3/16360/reg_file.v  
   inflating: ./temp3/16360/reg_file_testbench.v  
+rm: cannot remove '*testbench*': No such file or directory
+rm: cannot remove '*test_bench*': No such file or directory
+rm: cannot remove '*TestBench*': No such file or directory
+rm: cannot remove '*Testbench*': No such file or directory
+rm: cannot remove '*testBench*': No such file or directory
 MSG: Compiling E16360
 MSG: Running E16360
 MSG: Checking difference E16360
@@ -400,6 +552,12 @@ Archive:  ./temp2/e16394_lab5_part2.zip
   inflating: ./temp3/16394/reg_file.v  
   inflating: ./temp3/16394/testReg_file.v  
   inflating: ./temp3/16394/RegisterFileTiming.jpg  
+rm: cannot remove '*tb*': No such file or directory
+rm: cannot remove '*testbench*': No such file or directory
+rm: cannot remove '*test_bench*': No such file or directory
+rm: cannot remove '*TestBench*': No such file or directory
+rm: cannot remove '*Testbench*': No such file or directory
+rm: cannot remove '*testBench*': No such file or directory
 MSG: Compiling E16394
 MSG: Running E16394
 MSG: Checking difference E16394
@@ -410,13 +568,14 @@ Archive:  ./temp2/e16168_lab5_part2.zip
   inflating: ./temp3/16168/reg_file.v  
   inflating: ./temp3/16168/reg_file_tb.v  
   inflating: ./temp3/16168/register_file_timing_diagram.PNG  
+rm: cannot remove '*testbench*': No such file or directory
+rm: cannot remove '*test_bench*': No such file or directory
+rm: cannot remove '*TestBench*': No such file or directory
+rm: cannot remove '*Testbench*': No such file or directory
+rm: cannot remove '*testBench*': No such file or directory
 MSG: Compiling E16168
-./reg_file.v:45: Module reg_file was already declared here: ./reg_file.v:9
-
 MSG: Running E16168
-./tempscript.sh: line 445: ./compiled.out: No such file or directory
 MSG: Checking difference E16168
-diff: waveDump.vcd: No such file or directory
  
 ------STUDENT: E16083
 MSG: unzipping E16083
@@ -424,13 +583,14 @@ Archive:  ./temp2/e16083_lab5_part2.zip
   inflating: ./temp3/16083/reg_file.v  
   inflating: ./temp3/16083/reg_file_tb.v  
   inflating: ./temp3/16083/Timing_Diagram.png  
+rm: cannot remove '*testbench*': No such file or directory
+rm: cannot remove '*test_bench*': No such file or directory
+rm: cannot remove '*TestBench*': No such file or directory
+rm: cannot remove '*Testbench*': No such file or directory
+rm: cannot remove '*testBench*': No such file or directory
 MSG: Compiling E16083
-./reg_file.v:33: Module reg_file was already declared here: ./reg_file.v:4
-
 MSG: Running E16083
-./tempscript.sh: line 459: ./compiled.out: No such file or directory
 MSG: Checking difference E16083
-diff: waveDump.vcd: No such file or directory
  
 ------STUDENT: E16276
 MSG: unzipping E16276
@@ -438,19 +598,26 @@ Archive:  ./temp2/e16276_lab5_part2.zip
   inflating: ./temp3/16276/reg_file.v  
   inflating: ./temp3/16276/reg_file_tb.v  
   inflating: ./temp3/16276/reg_file_timing_diagram.png  
+rm: cannot remove '*testbench*': No such file or directory
+rm: cannot remove '*test_bench*': No such file or directory
+rm: cannot remove '*TestBench*': No such file or directory
+rm: cannot remove '*Testbench*': No such file or directory
+rm: cannot remove '*testBench*': No such file or directory
 MSG: Compiling E16276
-./reg_file.v:46: Module reg_file was already declared here: ./reg_file.v:7
-
 MSG: Running E16276
-./tempscript.sh: line 473: ./compiled.out: No such file or directory
 MSG: Checking difference E16276
-diff: waveDump.vcd: No such file or directory
  
 ------STUDENT: E16022
 MSG: unzipping E16022
 Archive:  ./temp2/e16022_lab5_part2.zip
   inflating: ./temp3/16022/e16022_regfile_TimingDiagram.JPG  
   inflating: ./temp3/16022/e16022regfile.v  
+rm: cannot remove '*tb*': No such file or directory
+rm: cannot remove '*testbench*': No such file or directory
+rm: cannot remove '*test_bench*': No such file or directory
+rm: cannot remove '*TestBench*': No such file or directory
+rm: cannot remove '*Testbench*': No such file or directory
+rm: cannot remove '*testBench*': No such file or directory
 MSG: Compiling E16022
 MSG: Running E16022
 MSG: Checking difference E16022
@@ -460,11 +627,17 @@ MSG: unzipping E16396
 Archive:  ./temp2/e16396_lab5_part2.zip
   inflating: ./temp3/16396/e16396_timing_diagram_screenshot.png  
   inflating: ./temp3/16396/reg_file.v  
+rm: cannot remove '*tb*': No such file or directory
+rm: cannot remove '*testbench*': No such file or directory
+rm: cannot remove '*test_bench*': No such file or directory
+rm: cannot remove '*TestBench*': No such file or directory
+rm: cannot remove '*Testbench*': No such file or directory
+rm: cannot remove '*testBench*': No such file or directory
 MSG: Compiling E16396
 ./reg_file.v:138: syntax error
 ./reg_file.v:138: error: malformed statement
 MSG: Running E16396
-./tempscript.sh: line 501: ./compiled.out: No such file or directory
+./tempscript.sh: line 717: ./compiled.out: No such file or directory
 MSG: Checking difference E16396
 diff: waveDump.vcd: No such file or directory
  
@@ -477,6 +650,12 @@ Archive:  ./temp2/e16156_lab5_part2.zip
   inflating: ./temp3/16156/e16156_lab5_part2/REG.v  
   inflating: ./temp3/16156/e16156_lab5_part2/reg_file_tb.v  
   inflating: ./temp3/16156/e16156_lab5_part2/TimingDiagram.png  
+rm: cannot remove '*tb*': No such file or directory
+rm: cannot remove '*testbench*': No such file or directory
+rm: cannot remove '*test_bench*': No such file or directory
+rm: cannot remove '*TestBench*': No such file or directory
+rm: cannot remove '*Testbench*': No such file or directory
+rm: cannot remove '*testBench*': No such file or directory
 MSG: Compiling E16156
 ./reg_file_tb_groundtruth.v:8: error: Unknown module type: reg_file
 2 error(s) during elaboration.
@@ -484,7 +663,7 @@ MSG: Compiling E16156
         reg_file referenced 1 times.
 ***
 MSG: Running E16156
-./tempscript.sh: line 515: ./compiled.out: No such file or directory
+./tempscript.sh: line 737: ./compiled.out: No such file or directory
 MSG: Checking difference E16156
 diff: waveDump.vcd: No such file or directory
  
@@ -493,6 +672,12 @@ MSG: unzipping E16076
 Archive:  ./temp2/e16076_lab5_part2.zip
   inflating: ./temp3/16076/reg_file.v  
   inflating: ./temp3/16076/Screenshot from 2020-05-03 19-34-10.png  
+rm: cannot remove '*tb*': No such file or directory
+rm: cannot remove '*testbench*': No such file or directory
+rm: cannot remove '*test_bench*': No such file or directory
+rm: cannot remove '*TestBench*': No such file or directory
+rm: cannot remove '*Testbench*': No such file or directory
+rm: cannot remove '*testBench*': No such file or directory
 MSG: Compiling E16076
 MSG: Running E16076
 MSG: Checking difference E16076
@@ -502,6 +687,12 @@ MSG: unzipping E16089
 Archive:  ./temp2/e16089_lab5_part2.zip
   inflating: ./temp3/16089/e16089_GTKWave.png  
   inflating: ./temp3/16089/reg_file.v  
+rm: cannot remove '*tb*': No such file or directory
+rm: cannot remove '*testbench*': No such file or directory
+rm: cannot remove '*test_bench*': No such file or directory
+rm: cannot remove '*TestBench*': No such file or directory
+rm: cannot remove '*Testbench*': No such file or directory
+rm: cannot remove '*testBench*': No such file or directory
 MSG: Compiling E16089
 MSG: Running E16089
 MSG: Checking difference E16089
@@ -512,6 +703,11 @@ Archive:  ./temp2/e16025_lab5_part2.zip
   inflating: ./temp3/16025/reg_file.v  
   inflating: ./temp3/16025/reg_file_tb.v  
   inflating: ./temp3/16025/reg_file_wavedata_image.JPG  
+rm: cannot remove '*testbench*': No such file or directory
+rm: cannot remove '*test_bench*': No such file or directory
+rm: cannot remove '*TestBench*': No such file or directory
+rm: cannot remove '*Testbench*': No such file or directory
+rm: cannot remove '*testBench*': No such file or directory
 MSG: Compiling E16025
 MSG: Running E16025
 MSG: Checking difference E16025
@@ -522,6 +718,12 @@ Archive:  ./temp2/e16086_lab5_part2.zip
   inflating: ./temp3/16086/e16086_lab5_part2/reg_file.v  
   inflating: ./temp3/16086/e16086_lab5_part2/reg_file_newtb.v  
   inflating: ./temp3/16086/e16086_lab5_part2/timing diagram.png  
+rm: cannot remove '*tb*': No such file or directory
+rm: cannot remove '*testbench*': No such file or directory
+rm: cannot remove '*test_bench*': No such file or directory
+rm: cannot remove '*TestBench*': No such file or directory
+rm: cannot remove '*Testbench*': No such file or directory
+rm: cannot remove '*testBench*': No such file or directory
 MSG: Compiling E16086
 ./reg_file_tb_groundtruth.v:8: error: Unknown module type: reg_file
 2 error(s) during elaboration.
@@ -529,7 +731,7 @@ MSG: Compiling E16086
         reg_file referenced 1 times.
 ***
 MSG: Running E16086
-./tempscript.sh: line 571: ./compiled.out: No such file or directory
+./tempscript.sh: line 817: ./compiled.out: No such file or directory
 MSG: Checking difference E16086
 diff: waveDump.vcd: No such file or directory
  
@@ -539,13 +741,14 @@ Archive:  ./temp2/e16078_lab5_part2.zip
   inflating: ./temp3/16078/reg_file.v  
   inflating: ./temp3/16078/testbench_reg.v  
   inflating: ./temp3/16078/timing_diagram.PNG  
+rm: cannot remove '*testbench*': No such file or directory
+rm: cannot remove '*test_bench*': No such file or directory
+rm: cannot remove '*TestBench*': No such file or directory
+rm: cannot remove '*Testbench*': No such file or directory
+rm: cannot remove '*testBench*': No such file or directory
 MSG: Compiling E16078
-./reg_file.v:66: Module reg_file was already declared here: ./reg_file.v:3
-
 MSG: Running E16078
-./tempscript.sh: line 585: ./compiled.out: No such file or directory
 MSG: Checking difference E16078
-diff: waveDump.vcd: No such file or directory
  
 ------STUDENT: E16222
 MSG: unzipping E16222
@@ -553,6 +756,11 @@ Archive:  ./temp2/e16222_lab5_part2.zip
   inflating: ./temp3/16222/reg_file.v  
   inflating: ./temp3/16222/register_tb.v  
   inflating: ./temp3/16222/Screenshot from 2020-05-03 23-01-51.png  
+rm: cannot remove '*testbench*': No such file or directory
+rm: cannot remove '*test_bench*': No such file or directory
+rm: cannot remove '*TestBench*': No such file or directory
+rm: cannot remove '*Testbench*': No such file or directory
+rm: cannot remove '*testBench*': No such file or directory
 MSG: Compiling E16222
 MSG: Running E16222
 MSG: Checking difference E16222
@@ -564,6 +772,12 @@ Archive:  ./temp2/e16070_lab5_part2.zip
   inflating: ./temp3/16070/e16070_lab5_part2/timing_diagram.png  
   inflating: ./temp3/16070/e16070_lab5_part2/Part2.v  
   inflating: ./temp3/16070/e16070_lab5_part2/regfile_tb.v  
+rm: cannot remove '*tb*': No such file or directory
+rm: cannot remove '*testbench*': No such file or directory
+rm: cannot remove '*test_bench*': No such file or directory
+rm: cannot remove '*TestBench*': No such file or directory
+rm: cannot remove '*Testbench*': No such file or directory
+rm: cannot remove '*testBench*': No such file or directory
 MSG: Compiling E16070
 ./reg_file_tb_groundtruth.v:8: error: Unknown module type: reg_file
 2 error(s) during elaboration.
@@ -571,7 +785,7 @@ MSG: Compiling E16070
         reg_file referenced 1 times.
 ***
 MSG: Running E16070
-./tempscript.sh: line 613: ./compiled.out: No such file or directory
+./tempscript.sh: line 877: ./compiled.out: No such file or directory
 MSG: Checking difference E16070
 diff: waveDump.vcd: No such file or directory
  
@@ -581,6 +795,12 @@ Archive:  ./temp2/e16332_lab5_part2.zip
   inflating: ./temp3/16332/e16332gtkvave.png  
   inflating: ./temp3/16332/e16332regfile.v  
   inflating: ./temp3/16332/reg_file_wavedata.vcd  
+rm: cannot remove '*tb*': No such file or directory
+rm: cannot remove '*testbench*': No such file or directory
+rm: cannot remove '*test_bench*': No such file or directory
+rm: cannot remove '*TestBench*': No such file or directory
+rm: cannot remove '*Testbench*': No such file or directory
+rm: cannot remove '*testBench*': No such file or directory
 MSG: Compiling E16332
 MSG: Running E16332
 MSG: Checking difference E16332
@@ -590,6 +810,12 @@ MSG: unzipping E16127
 Archive:  ./temp2/e16127_lab5_part2.zip
   inflating: ./temp3/16127/e16127_lab5_part2/e16127.png  
   inflating: ./temp3/16127/e16127_lab5_part2/reg_file.v  
+rm: cannot remove '*tb*': No such file or directory
+rm: cannot remove '*testbench*': No such file or directory
+rm: cannot remove '*test_bench*': No such file or directory
+rm: cannot remove '*TestBench*': No such file or directory
+rm: cannot remove '*Testbench*': No such file or directory
+rm: cannot remove '*testBench*': No such file or directory
 MSG: Compiling E16127
 ./reg_file_tb_groundtruth.v:8: error: Unknown module type: reg_file
 2 error(s) during elaboration.
@@ -597,7 +823,7 @@ MSG: Compiling E16127
         reg_file referenced 1 times.
 ***
 MSG: Running E16127
-./tempscript.sh: line 641: ./compiled.out: No such file or directory
+./tempscript.sh: line 917: ./compiled.out: No such file or directory
 MSG: Checking difference E16127
 diff: waveDump.vcd: No such file or directory
  
@@ -607,6 +833,11 @@ Archive:  ./temp2/e16096_lab5_part2.zip
   inflating: ./temp3/16096/testbench_reg_2.v  
   inflating: ./temp3/16096/RegisterTiming_1.JPG  
   inflating: ./temp3/16096/reg_file.v  
+rm: cannot remove '*testbench*': No such file or directory
+rm: cannot remove '*test_bench*': No such file or directory
+rm: cannot remove '*TestBench*': No such file or directory
+rm: cannot remove '*Testbench*': No such file or directory
+rm: cannot remove '*testBench*': No such file or directory
 MSG: Compiling E16096
 MSG: Running E16096
 MSG: Checking difference E16096
@@ -618,15 +849,16 @@ Archive:  ./temp2/e16388_lab5_part2.zip
   inflating: ./temp3/16388/GTKWave - e16388_reg_file_wavedata.vcd 5_3_2020 9_45_42 PM.png  
   inflating: ./temp3/16388/regfile.v  
   inflating: ./temp3/16388/testbench.v  
+rm: cannot remove '*testbench*': No such file or directory
+rm: cannot remove '*test_bench*': No such file or directory
+rm: cannot remove '*TestBench*': No such file or directory
+rm: cannot remove '*Testbench*': No such file or directory
+rm: cannot remove '*testBench*': No such file or directory
 MSG: Compiling E16388
 ./regfile.v:36: syntax error
 ./regfile.v:36: error: Error in for loop step assignment.
-./regfile.v:36: syntax error
-./regfile.v:36: error: Error in for loop step assignment.
-./regfile.v:52: Module reg_file was already declared here: ./regfile.v:6
-
 MSG: Running E16388
-./tempscript.sh: line 669: ./compiled.out: No such file or directory
+./tempscript.sh: line 957: ./compiled.out: No such file or directory
 MSG: Checking difference E16388
 diff: waveDump.vcd: No such file or directory
  
@@ -636,6 +868,11 @@ Archive:  ./temp2/e16134_lab5_part2.zip
   inflating: ./temp3/16134/Timing_diagram_reg.PNG  
   inflating: ./temp3/16134/reg_file.v  
   inflating: ./temp3/16134/reg_file_testbench.v  
+rm: cannot remove '*testbench*': No such file or directory
+rm: cannot remove '*test_bench*': No such file or directory
+rm: cannot remove '*TestBench*': No such file or directory
+rm: cannot remove '*Testbench*': No such file or directory
+rm: cannot remove '*testBench*': No such file or directory
 MSG: Compiling E16134
 MSG: Running E16134
 MSG: Checking difference E16134
@@ -645,6 +882,12 @@ MSG: unzipping E16115
 Archive:  ./temp2/e16115_lab5_part2.zip
   inflating: ./temp3/16115/Lab5.v    
   inflating: ./temp3/16115/Timing diagram.pdf  
+rm: cannot remove '*tb*': No such file or directory
+rm: cannot remove '*testbench*': No such file or directory
+rm: cannot remove '*test_bench*': No such file or directory
+rm: cannot remove '*TestBench*': No such file or directory
+rm: cannot remove '*Testbench*': No such file or directory
+rm: cannot remove '*testBench*': No such file or directory
 MSG: Compiling E16115
 MSG: Running E16115
 MSG: Checking difference E16115
@@ -654,6 +897,12 @@ MSG: unzipping E16221
 Archive:  ./temp2/e16221_lab5_part2.zip
   inflating: ./temp3/16221/reg_file.v  
   inflating: ./temp3/16221/Timing Diagram.png  
+rm: cannot remove '*tb*': No such file or directory
+rm: cannot remove '*testbench*': No such file or directory
+rm: cannot remove '*test_bench*': No such file or directory
+rm: cannot remove '*TestBench*': No such file or directory
+rm: cannot remove '*Testbench*': No such file or directory
+rm: cannot remove '*testBench*': No such file or directory
 MSG: Compiling E16221
 ./reg_file_tb_groundtruth.v:8: warning: Port 1 (CLK) of reg_file expects 1 bits, got 8.
 ./reg_file_tb_groundtruth.v:8:        : Pruning 7 high bits of the expression.
@@ -677,7 +926,7 @@ MSG: Compiling E16221
 ./reg_file_tb_groundtruth.v:8:        : Padding 2 high bits of the port.
 4 error(s) during elaboration.
 MSG: Running E16221
-./tempscript.sh: line 711: ./compiled.out: No such file or directory
+./tempscript.sh: line 1017: ./compiled.out: No such file or directory
 MSG: Checking difference E16221
 diff: waveDump.vcd: No such file or directory
  
@@ -687,6 +936,11 @@ Archive:  ./temp2/e16061_lab5_part2.zip
   inflating: ./temp3/16061/reg_file.v  
   inflating: ./temp3/16061/reg_file_testbench.v  
   inflating: ./temp3/16061/wave.png  
+rm: cannot remove '*testbench*': No such file or directory
+rm: cannot remove '*test_bench*': No such file or directory
+rm: cannot remove '*TestBench*': No such file or directory
+rm: cannot remove '*Testbench*': No such file or directory
+rm: cannot remove '*testBench*': No such file or directory
 MSG: Compiling E16061
 MSG: Running E16061
 MSG: Checking difference E16061
@@ -699,6 +953,12 @@ Archive:  ./temp2/e16039_lab5_part2.zip
   inflating: ./temp3/16039/e16039_lab5_part2/reg.vvp  
   inflating: ./temp3/16039/e16039_lab5_part2/reg_file.v  
   inflating: ./temp3/16039/e16039_lab5_part2/reg_file_wavedata.vcd  
+rm: cannot remove '*tb*': No such file or directory
+rm: cannot remove '*testbench*': No such file or directory
+rm: cannot remove '*test_bench*': No such file or directory
+rm: cannot remove '*TestBench*': No such file or directory
+rm: cannot remove '*Testbench*': No such file or directory
+rm: cannot remove '*testBench*': No such file or directory
 MSG: Compiling E16039
 ./reg_file_tb_groundtruth.v:8: error: Unknown module type: reg_file
 2 error(s) during elaboration.
@@ -706,7 +966,7 @@ MSG: Compiling E16039
         reg_file referenced 1 times.
 ***
 MSG: Running E16039
-./tempscript.sh: line 739: ./compiled.out: No such file or directory
+./tempscript.sh: line 1057: ./compiled.out: No such file or directory
 MSG: Checking difference E16039
 diff: waveDump.vcd: No such file or directory
  
@@ -717,6 +977,12 @@ Archive:  ./temp2/e16364_lab5_part2.zip
   inflating: ./temp3/16364/e16364_lab5_part2/regfile.v  
   inflating: ./temp3/16364/e16364_lab5_part2/regfile_testbench.v  
   inflating: ./temp3/16364/e16364_lab5_part2/reg_timing.png  
+rm: cannot remove '*tb*': No such file or directory
+rm: cannot remove '*testbench*': No such file or directory
+rm: cannot remove '*test_bench*': No such file or directory
+rm: cannot remove '*TestBench*': No such file or directory
+rm: cannot remove '*Testbench*': No such file or directory
+rm: cannot remove '*testBench*': No such file or directory
 MSG: Compiling E16364
 ./reg_file_tb_groundtruth.v:8: error: Unknown module type: reg_file
 2 error(s) during elaboration.
@@ -724,7 +990,7 @@ MSG: Compiling E16364
         reg_file referenced 1 times.
 ***
 MSG: Running E16364
-./tempscript.sh: line 753: ./compiled.out: No such file or directory
+./tempscript.sh: line 1077: ./compiled.out: No such file or directory
 MSG: Checking difference E16364
 diff: waveDump.vcd: No such file or directory
  
@@ -733,6 +999,12 @@ MSG: unzipping E1642
 Archive:  ./temp2/e1642_lab5_part2.zip
   inflating: ./temp3/1642/TimingDiagram.JPG  
   inflating: ./temp3/1642/e1642_lab5_part2.v  
+rm: cannot remove '*tb*': No such file or directory
+rm: cannot remove '*testbench*': No such file or directory
+rm: cannot remove '*test_bench*': No such file or directory
+rm: cannot remove '*TestBench*': No such file or directory
+rm: cannot remove '*Testbench*': No such file or directory
+rm: cannot remove '*testBench*': No such file or directory
 MSG: Compiling E1642
 MSG: Running E1642
 MSG: Checking difference E1642
@@ -743,19 +1015,26 @@ Archive:  ./temp2/e16054_lab5_part2.zip
   inflating: ./temp3/16054/testbench.v  
   inflating: ./temp3/16054/wavedata.PNG  
   inflating: ./temp3/16054/reg_model.v  
+rm: cannot remove '*testbench*': No such file or directory
+rm: cannot remove '*test_bench*': No such file or directory
+rm: cannot remove '*TestBench*': No such file or directory
+rm: cannot remove '*Testbench*': No such file or directory
+rm: cannot remove '*testBench*': No such file or directory
 MSG: Compiling E16054
-./testbench.v:81: Module reg_file_tb was already declared here: ./reg_model.v:2
-
 MSG: Running E16054
-./tempscript.sh: line 781: ./compiled.out: No such file or directory
 MSG: Checking difference E16054
-diff: waveDump.vcd: No such file or directory
  
 ------STUDENT: E16377
 MSG: unzipping E16377
 Archive:  ./temp2/e16377_lab5_part2.zip
   inflating: ./temp3/16377/gtk_wave_output_screenshot.png  
   inflating: ./temp3/16377/register_file.v  
+rm: cannot remove '*tb*': No such file or directory
+rm: cannot remove '*testbench*': No such file or directory
+rm: cannot remove '*test_bench*': No such file or directory
+rm: cannot remove '*TestBench*': No such file or directory
+rm: cannot remove '*Testbench*': No such file or directory
+rm: cannot remove '*testBench*': No such file or directory
 MSG: Compiling E16377
 ./reg_file_tb_groundtruth.v:8: error: Unknown module type: reg_file
 2 error(s) during elaboration.
@@ -763,7 +1042,7 @@ MSG: Compiling E16377
         reg_file referenced 1 times.
 ***
 MSG: Running E16377
-./tempscript.sh: line 795: ./compiled.out: No such file or directory
+./tempscript.sh: line 1137: ./compiled.out: No such file or directory
 MSG: Checking difference E16377
 diff: waveDump.vcd: No such file or directory
  
@@ -774,6 +1053,10 @@ Archive:  ./temp2/e16267_lab5_part2.zip
   inflating: ./temp3/16267/RegTimingDiagram_reg_tb.JPG  
   inflating: ./temp3/16267/reg_file.v  
   inflating: ./temp3/16267/reg_tb.v  
+rm: cannot remove '*testbench*': No such file or directory
+rm: cannot remove '*test_bench*': No such file or directory
+rm: cannot remove '*Testbench*': No such file or directory
+rm: cannot remove '*testBench*': No such file or directory
 MSG: Compiling E16267
 MSG: Running E16267
 MSG: Checking difference E16267
@@ -786,6 +1069,12 @@ Archive:  ./temp2/e16173_lab5_part2.zip
   inflating: ./temp3/16173/e16173_lab5_part2/registerfile.vvp  
   inflating: ./temp3/16173/e16173_lab5_part2/screenshot.png  
   inflating: ./temp3/16173/e16173_lab5_part2/registerfile.v  
+rm: cannot remove '*tb*': No such file or directory
+rm: cannot remove '*testbench*': No such file or directory
+rm: cannot remove '*test_bench*': No such file or directory
+rm: cannot remove '*TestBench*': No such file or directory
+rm: cannot remove '*Testbench*': No such file or directory
+rm: cannot remove '*testBench*': No such file or directory
 MSG: Compiling E16173
 ./reg_file_tb_groundtruth.v:8: error: Unknown module type: reg_file
 2 error(s) during elaboration.
@@ -793,6 +1082,6 @@ MSG: Compiling E16173
         reg_file referenced 1 times.
 ***
 MSG: Running E16173
-./tempscript.sh: line 823: ./compiled.out: No such file or directory
+./tempscript.sh: line 1177: ./compiled.out: No such file or directory
 MSG: Checking difference E16173
 diff: waveDump.vcd: No such file or directory
