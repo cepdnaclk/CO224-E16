@@ -1,0 +1,598 @@
+ 
+------STUDENT: E16068
+MSG: unzipping E16068
+Archive:  ./temp2/e16068_lab5_part2.zip
+  inflating: ./temp3/16068/REG_file.v  
+  inflating: ./temp3/16068/REG_file_testBench.v  
+  inflating: ./temp3/16068/REG_file timing diagram.png  
+MSG: Compiling E16068
+MSG: Running E16068
+MSG: Checking difference E16068
+ 
+------STUDENT: E16126
+MSG: unzipping E16126
+Archive:  ./temp2/e16126_lab5_part2.zip
+   creating: ./temp3/16126/e16126_lab5_part2/
+  inflating: ./temp3/16126/e16126_lab5_part2/reg_file.v  
+  inflating: ./temp3/16126/e16126_lab5_part2/Timing Diagram.PNG  
+MSG: Compiling E16126
+MSG: Running E16126
+MSG: Checking difference E16126
+ 
+------STUDENT: E16217
+MSG: unzipping E16217
+Archive:  ./temp2/e16217_lab5_part2.zip
+   creating: ./temp3/16217/e16217_lab5_part2/
+  inflating: ./temp3/16217/e16217_lab5_part2/register_file_module.v  
+  inflating: ./temp3/16217/e16217_lab5_part2/register_file_test_bench  
+  inflating: ./temp3/16217/e16217_lab5_part2/register_file_test_bench.v  
+  inflating: ./temp3/16217/e16217_lab5_part2/register_file_wave.vcd  
+  inflating: ./temp3/16217/e16217_lab5_part2/wavedata_register_file_module.PNG  
+MSG: Compiling E16217
+MSG: Running E16217
+MSG: Checking difference E16217
+ 
+------STUDENT: E16369
+MSG: unzipping E16369
+Archive:  ./temp2/e16369_lab5_part2.zip
+  inflating: ./temp3/16369/e16369lab_part_2.png  
+  inflating: ./temp3/16369/myTestFinal.png  
+  inflating: ./temp3/16369/reg_file.v  
+  inflating: ./temp3/16369/reg_file_tb.v  
+MSG: Compiling E16369
+MSG: Running E16369
+MSG: Checking difference E16369
+ 
+------STUDENT: E16290
+MSG: unzipping E16290
+Archive:  ./temp2/e16290_lab5_part2.zip
+  inflating: ./temp3/16290/reg_file_tb.v  
+  inflating: ./temp3/16290/register.v  
+  inflating: ./temp3/16290/reg_timing_diagram.png  
+MSG: Compiling E16290
+MSG: Running E16290
+MSG: Checking difference E16290
+ 
+------STUDENT: E16057
+MSG: unzipping E16057
+Archive:  ./temp2/e16057_lab5_part2.zip
+  inflating: ./temp3/16057/reg_file.v  
+  inflating: ./temp3/16057/Screenshot from 2020-05-03 20-04-38.png  
+MSG: Compiling E16057
+MSG: Running E16057
+MSG: Checking difference E16057
+ 
+------STUDENT: E16088
+MSG: unzipping E16088
+Archive:  ./temp2/e16088_lab5_part2.zip
+  inflating: ./temp3/16088/reg_file.v  
+  inflating: ./temp3/16088/register_testbench.v  
+  inflating: ./temp3/16088/testbench.png  
+MSG: Compiling E16088
+MSG: Running E16088
+MSG: Checking difference E16088
+ 
+------STUDENT: E16203
+MSG: unzipping E16203
+Archive:  ./temp2/e16203_lab5_part2.zip
+  inflating: ./temp3/16203/e16203_lab5_part2.v  
+  inflating: ./temp3/16203/e16203_lab5_part2_waveform.png  
+MSG: Compiling E16203
+MSG: Running E16203
+MSG: Checking difference E16203
+ 
+------STUDENT: E16094
+MSG: unzipping E16094
+Archive:  ./temp2/e16094_lab5_part2.zip
+  inflating: ./temp3/16094/reg_file.v  
+  inflating: ./temp3/16094/testbenchReg.v  
+  inflating: ./temp3/16094/timingDiagram.png  
+MSG: Compiling E16094
+MSG: Running E16094
+MSG: Checking difference E16094
+ 
+------STUDENT: E16389
+MSG: unzipping E16389
+Archive:  ./temp2/e16389_lab5_part2.zip
+  inflating: ./temp3/16389/Screenshot_wavedata.png  
+  inflating: ./temp3/16389/e16389_reg_file.v  
+MSG: Compiling E16389
+MSG: Running E16389
+MSG: Checking difference E16389
+ 
+------STUDENT: E16261
+MSG: unzipping E16261
+Archive:  ./temp2/e16261_lab5_part2.zip
+  inflating: ./temp3/16261/e16261_lab5_part2.v  
+  inflating: ./temp3/16261/e16261_screenshot.png  
+  inflating: ./temp3/16261/reg_file_tb.v  
+MSG: Compiling E16261
+MSG: Running E16261
+MSG: Checking difference E16261
+ 
+------STUDENT: E16368
+MSG: unzipping E16368
+Archive:  ./temp2/e16368_lab5_part2.zip
+  inflating: ./temp3/16368/reg_file.v  
+  inflating: ./temp3/16368/RegisterFileTiming.png  
+MSG: Compiling E16368
+MSG: Running E16368
+MSG: Checking difference E16368
+ 
+------STUDENT: E16351
+MSG: unzipping E16351
+Archive:  ./temp2/e16351_lab5_part2.zip
+  inflating: ./temp3/16351/wavedata for given test bench.JPG  
+  inflating: ./temp3/16351/wavedata for my test bench.PNG  
+  inflating: ./temp3/16351/reg_file.v  
+MSG: Compiling E16351
+MSG: Running E16351
+MSG: Checking difference E16351
+ 
+------STUDENT: E16055
+MSG: unzipping E16055
+Archive:  ./temp2/e16055_Lab5_Part2.zip
+  inflating: ./temp3/16055/Lab5_Part2.v  
+  inflating: ./temp3/16055/reg_file_tb.v  
+MSG: Compiling E16055
+MSG: Running E16055
+MSG: Checking difference E16055
+ 
+------STUDENT: E16366
+MSG: unzipping E16366
+Archive:  ./temp2/e16366_lab5_part2.zip
+  inflating: ./temp3/16366/reg_file.v  
+  inflating: ./temp3/16366/testbench.v  
+  inflating: ./temp3/16366/wavefile_for_my testbench.png  
+MSG: Compiling E16366
+MSG: Running E16366
+MSG: Checking difference E16366
+ 
+------STUDENT: E16223
+MSG: unzipping E16223
+Archive:  ./temp2/e16223_lab5_part2.zip
+  inflating: ./temp3/16223/e16223_lab5_part2/alu2.v  
+  inflating: ./temp3/16223/e16223_lab5_part2/e16223_lab5_part2 (2).png  
+MSG: Compiling E16223
+MSG: Running E16223
+MSG: Checking difference E16223
+ 
+------STUDENT: E16012
+MSG: unzipping E16012
+Archive:  ./temp2/e16012_lab5_part2.zip
+  inflating: ./temp3/16012/reg_file.v  
+  inflating: ./temp3/16012/reg_file_tb.v  
+  inflating: ./temp3/16012/reg_file_timing_diagram.png  
+MSG: Compiling E16012
+MSG: Running E16012
+MSG: Checking difference E16012
+ 
+------STUDENT: E16049
+MSG: unzipping E16049
+Archive:  ./temp2/e16049_lab5_part2.zip
+  inflating: ./temp3/16049/reg_file.v  
+  inflating: ./temp3/16049/reg_file_testbench.v  
+  inflating: ./temp3/16049/timing_diagram.JPG  
+MSG: Compiling E16049
+MSG: Running E16049
+MSG: Checking difference E16049
+ 
+------STUDENT: E16275
+MSG: unzipping E16275
+Archive:  ./temp2/e16275_lab5_part2.zip
+  inflating: ./temp3/16275/e16275_lab5_part2.vvp  
+  inflating: ./temp3/16275/README.txt  
+  inflating: ./temp3/16275/reg_file.v  
+  inflating: ./temp3/16275/Screenshot from 2020-05-03 23-42-45.png  
+  inflating: ./temp3/16275/testbench.v  
+  inflating: ./temp3/16275/wavedata.vcd  
+MSG: Compiling E16275
+MSG: Running E16275
+MSG: Checking difference E16275
+ 
+------STUDENT: E16399
+MSG: unzipping E16399
+Archive:  ./temp2/e16399_lab5_part2.zip
+  inflating: ./temp3/16399/reg_file.v  
+  inflating: ./temp3/16399/Screenshot from 2020-05-03 23-46-50.png  
+MSG: Compiling E16399
+MSG: Running E16399
+MSG: Checking difference E16399
+ 
+------STUDENT: E16069
+MSG: unzipping E16069
+Archive:  ./temp2/e16069_lab5_part2.zip
+  inflating: ./temp3/16069/reg_file.v  
+  inflating: ./temp3/16069/RegisterFile Timing Diagram .png  
+  inflating: ./temp3/16069/testbench.v  
+MSG: Compiling E16069
+MSG: Running E16069
+MSG: Checking difference E16069
+ 
+------STUDENT: E16232
+MSG: unzipping E16232
+Archive:  ./temp2/e16232_lab5_part2.zip
+   creating: ./temp3/16232/e16232_lab5_part2/
+  inflating: ./temp3/16232/e16232_lab5_part2/reg_file_tb.v  
+  inflating: ./temp3/16232/e16232_lab5_part2/reg_file.v  
+  inflating: ./temp3/16232/e16232_lab5_part2/wavedata_e16232_lab5_part2.png  
+MSG: Compiling E16232
+MSG: Running E16232
+MSG: Checking difference E16232
+ 
+------STUDENT: E16286
+MSG: unzipping E16286
+Archive:  ./temp2/e16286_lab5_part2.zip
+  inflating: ./temp3/16286/reg_file.v  
+  inflating: ./temp3/16286/timing_diagram.png  
+MSG: Compiling E16286
+MSG: Running E16286
+MSG: Checking difference E16286
+ 
+------STUDENT: E16087
+MSG: unzipping E16087
+Archive:  ./temp2/e16087_lab5_part2.zip
+  inflating: ./temp3/16087/e16087_lab5_part2_timingDiagramScreenshot.PNG  
+  inflating: ./temp3/16087/e16087_lab5_part2.v  
+MSG: Compiling E16087
+MSG: Running E16087
+MSG: Checking difference E16087
+ 
+------STUDENT: E16081
+MSG: unzipping E16081
+Archive:  ./temp2/e16081_lab5_part2.zip
+  inflating: ./temp3/16081/reg_file.v  
+  inflating: ./temp3/16081/reg_file.v.out  
+  inflating: ./temp3/16081/reg_file_tb.v  
+  inflating: ./temp3/16081/reg_file_tb.v.out  
+  inflating: ./temp3/16081/reg_file_wavedata.vcd  
+  inflating: ./temp3/16081/Screenshot from 2020-05-03 21-12-37.png  
+MSG: Compiling E16081
+MSG: Running E16081
+MSG: Checking difference E16081
+ 
+------STUDENT: E16172
+MSG: unzipping E16172
+Archive:  ./temp2/e16172_lab5_part2.zip
+   creating: ./temp3/16172/e16172_lab5_part2/
+  inflating: ./temp3/16172/e16172_lab5_part2/reg_file_tb.vcd  
+  inflating: ./temp3/16172/e16172_lab5_part2/reg_test.v  
+  inflating: ./temp3/16172/e16172_lab5_part2/reg_test_wave.png  
+MSG: Compiling E16172
+MSG: Running E16172
+MSG: Checking difference E16172
+ 
+------STUDENT: E16200
+MSG: unzipping E16200
+Archive:  ./temp2/e16200_lab5_part2.zip
+   creating: ./temp3/16200/e16200_lab5_part2/
+  inflating: ./temp3/16200/e16200_lab5_part2/reg_file.v  
+  inflating: ./temp3/16200/e16200_lab5_part2/timing_diagram.png  
+  inflating: ./temp3/16200/e16200_lab5_part2/regfile_testbench.v  
+MSG: Compiling E16200
+MSG: Running E16200
+MSG: Checking difference E16200
+ 
+------STUDENT: E16320
+MSG: unzipping E16320
+Archive:  ./temp2/e16320_lab5_part2.zip
+  inflating: ./temp3/16320/register file timing.jpg  
+  inflating: ./temp3/16320/reg.v     
+  inflating: ./temp3/16320/reg_file_tb.v  
+  inflating: ./temp3/16320/reg_file_wavedata.vcd  
+MSG: Compiling E16320
+MSG: Running E16320
+MSG: Checking difference E16320
+ 
+------STUDENT: E16313
+MSG: unzipping E16313
+Archive:  ./temp2/e16313_lab5_part2.zip
+   creating: ./temp3/16313/e16313_lab5_part2/
+  inflating: ./temp3/16313/e16313_lab5_part2/Screenshot from 2020-05-03 23-39-41.png  
+  inflating: ./temp3/16313/e16313_lab5_part2/reg_file.v  
+  inflating: ./temp3/16313/e16313_lab5_part2/reg_file_tb.v  
+MSG: Compiling E16313
+MSG: Running E16313
+MSG: Checking difference E16313
+ 
+------STUDENT: E16360
+MSG: unzipping E16360
+Archive:  ./temp2/e16360_lab5_part2.zip
+  inflating: ./temp3/16360/lab5_part2.JPG  
+  inflating: ./temp3/16360/reg_file.v  
+  inflating: ./temp3/16360/reg_file_testbench.v  
+MSG: Compiling E16360
+MSG: Running E16360
+MSG: Checking difference E16360
+ 
+------STUDENT: E16394
+MSG: unzipping E16394
+Archive:  ./temp2/e16394_lab5_part2.zip
+  inflating: ./temp3/16394/reg_file.v  
+  inflating: ./temp3/16394/testReg_file.v  
+  inflating: ./temp3/16394/RegisterFileTiming.jpg  
+MSG: Compiling E16394
+MSG: Running E16394
+MSG: Checking difference E16394
+ 
+------STUDENT: E16168
+MSG: unzipping E16168
+Archive:  ./temp2/e16168_lab5_part2.zip
+  inflating: ./temp3/16168/reg_file.v  
+  inflating: ./temp3/16168/reg_file_tb.v  
+  inflating: ./temp3/16168/register_file_timing_diagram.PNG  
+MSG: Compiling E16168
+MSG: Running E16168
+MSG: Checking difference E16168
+ 
+------STUDENT: E16083
+MSG: unzipping E16083
+Archive:  ./temp2/e16083_lab5_part2.zip
+  inflating: ./temp3/16083/reg_file.v  
+  inflating: ./temp3/16083/reg_file_tb.v  
+  inflating: ./temp3/16083/Timing_Diagram.png  
+MSG: Compiling E16083
+MSG: Running E16083
+MSG: Checking difference E16083
+ 
+------STUDENT: E16276
+MSG: unzipping E16276
+Archive:  ./temp2/e16276_lab5_part2.zip
+  inflating: ./temp3/16276/reg_file.v  
+  inflating: ./temp3/16276/reg_file_tb.v  
+  inflating: ./temp3/16276/reg_file_timing_diagram.png  
+MSG: Compiling E16276
+MSG: Running E16276
+MSG: Checking difference E16276
+ 
+------STUDENT: E16022
+MSG: unzipping E16022
+Archive:  ./temp2/e16022_lab5_part2.zip
+  inflating: ./temp3/16022/e16022_regfile_TimingDiagram.JPG  
+  inflating: ./temp3/16022/e16022regfile.v  
+MSG: Compiling E16022
+MSG: Running E16022
+MSG: Checking difference E16022
+ 
+------STUDENT: E16396
+MSG: unzipping E16396
+Archive:  ./temp2/e16396_lab5_part2.zip
+  inflating: ./temp3/16396/e16396_timing_diagram_screenshot.png  
+  inflating: ./temp3/16396/reg_file.v  
+MSG: Compiling E16396
+MSG: Running E16396
+MSG: Checking difference E16396
+ 
+------STUDENT: E16156
+MSG: unzipping E16156
+Archive:  ./temp2/e16156_lab5_part2.zip
+   creating: ./temp3/16156/e16156_lab5_part2/
+  inflating: ./temp3/16156/e16156_lab5_part2/MyTestBench.v  
+  inflating: ./temp3/16156/e16156_lab5_part2/MyTimingDiagram.png  
+  inflating: ./temp3/16156/e16156_lab5_part2/REG.v  
+  inflating: ./temp3/16156/e16156_lab5_part2/reg_file_tb.v  
+  inflating: ./temp3/16156/e16156_lab5_part2/TimingDiagram.png  
+MSG: Compiling E16156
+MSG: Running E16156
+MSG: Checking difference E16156
+ 
+------STUDENT: E16076
+MSG: unzipping E16076
+Archive:  ./temp2/e16076_lab5_part2.zip
+  inflating: ./temp3/16076/reg_file.v  
+  inflating: ./temp3/16076/Screenshot from 2020-05-03 19-34-10.png  
+MSG: Compiling E16076
+MSG: Running E16076
+MSG: Checking difference E16076
+ 
+------STUDENT: E16089
+MSG: unzipping E16089
+Archive:  ./temp2/e16089_lab5_part2.zip
+  inflating: ./temp3/16089/e16089_GTKWave.png  
+  inflating: ./temp3/16089/reg_file.v  
+MSG: Compiling E16089
+MSG: Running E16089
+MSG: Checking difference E16089
+ 
+------STUDENT: E16025
+MSG: unzipping E16025
+Archive:  ./temp2/e16025_lab5_part2.zip
+  inflating: ./temp3/16025/reg_file.v  
+  inflating: ./temp3/16025/reg_file_tb.v  
+  inflating: ./temp3/16025/reg_file_wavedata_image.JPG  
+MSG: Compiling E16025
+MSG: Running E16025
+MSG: Checking difference E16025
+ 
+------STUDENT: E16086
+MSG: unzipping E16086
+Archive:  ./temp2/e16086_lab5_part2.zip
+  inflating: ./temp3/16086/e16086_lab5_part2/reg_file.v  
+  inflating: ./temp3/16086/e16086_lab5_part2/reg_file_newtb.v  
+  inflating: ./temp3/16086/e16086_lab5_part2/timing diagram.png  
+MSG: Compiling E16086
+MSG: Running E16086
+MSG: Checking difference E16086
+ 
+------STUDENT: E16078
+MSG: unzipping E16078
+Archive:  ./temp2/e16078_lab5_part2.zip
+  inflating: ./temp3/16078/reg_file.v  
+  inflating: ./temp3/16078/testbench_reg.v  
+  inflating: ./temp3/16078/timing_diagram.PNG  
+MSG: Compiling E16078
+MSG: Running E16078
+MSG: Checking difference E16078
+ 
+------STUDENT: E16222
+MSG: unzipping E16222
+Archive:  ./temp2/e16222_lab5_part2.zip
+  inflating: ./temp3/16222/reg_file.v  
+  inflating: ./temp3/16222/register_tb.v  
+  inflating: ./temp3/16222/Screenshot from 2020-05-03 23-01-51.png  
+MSG: Compiling E16222
+MSG: Running E16222
+MSG: Checking difference E16222
+ 
+------STUDENT: E16070
+MSG: unzipping E16070
+Archive:  ./temp2/e16070_lab5_part2.zip
+   creating: ./temp3/16070/e16070_lab5_part2/
+  inflating: ./temp3/16070/e16070_lab5_part2/timing_diagram.png  
+  inflating: ./temp3/16070/e16070_lab5_part2/Part2.v  
+  inflating: ./temp3/16070/e16070_lab5_part2/regfile_tb.v  
+MSG: Compiling E16070
+MSG: Running E16070
+MSG: Checking difference E16070
+ 
+------STUDENT: E16332
+MSG: unzipping E16332
+Archive:  ./temp2/e16332_lab5_part2.zip
+  inflating: ./temp3/16332/e16332gtkvave.png  
+  inflating: ./temp3/16332/e16332regfile.v  
+  inflating: ./temp3/16332/reg_file_wavedata.vcd  
+MSG: Compiling E16332
+MSG: Running E16332
+MSG: Checking difference E16332
+ 
+------STUDENT: E16127
+MSG: unzipping E16127
+Archive:  ./temp2/e16127_lab5_part2.zip
+  inflating: ./temp3/16127/e16127_lab5_part2/e16127.png  
+  inflating: ./temp3/16127/e16127_lab5_part2/reg_file.v  
+MSG: Compiling E16127
+MSG: Running E16127
+MSG: Checking difference E16127
+ 
+------STUDENT: E16096
+MSG: unzipping E16096
+Archive:  ./temp2/e16096_lab5_part2.zip
+  inflating: ./temp3/16096/testbench_reg_2.v  
+  inflating: ./temp3/16096/RegisterTiming_1.JPG  
+  inflating: ./temp3/16096/reg_file.v  
+MSG: Compiling E16096
+MSG: Running E16096
+MSG: Checking difference E16096
+ 
+------STUDENT: E16388
+MSG: unzipping E16388
+Archive:  ./temp2/e16388_lab5_part2.zip
+  inflating: ./temp3/16388/GTKWave - e16388_reg_file_wavedata(with_markers).png  
+  inflating: ./temp3/16388/GTKWave - e16388_reg_file_wavedata.vcd 5_3_2020 9_45_42 PM.png  
+  inflating: ./temp3/16388/regfile.v  
+  inflating: ./temp3/16388/testbench.v  
+MSG: Compiling E16388
+MSG: Running E16388
+MSG: Checking difference E16388
+ 
+------STUDENT: E16134
+MSG: unzipping E16134
+Archive:  ./temp2/e16134_lab5_part2.zip
+  inflating: ./temp3/16134/Timing_diagram_reg.PNG  
+  inflating: ./temp3/16134/reg_file.v  
+  inflating: ./temp3/16134/reg_file_testbench.v  
+MSG: Compiling E16134
+MSG: Running E16134
+MSG: Checking difference E16134
+ 
+------STUDENT: E16115
+MSG: unzipping E16115
+Archive:  ./temp2/e16115_lab5_part2.zip
+  inflating: ./temp3/16115/Lab5.v    
+  inflating: ./temp3/16115/Timing diagram.pdf  
+MSG: Compiling E16115
+MSG: Running E16115
+MSG: Checking difference E16115
+ 
+------STUDENT: E16221
+MSG: unzipping E16221
+Archive:  ./temp2/e16221_lab5_part2.zip
+  inflating: ./temp3/16221/reg_file.v  
+  inflating: ./temp3/16221/Timing Diagram.png  
+MSG: Compiling E16221
+MSG: Running E16221
+MSG: Checking difference E16221
+ 
+------STUDENT: E16061
+MSG: unzipping E16061
+Archive:  ./temp2/e16061_lab5_part2.zip
+  inflating: ./temp3/16061/reg_file.v  
+  inflating: ./temp3/16061/reg_file_testbench.v  
+  inflating: ./temp3/16061/wave.png  
+MSG: Compiling E16061
+MSG: Running E16061
+MSG: Checking difference E16061
+ 
+------STUDENT: E16039
+MSG: unzipping E16039
+Archive:  ./temp2/e16039_lab5_part2.zip
+   creating: ./temp3/16039/e16039_lab5_part2/
+  inflating: ./temp3/16039/e16039_lab5_part2/Gtk wave.PNG  
+  inflating: ./temp3/16039/e16039_lab5_part2/reg.vvp  
+  inflating: ./temp3/16039/e16039_lab5_part2/reg_file.v  
+  inflating: ./temp3/16039/e16039_lab5_part2/reg_file_wavedata.vcd  
+MSG: Compiling E16039
+MSG: Running E16039
+MSG: Checking difference E16039
+ 
+------STUDENT: E16364
+MSG: unzipping E16364
+Archive:  ./temp2/e16364_lab5_part2.zip
+   creating: ./temp3/16364/e16364_lab5_part2/
+  inflating: ./temp3/16364/e16364_lab5_part2/regfile.v  
+  inflating: ./temp3/16364/e16364_lab5_part2/regfile_testbench.v  
+  inflating: ./temp3/16364/e16364_lab5_part2/reg_timing.png  
+MSG: Compiling E16364
+MSG: Running E16364
+MSG: Checking difference E16364
+ 
+------STUDENT: E1642
+MSG: unzipping E1642
+Archive:  ./temp2/e1642_lab5_part2.zip
+  inflating: ./temp3/1642/TimingDiagram.JPG  
+  inflating: ./temp3/1642/e1642_lab5_part2.v  
+MSG: Compiling E1642
+MSG: Running E1642
+MSG: Checking difference E1642
+ 
+------STUDENT: E16054
+MSG: unzipping E16054
+Archive:  ./temp2/e16054_lab5_part2.zip
+  inflating: ./temp3/16054/testbench.v  
+  inflating: ./temp3/16054/wavedata.PNG  
+  inflating: ./temp3/16054/reg_model.v  
+MSG: Compiling E16054
+MSG: Running E16054
+MSG: Checking difference E16054
+ 
+------STUDENT: E16377
+MSG: unzipping E16377
+Archive:  ./temp2/e16377_lab5_part2.zip
+  inflating: ./temp3/16377/gtk_wave_output_screenshot.png  
+  inflating: ./temp3/16377/register_file.v  
+MSG: Compiling E16377
+MSG: Running E16377
+MSG: Checking difference E16377
+ 
+------STUDENT: E16267
+MSG: unzipping E16267
+Archive:  ./temp2/e16267_lab5_part2.zip
+  inflating: ./temp3/16267/RegisterTimingforgivenTestBench.PNG  
+  inflating: ./temp3/16267/RegTimingDiagram_reg_tb.JPG  
+  inflating: ./temp3/16267/reg_file.v  
+  inflating: ./temp3/16267/reg_tb.v  
+MSG: Compiling E16267
+MSG: Running E16267
+MSG: Checking difference E16267
+ 
+------STUDENT: E16173
+MSG: unzipping E16173
+Archive:  ./temp2/e16173_lab5_part2.zip
+   creating: ./temp3/16173/e16173_lab5_part2/
+  inflating: ./temp3/16173/e16173_lab5_part2/register_file_wavedata.vcd  
+  inflating: ./temp3/16173/e16173_lab5_part2/registerfile.vvp  
+  inflating: ./temp3/16173/e16173_lab5_part2/screenshot.png  
+  inflating: ./temp3/16173/e16173_lab5_part2/registerfile.v  
+MSG: Compiling E16173
+MSG: Running E16173
+MSG: Checking difference E16173
