@@ -8,7 +8,7 @@ chmod 700 MARK.sh
 </code></pre>
 
 ## Output
-The output will be written to **MARKS_LIST.csv**
+The output will be written to **[MARKS_LIST.csv](MARKS_LIST.csv)**
 
 ## How marking is done
 
