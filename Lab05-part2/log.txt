@@ -6,8 +6,12 @@ Archive:  ./temp2/e16068_lab5_part2.zip
   inflating: ./temp3/16068/REG_file_testBench.v  
   inflating: ./temp3/16068/REG_file timing diagram.png  
 MSG: Compiling E16068
+./REG_file.v:42: Module REG_file was already declared here: ./REG_file.v:8
+
 MSG: Running E16068
+./tempscript.sh: line 11: ./compiled.out: No such file or directory
 MSG: Checking difference E16068
+diff: waveDump.vcd: No such file or directory
  
 ------STUDENT: E16126
 MSG: unzipping E16126
@@ -16,8 +20,15 @@ Archive:  ./temp2/e16126_lab5_part2.zip
   inflating: ./temp3/16126/e16126_lab5_part2/reg_file.v  
   inflating: ./temp3/16126/e16126_lab5_part2/Timing Diagram.PNG  
 MSG: Compiling E16126
+./reg_file_tb_groundtruth.v:8: error: Unknown module type: reg_file
+2 error(s) during elaboration.
+*** These modules were missing:
+        reg_file referenced 1 times.
+***
 MSG: Running E16126
+./tempscript.sh: line 25: ./compiled.out: No such file or directory
 MSG: Checking difference E16126
+diff: waveDump.vcd: No such file or directory
  
 ------STUDENT: E16217
 MSG: unzipping E16217
@@ -29,8 +40,15 @@ Archive:  ./temp2/e16217_lab5_part2.zip
   inflating: ./temp3/16217/e16217_lab5_part2/register_file_wave.vcd  
   inflating: ./temp3/16217/e16217_lab5_part2/wavedata_register_file_module.PNG  
 MSG: Compiling E16217
+./reg_file_tb_groundtruth.v:8: error: Unknown module type: reg_file
+2 error(s) during elaboration.
+*** These modules were missing:
+        reg_file referenced 1 times.
+***
 MSG: Running E16217
+./tempscript.sh: line 39: ./compiled.out: No such file or directory
 MSG: Checking difference E16217
+diff: waveDump.vcd: No such file or directory
  
 ------STUDENT: E16369
 MSG: unzipping E16369
@@ -40,8 +58,16 @@ Archive:  ./temp2/e16369_lab5_part2.zip
   inflating: ./temp3/16369/reg_file.v  
   inflating: ./temp3/16369/reg_file_tb.v  
 MSG: Compiling E16369
+./reg_file.v:34: syntax error
+./reg_file.v:34: error: Error in for loop step assignment.
+./reg_file.v:34: syntax error
+./reg_file.v:34: error: Error in for loop step assignment.
+./reg_file.v:45: Module reg_file was already declared here: ./reg_file.v:5
+
 MSG: Running E16369
+./tempscript.sh: line 53: ./compiled.out: No such file or directory
 MSG: Checking difference E16369
+diff: waveDump.vcd: No such file or directory
  
 ------STUDENT: E16290
 MSG: unzipping E16290
@@ -59,8 +85,12 @@ Archive:  ./temp2/e16057_lab5_part2.zip
   inflating: ./temp3/16057/reg_file.v  
   inflating: ./temp3/16057/Screenshot from 2020-05-03 20-04-38.png  
 MSG: Compiling E16057
+./reg_file.v:85: syntax error
+./reg_file.v:85: error: invalid module item.
 MSG: Running E16057
+./tempscript.sh: line 81: ./compiled.out: No such file or directory
 MSG: Checking difference E16057
+diff: waveDump.vcd: No such file or directory
  
 ------STUDENT: E16088
 MSG: unzipping E16088
@@ -97,8 +127,12 @@ Archive:  ./temp2/e16389_lab5_part2.zip
   inflating: ./temp3/16389/Screenshot_wavedata.png  
   inflating: ./temp3/16389/e16389_reg_file.v  
 MSG: Compiling E16389
+./e16389_reg_file.v:17: syntax error
+./e16389_reg_file.v:17: error: syntax error in reg variable list.
 MSG: Running E16389
+./tempscript.sh: line 137: ./compiled.out: No such file or directory
 MSG: Checking difference E16389
+diff: waveDump.vcd: No such file or directory
  
 ------STUDENT: E16261
 MSG: unzipping E16261
@@ -145,8 +179,16 @@ Archive:  ./temp2/e16366_lab5_part2.zip
   inflating: ./temp3/16366/testbench.v  
   inflating: ./temp3/16366/wavefile_for_my testbench.png  
 MSG: Compiling E16366
+./reg_file.v:31: syntax error
+./reg_file.v:31: error: Error in for loop step assignment.
+./reg_file.v:31: syntax error
+./reg_file.v:31: error: Error in for loop step assignment.
+./reg_file.v:39: Module reg_file was already declared here: ./reg_file.v:1
+
 MSG: Running E16366
+./tempscript.sh: line 207: ./compiled.out: No such file or directory
 MSG: Checking difference E16366
+diff: waveDump.vcd: No such file or directory
  
 ------STUDENT: E16223
 MSG: unzipping E16223
@@ -154,8 +196,15 @@ Archive:  ./temp2/e16223_lab5_part2.zip
   inflating: ./temp3/16223/e16223_lab5_part2/alu2.v  
   inflating: ./temp3/16223/e16223_lab5_part2/e16223_lab5_part2 (2).png  
 MSG: Compiling E16223
+./reg_file_tb_groundtruth.v:8: error: Unknown module type: reg_file
+2 error(s) during elaboration.
+*** These modules were missing:
+        reg_file referenced 1 times.
+***
 MSG: Running E16223
+./tempscript.sh: line 221: ./compiled.out: No such file or directory
 MSG: Checking difference E16223
+diff: waveDump.vcd: No such file or directory
  
 ------STUDENT: E16012
 MSG: unzipping E16012
@@ -174,8 +223,12 @@ Archive:  ./temp2/e16049_lab5_part2.zip
   inflating: ./temp3/16049/reg_file_testbench.v  
   inflating: ./temp3/16049/timing_diagram.JPG  
 MSG: Compiling E16049
+./reg_file_testbench.v:57: syntax error
+./reg_file_testbench.v:58: Syntax in assignment statement l-value.
 MSG: Running E16049
+./tempscript.sh: line 249: ./compiled.out: No such file or directory
 MSG: Checking difference E16049
+diff: waveDump.vcd: No such file or directory
  
 ------STUDENT: E16275
 MSG: unzipping E16275
@@ -206,8 +259,12 @@ Archive:  ./temp2/e16069_lab5_part2.zip
   inflating: ./temp3/16069/RegisterFile Timing Diagram .png  
   inflating: ./temp3/16069/testbench.v  
 MSG: Compiling E16069
+./reg_file.v:30: syntax error
+./reg_file.v:30: error: Error in for loop step assignment.
 MSG: Running E16069
+./tempscript.sh: line 291: ./compiled.out: No such file or directory
 MSG: Checking difference E16069
+diff: waveDump.vcd: No such file or directory
  
 ------STUDENT: E16232
 MSG: unzipping E16232
@@ -217,8 +274,15 @@ Archive:  ./temp2/e16232_lab5_part2.zip
   inflating: ./temp3/16232/e16232_lab5_part2/reg_file.v  
   inflating: ./temp3/16232/e16232_lab5_part2/wavedata_e16232_lab5_part2.png  
 MSG: Compiling E16232
+./reg_file_tb_groundtruth.v:8: error: Unknown module type: reg_file
+2 error(s) during elaboration.
+*** These modules were missing:
+        reg_file referenced 1 times.
+***
 MSG: Running E16232
+./tempscript.sh: line 305: ./compiled.out: No such file or directory
 MSG: Checking difference E16232
+diff: waveDump.vcd: No such file or directory
  
 ------STUDENT: E16286
 MSG: unzipping E16286
@@ -248,8 +312,12 @@ Archive:  ./temp2/e16081_lab5_part2.zip
   inflating: ./temp3/16081/reg_file_wavedata.vcd  
   inflating: ./temp3/16081/Screenshot from 2020-05-03 21-12-37.png  
 MSG: Compiling E16081
+./reg_file.v:141: Module reg_file was already declared here: ./reg_file.v:1
+
 MSG: Running E16081
+./tempscript.sh: line 347: ./compiled.out: No such file or directory
 MSG: Checking difference E16081
+diff: waveDump.vcd: No such file or directory
  
 ------STUDENT: E16172
 MSG: unzipping E16172
@@ -259,8 +327,15 @@ Archive:  ./temp2/e16172_lab5_part2.zip
   inflating: ./temp3/16172/e16172_lab5_part2/reg_test.v  
   inflating: ./temp3/16172/e16172_lab5_part2/reg_test_wave.png  
 MSG: Compiling E16172
+./reg_file_tb_groundtruth.v:8: error: Unknown module type: reg_file
+2 error(s) during elaboration.
+*** These modules were missing:
+        reg_file referenced 1 times.
+***
 MSG: Running E16172
+./tempscript.sh: line 361: ./compiled.out: No such file or directory
 MSG: Checking difference E16172
+diff: waveDump.vcd: No such file or directory
  
 ------STUDENT: E16200
 MSG: unzipping E16200
@@ -270,8 +345,15 @@ Archive:  ./temp2/e16200_lab5_part2.zip
   inflating: ./temp3/16200/e16200_lab5_part2/timing_diagram.png  
   inflating: ./temp3/16200/e16200_lab5_part2/regfile_testbench.v  
 MSG: Compiling E16200
+./reg_file_tb_groundtruth.v:8: error: Unknown module type: reg_file
+2 error(s) during elaboration.
+*** These modules were missing:
+        reg_file referenced 1 times.
+***
 MSG: Running E16200
+./tempscript.sh: line 375: ./compiled.out: No such file or directory
 MSG: Checking difference E16200
+diff: waveDump.vcd: No such file or directory
  
 ------STUDENT: E16320
 MSG: unzipping E16320
@@ -292,8 +374,15 @@ Archive:  ./temp2/e16313_lab5_part2.zip
   inflating: ./temp3/16313/e16313_lab5_part2/reg_file.v  
   inflating: ./temp3/16313/e16313_lab5_part2/reg_file_tb.v  
 MSG: Compiling E16313
+./reg_file_tb_groundtruth.v:8: error: Unknown module type: reg_file
+2 error(s) during elaboration.
+*** These modules were missing:
+        reg_file referenced 1 times.
+***
 MSG: Running E16313
+./tempscript.sh: line 403: ./compiled.out: No such file or directory
 MSG: Checking difference E16313
+diff: waveDump.vcd: No such file or directory
  
 ------STUDENT: E16360
 MSG: unzipping E16360
@@ -322,8 +411,12 @@ Archive:  ./temp2/e16168_lab5_part2.zip
   inflating: ./temp3/16168/reg_file_tb.v  
   inflating: ./temp3/16168/register_file_timing_diagram.PNG  
 MSG: Compiling E16168
+./reg_file.v:45: Module reg_file was already declared here: ./reg_file.v:9
+
 MSG: Running E16168
+./tempscript.sh: line 445: ./compiled.out: No such file or directory
 MSG: Checking difference E16168
+diff: waveDump.vcd: No such file or directory
  
 ------STUDENT: E16083
 MSG: unzipping E16083
@@ -332,8 +425,12 @@ Archive:  ./temp2/e16083_lab5_part2.zip
   inflating: ./temp3/16083/reg_file_tb.v  
   inflating: ./temp3/16083/Timing_Diagram.png  
 MSG: Compiling E16083
+./reg_file.v:33: Module reg_file was already declared here: ./reg_file.v:4
+
 MSG: Running E16083
+./tempscript.sh: line 459: ./compiled.out: No such file or directory
 MSG: Checking difference E16083
+diff: waveDump.vcd: No such file or directory
  
 ------STUDENT: E16276
 MSG: unzipping E16276
@@ -342,8 +439,12 @@ Archive:  ./temp2/e16276_lab5_part2.zip
   inflating: ./temp3/16276/reg_file_tb.v  
   inflating: ./temp3/16276/reg_file_timing_diagram.png  
 MSG: Compiling E16276
+./reg_file.v:46: Module reg_file was already declared here: ./reg_file.v:7
+
 MSG: Running E16276
+./tempscript.sh: line 473: ./compiled.out: No such file or directory
 MSG: Checking difference E16276
+diff: waveDump.vcd: No such file or directory
  
 ------STUDENT: E16022
 MSG: unzipping E16022
@@ -360,8 +461,12 @@ Archive:  ./temp2/e16396_lab5_part2.zip
   inflating: ./temp3/16396/e16396_timing_diagram_screenshot.png  
   inflating: ./temp3/16396/reg_file.v  
 MSG: Compiling E16396
+./reg_file.v:138: syntax error
+./reg_file.v:138: error: malformed statement
 MSG: Running E16396
+./tempscript.sh: line 501: ./compiled.out: No such file or directory
 MSG: Checking difference E16396
+diff: waveDump.vcd: No such file or directory
  
 ------STUDENT: E16156
 MSG: unzipping E16156
@@ -373,8 +478,15 @@ Archive:  ./temp2/e16156_lab5_part2.zip
   inflating: ./temp3/16156/e16156_lab5_part2/reg_file_tb.v  
   inflating: ./temp3/16156/e16156_lab5_part2/TimingDiagram.png  
 MSG: Compiling E16156
+./reg_file_tb_groundtruth.v:8: error: Unknown module type: reg_file
+2 error(s) during elaboration.
+*** These modules were missing:
+        reg_file referenced 1 times.
+***
 MSG: Running E16156
+./tempscript.sh: line 515: ./compiled.out: No such file or directory
 MSG: Checking difference E16156
+diff: waveDump.vcd: No such file or directory
  
 ------STUDENT: E16076
 MSG: unzipping E16076
@@ -411,8 +523,15 @@ Archive:  ./temp2/e16086_lab5_part2.zip
   inflating: ./temp3/16086/e16086_lab5_part2/reg_file_newtb.v  
   inflating: ./temp3/16086/e16086_lab5_part2/timing diagram.png  
 MSG: Compiling E16086
+./reg_file_tb_groundtruth.v:8: error: Unknown module type: reg_file
+2 error(s) during elaboration.
+*** These modules were missing:
+        reg_file referenced 1 times.
+***
 MSG: Running E16086
+./tempscript.sh: line 571: ./compiled.out: No such file or directory
 MSG: Checking difference E16086
+diff: waveDump.vcd: No such file or directory
  
 ------STUDENT: E16078
 MSG: unzipping E16078
@@ -421,8 +540,12 @@ Archive:  ./temp2/e16078_lab5_part2.zip
   inflating: ./temp3/16078/testbench_reg.v  
   inflating: ./temp3/16078/timing_diagram.PNG  
 MSG: Compiling E16078
+./reg_file.v:66: Module reg_file was already declared here: ./reg_file.v:3
+
 MSG: Running E16078
+./tempscript.sh: line 585: ./compiled.out: No such file or directory
 MSG: Checking difference E16078
+diff: waveDump.vcd: No such file or directory
  
 ------STUDENT: E16222
 MSG: unzipping E16222
@@ -442,8 +565,15 @@ Archive:  ./temp2/e16070_lab5_part2.zip
   inflating: ./temp3/16070/e16070_lab5_part2/Part2.v  
   inflating: ./temp3/16070/e16070_lab5_part2/regfile_tb.v  
 MSG: Compiling E16070
+./reg_file_tb_groundtruth.v:8: error: Unknown module type: reg_file
+2 error(s) during elaboration.
+*** These modules were missing:
+        reg_file referenced 1 times.
+***
 MSG: Running E16070
+./tempscript.sh: line 613: ./compiled.out: No such file or directory
 MSG: Checking difference E16070
+diff: waveDump.vcd: No such file or directory
  
 ------STUDENT: E16332
 MSG: unzipping E16332
@@ -461,8 +591,15 @@ Archive:  ./temp2/e16127_lab5_part2.zip
   inflating: ./temp3/16127/e16127_lab5_part2/e16127.png  
   inflating: ./temp3/16127/e16127_lab5_part2/reg_file.v  
 MSG: Compiling E16127
+./reg_file_tb_groundtruth.v:8: error: Unknown module type: reg_file
+2 error(s) during elaboration.
+*** These modules were missing:
+        reg_file referenced 1 times.
+***
 MSG: Running E16127
+./tempscript.sh: line 641: ./compiled.out: No such file or directory
 MSG: Checking difference E16127
+diff: waveDump.vcd: No such file or directory
  
 ------STUDENT: E16096
 MSG: unzipping E16096
@@ -482,8 +619,16 @@ Archive:  ./temp2/e16388_lab5_part2.zip
   inflating: ./temp3/16388/regfile.v  
   inflating: ./temp3/16388/testbench.v  
 MSG: Compiling E16388
+./regfile.v:36: syntax error
+./regfile.v:36: error: Error in for loop step assignment.
+./regfile.v:36: syntax error
+./regfile.v:36: error: Error in for loop step assignment.
+./regfile.v:52: Module reg_file was already declared here: ./regfile.v:6
+
 MSG: Running E16388
+./tempscript.sh: line 669: ./compiled.out: No such file or directory
 MSG: Checking difference E16388
+diff: waveDump.vcd: No such file or directory
  
 ------STUDENT: E16134
 MSG: unzipping E16134
@@ -510,8 +655,31 @@ Archive:  ./temp2/e16221_lab5_part2.zip
   inflating: ./temp3/16221/reg_file.v  
   inflating: ./temp3/16221/Timing Diagram.png  
 MSG: Compiling E16221
+./reg_file_tb_groundtruth.v:8: warning: Port 1 (CLK) of reg_file expects 1 bits, got 8.
+./reg_file_tb_groundtruth.v:8:        : Pruning 7 high bits of the expression.
+./reg_file_tb_groundtruth.v:8: warning: Port 2 (RESET) of reg_file expects 1 bits, got 8.
+./reg_file_tb_groundtruth.v:8:        : Pruning 7 high bits of the expression.
+./reg_file_tb_groundtruth.v:8: warning: Port 3 (WRITE) of reg_file expects 1 bits, got 8.
+./reg_file_tb_groundtruth.v:8:        : Pruning 7 high bits of the expression.
+./reg_file_tb_groundtruth.v:8: warning: Port 4 (IN) of reg_file expects 8 bits, got 3.
+./reg_file_tb_groundtruth.v:8:        : Padding 5 high bits of the port.
+./reg_file_tb_groundtruth.v:8: error: reg READREG1; cannot be driven by primitives or continuous assignment.
+./reg_file_tb_groundtruth.v:8: error: Output port expression must support continuous assignment.
+./reg_file_tb_groundtruth.v:8:      : Port OUT1 of reg_file is connected to READREG1
+./reg_file_tb_groundtruth.v:8: error: reg READREG2; cannot be driven by primitives or continuous assignment.
+./reg_file_tb_groundtruth.v:8: error: Output port expression must support continuous assignment.
+./reg_file_tb_groundtruth.v:8:      : Port OUT2 of reg_file is connected to READREG2
+./reg_file_tb_groundtruth.v:8: warning: Port 7 (INADDRESS) of reg_file expects 3 bits, got 1.
+./reg_file_tb_groundtruth.v:8:        : Padding 2 high bits of the port.
+./reg_file_tb_groundtruth.v:8: warning: Port 8 (OUT1ADDRESS) of reg_file expects 3 bits, got 1.
+./reg_file_tb_groundtruth.v:8:        : Padding 2 high bits of the port.
+./reg_file_tb_groundtruth.v:8: warning: Port 9 (OUT2ADDRESS) of reg_file expects 3 bits, got 1.
+./reg_file_tb_groundtruth.v:8:        : Padding 2 high bits of the port.
+4 error(s) during elaboration.
 MSG: Running E16221
+./tempscript.sh: line 711: ./compiled.out: No such file or directory
 MSG: Checking difference E16221
+diff: waveDump.vcd: No such file or directory
  
 ------STUDENT: E16061
 MSG: unzipping E16061
@@ -532,8 +700,15 @@ Archive:  ./temp2/e16039_lab5_part2.zip
   inflating: ./temp3/16039/e16039_lab5_part2/reg_file.v  
   inflating: ./temp3/16039/e16039_lab5_part2/reg_file_wavedata.vcd  
 MSG: Compiling E16039
+./reg_file_tb_groundtruth.v:8: error: Unknown module type: reg_file
+2 error(s) during elaboration.
+*** These modules were missing:
+        reg_file referenced 1 times.
+***
 MSG: Running E16039
+./tempscript.sh: line 739: ./compiled.out: No such file or directory
 MSG: Checking difference E16039
+diff: waveDump.vcd: No such file or directory
  
 ------STUDENT: E16364
 MSG: unzipping E16364
@@ -543,8 +718,15 @@ Archive:  ./temp2/e16364_lab5_part2.zip
   inflating: ./temp3/16364/e16364_lab5_part2/regfile_testbench.v  
   inflating: ./temp3/16364/e16364_lab5_part2/reg_timing.png  
 MSG: Compiling E16364
+./reg_file_tb_groundtruth.v:8: error: Unknown module type: reg_file
+2 error(s) during elaboration.
+*** These modules were missing:
+        reg_file referenced 1 times.
+***
 MSG: Running E16364
+./tempscript.sh: line 753: ./compiled.out: No such file or directory
 MSG: Checking difference E16364
+diff: waveDump.vcd: No such file or directory
  
 ------STUDENT: E1642
 MSG: unzipping E1642
@@ -562,8 +744,12 @@ Archive:  ./temp2/e16054_lab5_part2.zip
   inflating: ./temp3/16054/wavedata.PNG  
   inflating: ./temp3/16054/reg_model.v  
 MSG: Compiling E16054
+./testbench.v:81: Module reg_file_tb was already declared here: ./reg_model.v:2
+
 MSG: Running E16054
+./tempscript.sh: line 781: ./compiled.out: No such file or directory
 MSG: Checking difference E16054
+diff: waveDump.vcd: No such file or directory
  
 ------STUDENT: E16377
 MSG: unzipping E16377
@@ -571,8 +757,15 @@ Archive:  ./temp2/e16377_lab5_part2.zip
   inflating: ./temp3/16377/gtk_wave_output_screenshot.png  
   inflating: ./temp3/16377/register_file.v  
 MSG: Compiling E16377
+./reg_file_tb_groundtruth.v:8: error: Unknown module type: reg_file
+2 error(s) during elaboration.
+*** These modules were missing:
+        reg_file referenced 1 times.
+***
 MSG: Running E16377
+./tempscript.sh: line 795: ./compiled.out: No such file or directory
 MSG: Checking difference E16377
+diff: waveDump.vcd: No such file or directory
  
 ------STUDENT: E16267
 MSG: unzipping E16267
@@ -594,5 +787,12 @@ Archive:  ./temp2/e16173_lab5_part2.zip
   inflating: ./temp3/16173/e16173_lab5_part2/screenshot.png  
   inflating: ./temp3/16173/e16173_lab5_part2/registerfile.v  
 MSG: Compiling E16173
+./reg_file_tb_groundtruth.v:8: error: Unknown module type: reg_file
+2 error(s) during elaboration.
+*** These modules were missing:
+        reg_file referenced 1 times.
+***
 MSG: Running E16173
+./tempscript.sh: line 823: ./compiled.out: No such file or directory
 MSG: Checking difference E16173
+diff: waveDump.vcd: No such file or directory

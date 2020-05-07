@@ -21,7 +21,7 @@ g++ gen-bash.cpp -o gen-bash -lboost_filesystem -lboost_system
 
 chmod 700 tempscript.sh
 rm log.txt
-./tempscript.sh > log.txt
+./tempscript.sh &> log.txt
 
 rm MARKS_LIST.csv
 g++ gen-marks.cpp -o gen-marks -lboost_filesystem -lboost_system
