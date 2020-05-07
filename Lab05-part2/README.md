@@ -17,7 +17,7 @@ The output will be written to **MARKS_LIST.csv**
 <li><b>temp2/</b> contains the zip files uploaded to feels.</li>
 <li><b>temp3/</b><br>
 First, the zip files are extracted to <b>temp3/e16XXX</b><br>
-Then <b>groundtruth/reg_file_tb_groundtruth.v<b> is copied to the folder.<br>
+Then <b>groundtruth/reg_file_tb_groundtruth.v</b> is copied to the folder.<br>
 Then, <b>your reg_file</b> is testes with <b>our reg_file_tb_groundtruth</b> by running the following commands are run,<br>
 <pre><code>
 iverilog ./*.v -o compiled.out -s reg_file_tb_groundtruth
