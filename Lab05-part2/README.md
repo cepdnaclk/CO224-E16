@@ -91,18 +91,14 @@ Then we run the corrected zip file through the **[second-marking](second-marking
 
 **E16061** Wavedump lines 39,40-->40,39. Shall we give full maks?
 
-**E16069** 
-
-<code><pre>
+**E16069** <code><pre>
 for (i = 0; i < 8; i++) begin
     regfile[i] <= 0;
 end   
 </pre></code>
 
 
-**E16070** 
-
-Issue 1: Faulty folder structure. (corrected)
+**E16070** Issue 1: Faulty folder structure. (corrected)
 Issue 2:
 <code>for(i=0; i<8; i++) begin </code>
 
