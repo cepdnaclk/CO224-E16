@@ -130,3 +130,7 @@ Issue 2:
 **E16369** Same as E16364
 
 **E16388** Same as E16364
+
+**E16389** 	<code>reg [0:7][0:7] reg_array;</code> Can we declare 2D register arrays?
+
+
