@@ -117,3 +117,6 @@ Issue 2:
 
 **E16286** Issue 1: Two line are swapped in the wavedata (looks okay). Issue 2: There is a difference of #3 (might be problematic, please check)
 
+**E16364** Issue in loop assignment <code>RegisterFile[i] <= 0;</code>
+
+
