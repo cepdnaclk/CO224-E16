@@ -98,3 +98,6 @@ Issue 2:
 **E16168** Solved the extra folder problem and renamed the module to reg_file from register_file. But still there are many differences in the wavedump
 
 **E16217** Many lines of difference between wavedumps
+
+**E16221** reg_file module definition parameter order is wrong.
+
