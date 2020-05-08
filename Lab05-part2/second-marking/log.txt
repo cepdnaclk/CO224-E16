@@ -1,0 +1,458 @@
+ 
+------STUDENT: E16068
+MSG: Compiling E16068
+./reg_file_tb_groundtruth.v:8: error: Unknown module type: reg_file
+2 error(s) during elaboration.
+*** These modules were missing:
+        reg_file referenced 1 times.
+***
+MSG: Running E16068
+./tempscript.sh: line 14: ./compiled.out: No such file or directory
+MSG: Checking difference E16068
+diff: waveDump.vcd: No such file or directory
+ 
+------STUDENT: E16126
+MSG: Compiling E16126
+./reg_file_tb_groundtruth.v:8: error: Unknown module type: reg_file
+2 error(s) during elaboration.
+*** These modules were missing:
+        reg_file referenced 1 times.
+***
+MSG: Running E16126
+./tempscript.sh: line 31: ./compiled.out: No such file or directory
+MSG: Checking difference E16126
+diff: waveDump.vcd: No such file or directory
+ 
+------STUDENT: E16217
+MSG: Compiling E16217
+./reg_file_tb_groundtruth.v:8: error: Unknown module type: reg_file
+2 error(s) during elaboration.
+*** These modules were missing:
+        reg_file referenced 1 times.
+***
+MSG: Running E16217
+./tempscript.sh: line 48: ./compiled.out: No such file or directory
+MSG: Checking difference E16217
+diff: waveDump.vcd: No such file or directory
+ 
+------STUDENT: E16369
+MSG: Compiling E16369
+./reg_file.v:34: syntax error
+./reg_file.v:34: error: Error in for loop step assignment.
+MSG: Running E16369
+./tempscript.sh: line 65: ./compiled.out: No such file or directory
+MSG: Checking difference E16369
+diff: waveDump.vcd: No such file or directory
+ 
+------STUDENT: E16290
+MSG: Compiling E16290
+MSG: Running E16290
+MSG: Checking difference E16290
+ 
+------STUDENT: E16057
+MSG: Compiling E16057
+./reg_file.v:85: syntax error
+./reg_file.v:85: error: invalid module item.
+MSG: Running E16057
+./tempscript.sh: line 99: ./compiled.out: No such file or directory
+MSG: Checking difference E16057
+diff: waveDump.vcd: No such file or directory
+ 
+------STUDENT: E16088
+MSG: Compiling E16088
+MSG: Running E16088
+MSG: Checking difference E16088
+ 
+------STUDENT: E16203
+MSG: Compiling E16203
+MSG: Running E16203
+MSG: Checking difference E16203
+ 
+------STUDENT: E16094
+MSG: Compiling E16094
+MSG: Running E16094
+MSG: Checking difference E16094
+ 
+------STUDENT: E16389
+MSG: Compiling E16389
+./e16389_reg_file.v:17: syntax error
+./e16389_reg_file.v:17: error: syntax error in reg variable list.
+MSG: Running E16389
+./tempscript.sh: line 167: ./compiled.out: No such file or directory
+MSG: Checking difference E16389
+diff: waveDump.vcd: No such file or directory
+ 
+------STUDENT: E16261
+MSG: Compiling E16261
+MSG: Running E16261
+MSG: Checking difference E16261
+ 
+------STUDENT: E16368
+MSG: Compiling E16368
+MSG: Running E16368
+MSG: Checking difference E16368
+ 
+------STUDENT: E16351
+MSG: Compiling E16351
+MSG: Running E16351
+MSG: Checking difference E16351
+ 
+------STUDENT: E16055
+MSG: Compiling E16055
+MSG: Running E16055
+MSG: Checking difference E16055
+ 
+------STUDENT: E16366
+MSG: Compiling E16366
+./reg_file.v:31: syntax error
+./reg_file.v:31: error: Error in for loop step assignment.
+MSG: Running E16366
+./tempscript.sh: line 252: ./compiled.out: No such file or directory
+MSG: Checking difference E16366
+diff: waveDump.vcd: No such file or directory
+ 
+------STUDENT: E16223
+MSG: Compiling E16223
+./reg_file_tb_groundtruth.v:8: error: Unknown module type: reg_file
+2 error(s) during elaboration.
+*** These modules were missing:
+        reg_file referenced 1 times.
+***
+MSG: Running E16223
+./tempscript.sh: line 269: ./compiled.out: No such file or directory
+MSG: Checking difference E16223
+diff: waveDump.vcd: No such file or directory
+ 
+------STUDENT: E16012
+MSG: Compiling E16012
+MSG: Running E16012
+MSG: Checking difference E16012
+ 
+------STUDENT: E16049
+MSG: Compiling E16049
+MSG: Running E16049
+MSG: Checking difference E16049
+ 
+------STUDENT: E16275
+MSG: Compiling E16275
+MSG: Running E16275
+MSG: Checking difference E16275
+ 
+------STUDENT: E16399
+MSG: Compiling E16399
+MSG: Running E16399
+MSG: Checking difference E16399
+ 
+------STUDENT: E16069
+MSG: Compiling E16069
+./reg_file.v:30: syntax error
+./reg_file.v:30: error: Error in for loop step assignment.
+MSG: Running E16069
+./tempscript.sh: line 354: ./compiled.out: No such file or directory
+MSG: Checking difference E16069
+diff: waveDump.vcd: No such file or directory
+ 
+------STUDENT: E16232
+MSG: Compiling E16232
+./reg_file_tb_groundtruth.v:8: error: Unknown module type: reg_file
+2 error(s) during elaboration.
+*** These modules were missing:
+        reg_file referenced 1 times.
+***
+MSG: Running E16232
+./tempscript.sh: line 371: ./compiled.out: No such file or directory
+MSG: Checking difference E16232
+diff: waveDump.vcd: No such file or directory
+ 
+------STUDENT: E16286
+MSG: Compiling E16286
+MSG: Running E16286
+MSG: Checking difference E16286
+ 
+------STUDENT: E16087
+MSG: Compiling E16087
+MSG: Running E16087
+MSG: Checking difference E16087
+ 
+------STUDENT: E16081
+MSG: Compiling E16081
+MSG: Running E16081
+MSG: Checking difference E16081
+ 
+------STUDENT: E16172
+MSG: Compiling E16172
+./reg_file_tb_groundtruth.v:8: error: Unknown module type: reg_file
+2 error(s) during elaboration.
+*** These modules were missing:
+        reg_file referenced 1 times.
+***
+MSG: Running E16172
+./tempscript.sh: line 439: ./compiled.out: No such file or directory
+MSG: Checking difference E16172
+diff: waveDump.vcd: No such file or directory
+ 
+------STUDENT: E16200
+MSG: Compiling E16200
+./reg_file_tb_groundtruth.v:8: error: Unknown module type: reg_file
+2 error(s) during elaboration.
+*** These modules were missing:
+        reg_file referenced 1 times.
+***
+MSG: Running E16200
+./tempscript.sh: line 456: ./compiled.out: No such file or directory
+MSG: Checking difference E16200
+diff: waveDump.vcd: No such file or directory
+ 
+------STUDENT: E16320
+MSG: Compiling E16320
+MSG: Running E16320
+MSG: Checking difference E16320
+ 
+------STUDENT: E16313
+MSG: Compiling E16313
+./reg_file_tb_groundtruth.v:8: error: Unknown module type: reg_file
+2 error(s) during elaboration.
+*** These modules were missing:
+        reg_file referenced 1 times.
+***
+MSG: Running E16313
+./tempscript.sh: line 490: ./compiled.out: No such file or directory
+MSG: Checking difference E16313
+diff: waveDump.vcd: No such file or directory
+ 
+------STUDENT: E16360
+MSG: Compiling E16360
+MSG: Running E16360
+MSG: Checking difference E16360
+ 
+------STUDENT: E16394
+MSG: Compiling E16394
+MSG: Running E16394
+MSG: Checking difference E16394
+ 
+------STUDENT: E16168
+MSG: Compiling E16168
+MSG: Running E16168
+MSG: Checking difference E16168
+ 
+------STUDENT: E16083
+MSG: Compiling E16083
+MSG: Running E16083
+MSG: Checking difference E16083
+ 
+------STUDENT: E16276
+MSG: Compiling E16276
+MSG: Running E16276
+MSG: Checking difference E16276
+ 
+------STUDENT: E16022
+MSG: Compiling E16022
+MSG: Running E16022
+MSG: Checking difference E16022
+ 
+------STUDENT: E16396
+MSG: Compiling E16396
+./reg_file.v:138: syntax error
+./reg_file.v:138: error: malformed statement
+MSG: Running E16396
+./tempscript.sh: line 609: ./compiled.out: No such file or directory
+MSG: Checking difference E16396
+diff: waveDump.vcd: No such file or directory
+ 
+------STUDENT: E16156
+MSG: Compiling E16156
+./reg_file_tb_groundtruth.v:8: error: Unknown module type: reg_file
+2 error(s) during elaboration.
+*** These modules were missing:
+        reg_file referenced 1 times.
+***
+MSG: Running E16156
+./tempscript.sh: line 626: ./compiled.out: No such file or directory
+MSG: Checking difference E16156
+diff: waveDump.vcd: No such file or directory
+ 
+------STUDENT: E16076
+MSG: Compiling E16076
+MSG: Running E16076
+MSG: Checking difference E16076
+ 
+------STUDENT: E16089
+MSG: Compiling E16089
+MSG: Running E16089
+MSG: Checking difference E16089
+ 
+------STUDENT: E16025
+MSG: Compiling E16025
+MSG: Running E16025
+MSG: Checking difference E16025
+ 
+------STUDENT: E16086
+MSG: Compiling E16086
+./reg_file_tb_groundtruth.v:8: error: Unknown module type: reg_file
+2 error(s) during elaboration.
+*** These modules were missing:
+        reg_file referenced 1 times.
+***
+MSG: Running E16086
+./tempscript.sh: line 694: ./compiled.out: No such file or directory
+MSG: Checking difference E16086
+diff: waveDump.vcd: No such file or directory
+ 
+------STUDENT: E16078
+MSG: Compiling E16078
+MSG: Running E16078
+MSG: Checking difference E16078
+ 
+------STUDENT: E16222
+MSG: Compiling E16222
+MSG: Running E16222
+MSG: Checking difference E16222
+ 
+------STUDENT: E16070
+MSG: Compiling E16070
+./reg_file_tb_groundtruth.v:8: error: Unknown module type: reg_file
+2 error(s) during elaboration.
+*** These modules were missing:
+        reg_file referenced 1 times.
+***
+MSG: Running E16070
+./tempscript.sh: line 745: ./compiled.out: No such file or directory
+MSG: Checking difference E16070
+diff: waveDump.vcd: No such file or directory
+ 
+------STUDENT: E16332
+MSG: Compiling E16332
+MSG: Running E16332
+MSG: Checking difference E16332
+ 
+------STUDENT: E16127
+MSG: Compiling E16127
+./reg_file_tb_groundtruth.v:8: error: Unknown module type: reg_file
+2 error(s) during elaboration.
+*** These modules were missing:
+        reg_file referenced 1 times.
+***
+MSG: Running E16127
+./tempscript.sh: line 779: ./compiled.out: No such file or directory
+MSG: Checking difference E16127
+diff: waveDump.vcd: No such file or directory
+ 
+------STUDENT: E16096
+MSG: Compiling E16096
+MSG: Running E16096
+MSG: Checking difference E16096
+ 
+------STUDENT: E16388
+MSG: Compiling E16388
+./regfile.v:36: syntax error
+./regfile.v:36: error: Error in for loop step assignment.
+MSG: Running E16388
+./tempscript.sh: line 813: ./compiled.out: No such file or directory
+MSG: Checking difference E16388
+diff: waveDump.vcd: No such file or directory
+ 
+------STUDENT: E16134
+MSG: Compiling E16134
+MSG: Running E16134
+MSG: Checking difference E16134
+ 
+------STUDENT: E16115
+MSG: Compiling E16115
+MSG: Running E16115
+MSG: Checking difference E16115
+ 
+------STUDENT: E16221
+MSG: Compiling E16221
+./reg_file_tb_groundtruth.v:8: warning: Port 1 (CLK) of reg_file expects 1 bits, got 8.
+./reg_file_tb_groundtruth.v:8:        : Pruning 7 high bits of the expression.
+./reg_file_tb_groundtruth.v:8: warning: Port 2 (RESET) of reg_file expects 1 bits, got 8.
+./reg_file_tb_groundtruth.v:8:        : Pruning 7 high bits of the expression.
+./reg_file_tb_groundtruth.v:8: warning: Port 3 (WRITE) of reg_file expects 1 bits, got 8.
+./reg_file_tb_groundtruth.v:8:        : Pruning 7 high bits of the expression.
+./reg_file_tb_groundtruth.v:8: warning: Port 4 (IN) of reg_file expects 8 bits, got 3.
+./reg_file_tb_groundtruth.v:8:        : Padding 5 high bits of the port.
+./reg_file_tb_groundtruth.v:8: error: reg READREG1; cannot be driven by primitives or continuous assignment.
+./reg_file_tb_groundtruth.v:8: error: Output port expression must support continuous assignment.
+./reg_file_tb_groundtruth.v:8:      : Port OUT1 of reg_file is connected to READREG1
+./reg_file_tb_groundtruth.v:8: error: reg READREG2; cannot be driven by primitives or continuous assignment.
+./reg_file_tb_groundtruth.v:8: error: Output port expression must support continuous assignment.
+./reg_file_tb_groundtruth.v:8:      : Port OUT2 of reg_file is connected to READREG2
+./reg_file_tb_groundtruth.v:8: warning: Port 7 (INADDRESS) of reg_file expects 3 bits, got 1.
+./reg_file_tb_groundtruth.v:8:        : Padding 2 high bits of the port.
+./reg_file_tb_groundtruth.v:8: warning: Port 8 (OUT1ADDRESS) of reg_file expects 3 bits, got 1.
+./reg_file_tb_groundtruth.v:8:        : Padding 2 high bits of the port.
+./reg_file_tb_groundtruth.v:8: warning: Port 9 (OUT2ADDRESS) of reg_file expects 3 bits, got 1.
+./reg_file_tb_groundtruth.v:8:        : Padding 2 high bits of the port.
+4 error(s) during elaboration.
+MSG: Running E16221
+./tempscript.sh: line 864: ./compiled.out: No such file or directory
+MSG: Checking difference E16221
+diff: waveDump.vcd: No such file or directory
+ 
+------STUDENT: E16061
+MSG: Compiling E16061
+MSG: Running E16061
+MSG: Checking difference E16061
+ 
+------STUDENT: E16039
+MSG: Compiling E16039
+./reg_file_tb_groundtruth.v:8: error: Unknown module type: reg_file
+2 error(s) during elaboration.
+*** These modules were missing:
+        reg_file referenced 1 times.
+***
+MSG: Running E16039
+./tempscript.sh: line 898: ./compiled.out: No such file or directory
+MSG: Checking difference E16039
+diff: waveDump.vcd: No such file or directory
+ 
+------STUDENT: E16364
+MSG: Compiling E16364
+./reg_file_tb_groundtruth.v:8: error: Unknown module type: reg_file
+2 error(s) during elaboration.
+*** These modules were missing:
+        reg_file referenced 1 times.
+***
+MSG: Running E16364
+./tempscript.sh: line 915: ./compiled.out: No such file or directory
+MSG: Checking difference E16364
+diff: waveDump.vcd: No such file or directory
+ 
+------STUDENT: E1642
+MSG: Compiling E1642
+MSG: Running E1642
+MSG: Checking difference E1642
+ 
+------STUDENT: E16054
+MSG: Compiling E16054
+MSG: Running E16054
+MSG: Checking difference E16054
+ 
+------STUDENT: E16377
+MSG: Compiling E16377
+./reg_file_tb_groundtruth.v:8: error: Unknown module type: reg_file
+2 error(s) during elaboration.
+*** These modules were missing:
+        reg_file referenced 1 times.
+***
+MSG: Running E16377
+./tempscript.sh: line 966: ./compiled.out: No such file or directory
+MSG: Checking difference E16377
+diff: waveDump.vcd: No such file or directory
+ 
+------STUDENT: E16267
+MSG: Compiling E16267
+MSG: Running E16267
+MSG: Checking difference E16267
+ 
+------STUDENT: E16173
+MSG: Compiling E16173
+./reg_file_tb_groundtruth.v:8: error: Unknown module type: reg_file
+2 error(s) during elaboration.
+*** These modules were missing:
+        reg_file referenced 1 times.
+***
+MSG: Running E16173
+./tempscript.sh: line 1000: ./compiled.out: No such file or directory
+MSG: Checking difference E16173
+diff: waveDump.vcd: No such file or directory

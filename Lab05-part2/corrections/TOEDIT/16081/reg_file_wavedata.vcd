@@ -1,0 +1,151 @@
+$date
+	Sun May  3 21:45:12 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module reg_file_tb $end
+$var wire 8 ! OUT1 [7:0] $end
+$var wire 8 " OUT2 [7:0] $end
+$var reg 1 # CLOCK $end
+$var reg 8 $ IN [7:0] $end
+$var reg 3 % INADDRESS [2:0] $end
+$var reg 3 & OUT1ADDRESS [2:0] $end
+$var reg 3 ' OUT2ADDRESS [2:0] $end
+$var reg 1 ( RESET $end
+$var reg 1 ) WRITE $end
+$scope module myregfile $end
+$var wire 1 * CLOCK $end
+$var wire 8 + IN [7:0] $end
+$var wire 3 , INADDRESS [2:0] $end
+$var wire 3 - OUT1ADDRESS [2:0] $end
+$var wire 3 . OUT2ADDRESS [2:0] $end
+$var wire 1 / RESET $end
+$var wire 1 0 WRITE $end
+$var reg 8 1 OUT1 [7:0] $end
+$var reg 8 2 OUT2 [7:0] $end
+$var reg 8 3 Regout0 [7:0] $end
+$var reg 8 4 Regout1 [7:0] $end
+$var reg 8 5 Regout2 [7:0] $end
+$var reg 8 6 Regout3 [7:0] $end
+$var reg 8 7 Regout4 [7:0] $end
+$var reg 8 8 Regout5 [7:0] $end
+$var reg 8 9 Regout6 [7:0] $end
+$var reg 8 : Regout7 [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx :
+bx 9
+bx 8
+bx 7
+bx 6
+bx 5
+bx 4
+bx 3
+bx 2
+bx 1
+x0
+x/
+bx .
+bx -
+bx ,
+bx +
+1*
+x)
+x(
+bx '
+bx &
+bx %
+bx $
+1#
+bx "
+bx !
+$end
+#1
+0)
+00
+0(
+0/
+#2
+1(
+1/
+#3
+0(
+0/
+#5
+0#
+0*
+#6
+b0 2
+b0 "
+b0 1
+b0 !
+b0 :
+b0 9
+b0 8
+b0 7
+b0 6
+b0 5
+b0 4
+b0 3
+#8
+b11 &
+b11 -
+b1111 $
+b1111 +
+b11 %
+b11 ,
+1)
+10
+#10
+1#
+1*
+#12
+b1111 6
+#14
+b1111 1
+b1111 !
+#15
+0#
+0*
+b1101 $
+b1101 +
+b1 %
+b1 ,
+#18
+0)
+00
+#20
+b111 '
+b111 .
+b101010 $
+b101010 +
+b111 %
+b111 ,
+1)
+10
+1#
+1*
+#22
+b101010 :
+#23
+b1 &
+b1 -
+#24
+b101010 2
+b101010 "
+b0 1
+b0 !
+#25
+0#
+0*
+#30
+1#
+1*
+#33
