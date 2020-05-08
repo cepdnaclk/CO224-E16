@@ -4,7 +4,7 @@ The submissions made to feels go through **[first-marking](first-marking/)** and
 
 Then we make **[corrections](corrections/)** and docment them [here](https://github.com/cepdnaclk/CO224-E16/tree/master/Lab05-part2#corrections).
 
-Then we run the corrected zip file through the **[second-marking](second-marking/)** to generate the **[second MARKS_LIST.csv](second-marking/MARKS_LIST.csv)**
+Then we run the corrected file from **[corrections/TOEDIT](corrections/TOEDIT)** through the **[second-marking](second-marking/)** to generate the **[second MARKS_LIST.csv](second-marking/MARKS_LIST.csv)**
 
 
 ## Corrections
