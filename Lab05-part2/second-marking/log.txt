@@ -281,15 +281,8 @@ MSG: Checking difference E16025
  
 ------STUDENT: E16086
 MSG: Compiling E16086
-./reg_file_tb_groundtruth.v:8: error: Unknown module type: reg_file
-2 error(s) during elaboration.
-*** These modules were missing:
-        reg_file referenced 1 times.
-***
 MSG: Running E16086
-./tempscript.sh: line 694: ./compiled.out: No such file or directory
 MSG: Checking difference E16086
-diff: waveDump.vcd: No such file or directory
  
 ------STUDENT: E16078
 MSG: Compiling E16078
