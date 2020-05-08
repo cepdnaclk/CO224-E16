@@ -28,6 +28,12 @@ Then we run the corrected zip file through the **[second-marking](second-marking
     <td>Edited the module name in the code module REG_file to module reg_file</td>
     <td>1</td>
 </tr>
+<tr>
+    <td>E16086</td>
+    <td>0</td>
+    <td>Same as E16093</td>
+    <td>1</td>
+</tr>
 </table>
 
 
@@ -56,5 +62,7 @@ Issue 2:
 **E16081** #93 instead of #94 in waveDump. Shall we give full marks?
 
 **E16083** 2 line diff in wavedump.
+
+**E16087** Few line difference in waveDump (including an additional #11)
 
 
