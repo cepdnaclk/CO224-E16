@@ -22,12 +22,20 @@ Then we run the corrected zip file through the **[second-marking](second-marking
     <td>The submission has an extra folder level. Just moving the files out of the folder solved the problem.</td>
     <td>1</td>
 </tr>
-
+<tr>
+    <td>E16068</td>
+    <td>0</td>
+    <td>Edited the module name in the code module REG_file to module reg_file</td>
+    <td>1</td>
+</tr>
 </table>
 
 
 ## Issues
 
 **E16057** <code>output reg[7:0] registers[0:7]; // 8bit eight registers</code>
+
 **E16061** Wavedump lines 39,40-->40,39. Shall we give full maks?
- 
+
+
+

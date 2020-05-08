@@ -5,7 +5,7 @@
 */
 
 // register file module
-module REG_file(IN, OUT1, OUT2, INADDRESS, OUT1ADDRESS, OUT2ADDRESS, WRITE, CLK, RESET);
+module reg_file(IN, OUT1, OUT2, INADDRESS, OUT1ADDRESS, OUT2ADDRESS, WRITE, CLK, RESET);
 
 input CLK, RESET, WRITE;                            // CLK, RESET and WRITE inputs
 input [7:0] IN;                                     // 8 bit input stream IN
