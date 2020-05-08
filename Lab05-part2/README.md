@@ -24,3 +24,9 @@ Then we run the corrected zip file through the **[second-marking](second-marking
 </tr>
 
 </table>
+
+
+## Issues
+
+**E16057** <code>output reg[7:0] registers[0:7]; // 8bit eight registers</code>
+
