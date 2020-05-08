@@ -88,7 +88,7 @@ end
 endmodule
 
 //Register file module
-module register_file(IN, OUT1, OUT2, INADDRESS, OUT1ADDRESS, OUT2ADDRESS, WRITE, CLK, RESET);
+module reg_file(IN, OUT1, OUT2, INADDRESS, OUT1ADDRESS, OUT2ADDRESS, WRITE, CLK, RESET);
 
     input [7:0] IN;                        //8 bit input data
     input [2:0] INADDRESS;                //register values for storing input data

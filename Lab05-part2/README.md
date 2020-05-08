@@ -70,6 +70,12 @@ Then we run the corrected zip file through the **[second-marking](second-marking
     <td>Same as E16093</td>
     <td>1</td>
 </tr>
+<tr>
+    <td>E16377</td>
+    <td>0</td>
+    <td>Edited the module name in the code module register_file to module reg_file</td>
+    <td>1</td>
+</tr>
 </table>
 
 
