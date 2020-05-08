@@ -1,4 +1,4 @@
- module register_file  
+ module reg_file  
  (  
       input          [7:0]     WRITEDATA,  		// write data
       
