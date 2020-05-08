@@ -17,9 +17,9 @@ Then we run the corrected zip file through the **[second-marking](second-marking
 </b></tr>
 
 <tr>
-    <td>E16000</td>
+    <td>E16039</td>
     <td>0</td>
-    <td>Did something</td>
+    <td>The submission has an extra folder level. Just moving the files out of the folder solved the problem.</td>
     <td>1</td>
 </tr>
 
