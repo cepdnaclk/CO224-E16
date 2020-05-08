@@ -119,4 +119,6 @@ Issue 2:
 
 **E16364** Issue in loop assignment <code>RegisterFile[i] <= 0;</code>
 
+**E16366** Same as E16364
+
 
