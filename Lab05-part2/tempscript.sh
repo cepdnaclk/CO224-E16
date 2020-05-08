@@ -4,12 +4,12 @@ mkdir ./temp3/16068/
 echo "MSG: unzipping E16068"
 unzip ./temp2/e16068_lab5_part2.zip -d ./temp3/16068/
 cd ./temp3/16068/
-rm *tb*
-rm *testbench*
-rm *test_bench*
-rm *TestBench*
-rm *Testbench*
-rm *testBench*
+rm -f *tb*
+rm -f *testbench*
+rm -f *test_bench*
+rm -f *TestBench*
+rm -f *Testbench*
+rm -f *testBench*
 cp ../../groundtruth/reg_file_tb_groundtruth.v ./
 echo "MSG: Compiling E16068"
 iverilog ./*.v -o compiled.out -s reg_file_tb_groundtruth
@@ -24,12 +24,12 @@ mkdir ./temp3/16126/
 echo "MSG: unzipping E16126"
 unzip ./temp2/e16126_lab5_part2.zip -d ./temp3/16126/
 cd ./temp3/16126/
-rm *tb*
-rm *testbench*
-rm *test_bench*
-rm *TestBench*
-rm *Testbench*
-rm *testBench*
+rm -f *tb*
+rm -f *testbench*
+rm -f *test_bench*
+rm -f *TestBench*
+rm -f *Testbench*
+rm -f *testBench*
 cp ../../groundtruth/reg_file_tb_groundtruth.v ./
 echo "MSG: Compiling E16126"
 iverilog ./*.v -o compiled.out -s reg_file_tb_groundtruth
@@ -44,12 +44,12 @@ mkdir ./temp3/16217/
 echo "MSG: unzipping E16217"
 unzip ./temp2/e16217_lab5_part2.zip -d ./temp3/16217/
 cd ./temp3/16217/
-rm *tb*
-rm *testbench*
-rm *test_bench*
-rm *TestBench*
-rm *Testbench*
-rm *testBench*
+rm -f *tb*
+rm -f *testbench*
+rm -f *test_bench*
+rm -f *TestBench*
+rm -f *Testbench*
+rm -f *testBench*
 cp ../../groundtruth/reg_file_tb_groundtruth.v ./
 echo "MSG: Compiling E16217"
 iverilog ./*.v -o compiled.out -s reg_file_tb_groundtruth
@@ -64,12 +64,12 @@ mkdir ./temp3/16369/
 echo "MSG: unzipping E16369"
 unzip ./temp2/e16369_lab5_part2.zip -d ./temp3/16369/
 cd ./temp3/16369/
-rm *tb*
-rm *testbench*
-rm *test_bench*
-rm *TestBench*
-rm *Testbench*
-rm *testBench*
+rm -f *tb*
+rm -f *testbench*
+rm -f *test_bench*
+rm -f *TestBench*
+rm -f *Testbench*
+rm -f *testBench*
 cp ../../groundtruth/reg_file_tb_groundtruth.v ./
 echo "MSG: Compiling E16369"
 iverilog ./*.v -o compiled.out -s reg_file_tb_groundtruth
@@ -84,12 +84,12 @@ mkdir ./temp3/16290/
 echo "MSG: unzipping E16290"
 unzip ./temp2/e16290_lab5_part2.zip -d ./temp3/16290/
 cd ./temp3/16290/
-rm *tb*
-rm *testbench*
-rm *test_bench*
-rm *TestBench*
-rm *Testbench*
-rm *testBench*
+rm -f *tb*
+rm -f *testbench*
+rm -f *test_bench*
+rm -f *TestBench*
+rm -f *Testbench*
+rm -f *testBench*
 cp ../../groundtruth/reg_file_tb_groundtruth.v ./
 echo "MSG: Compiling E16290"
 iverilog ./*.v -o compiled.out -s reg_file_tb_groundtruth
@@ -104,12 +104,12 @@ mkdir ./temp3/16057/
 echo "MSG: unzipping E16057"
 unzip ./temp2/e16057_lab5_part2.zip -d ./temp3/16057/
 cd ./temp3/16057/
-rm *tb*
-rm *testbench*
-rm *test_bench*
-rm *TestBench*
-rm *Testbench*
-rm *testBench*
+rm -f *tb*
+rm -f *testbench*
+rm -f *test_bench*
+rm -f *TestBench*
+rm -f *Testbench*
+rm -f *testBench*
 cp ../../groundtruth/reg_file_tb_groundtruth.v ./
 echo "MSG: Compiling E16057"
 iverilog ./*.v -o compiled.out -s reg_file_tb_groundtruth
@@ -124,12 +124,12 @@ mkdir ./temp3/16088/
 echo "MSG: unzipping E16088"
 unzip ./temp2/e16088_lab5_part2.zip -d ./temp3/16088/
 cd ./temp3/16088/
-rm *tb*
-rm *testbench*
-rm *test_bench*
-rm *TestBench*
-rm *Testbench*
-rm *testBench*
+rm -f *tb*
+rm -f *testbench*
+rm -f *test_bench*
+rm -f *TestBench*
+rm -f *Testbench*
+rm -f *testBench*
 cp ../../groundtruth/reg_file_tb_groundtruth.v ./
 echo "MSG: Compiling E16088"
 iverilog ./*.v -o compiled.out -s reg_file_tb_groundtruth
@@ -144,12 +144,12 @@ mkdir ./temp3/16203/
 echo "MSG: unzipping E16203"
 unzip ./temp2/e16203_lab5_part2.zip -d ./temp3/16203/
 cd ./temp3/16203/
-rm *tb*
-rm *testbench*
-rm *test_bench*
-rm *TestBench*
-rm *Testbench*
-rm *testBench*
+rm -f *tb*
+rm -f *testbench*
+rm -f *test_bench*
+rm -f *TestBench*
+rm -f *Testbench*
+rm -f *testBench*
 cp ../../groundtruth/reg_file_tb_groundtruth.v ./
 echo "MSG: Compiling E16203"
 iverilog ./*.v -o compiled.out -s reg_file_tb_groundtruth
@@ -164,12 +164,12 @@ mkdir ./temp3/16094/
 echo "MSG: unzipping E16094"
 unzip ./temp2/e16094_lab5_part2.zip -d ./temp3/16094/
 cd ./temp3/16094/
-rm *tb*
-rm *testbench*
-rm *test_bench*
-rm *TestBench*
-rm *Testbench*
-rm *testBench*
+rm -f *tb*
+rm -f *testbench*
+rm -f *test_bench*
+rm -f *TestBench*
+rm -f *Testbench*
+rm -f *testBench*
 cp ../../groundtruth/reg_file_tb_groundtruth.v ./
 echo "MSG: Compiling E16094"
 iverilog ./*.v -o compiled.out -s reg_file_tb_groundtruth
@@ -184,12 +184,12 @@ mkdir ./temp3/16389/
 echo "MSG: unzipping E16389"
 unzip ./temp2/e16389_lab5_part2.zip -d ./temp3/16389/
 cd ./temp3/16389/
-rm *tb*
-rm *testbench*
-rm *test_bench*
-rm *TestBench*
-rm *Testbench*
-rm *testBench*
+rm -f *tb*
+rm -f *testbench*
+rm -f *test_bench*
+rm -f *TestBench*
+rm -f *Testbench*
+rm -f *testBench*
 cp ../../groundtruth/reg_file_tb_groundtruth.v ./
 echo "MSG: Compiling E16389"
 iverilog ./*.v -o compiled.out -s reg_file_tb_groundtruth
@@ -204,12 +204,12 @@ mkdir ./temp3/16261/
 echo "MSG: unzipping E16261"
 unzip ./temp2/e16261_lab5_part2.zip -d ./temp3/16261/
 cd ./temp3/16261/
-rm *tb*
-rm *testbench*
-rm *test_bench*
-rm *TestBench*
-rm *Testbench*
-rm *testBench*
+rm -f *tb*
+rm -f *testbench*
+rm -f *test_bench*
+rm -f *TestBench*
+rm -f *Testbench*
+rm -f *testBench*
 cp ../../groundtruth/reg_file_tb_groundtruth.v ./
 echo "MSG: Compiling E16261"
 iverilog ./*.v -o compiled.out -s reg_file_tb_groundtruth
@@ -224,12 +224,12 @@ mkdir ./temp3/16368/
 echo "MSG: unzipping E16368"
 unzip ./temp2/e16368_lab5_part2.zip -d ./temp3/16368/
 cd ./temp3/16368/
-rm *tb*
-rm *testbench*
-rm *test_bench*
-rm *TestBench*
-rm *Testbench*
-rm *testBench*
+rm -f *tb*
+rm -f *testbench*
+rm -f *test_bench*
+rm -f *TestBench*
+rm -f *Testbench*
+rm -f *testBench*
 cp ../../groundtruth/reg_file_tb_groundtruth.v ./
 echo "MSG: Compiling E16368"
 iverilog ./*.v -o compiled.out -s reg_file_tb_groundtruth
@@ -244,12 +244,12 @@ mkdir ./temp3/16351/
 echo "MSG: unzipping E16351"
 unzip ./temp2/e16351_lab5_part2.zip -d ./temp3/16351/
 cd ./temp3/16351/
-rm *tb*
-rm *testbench*
-rm *test_bench*
-rm *TestBench*
-rm *Testbench*
-rm *testBench*
+rm -f *tb*
+rm -f *testbench*
+rm -f *test_bench*
+rm -f *TestBench*
+rm -f *Testbench*
+rm -f *testBench*
 cp ../../groundtruth/reg_file_tb_groundtruth.v ./
 echo "MSG: Compiling E16351"
 iverilog ./*.v -o compiled.out -s reg_file_tb_groundtruth
@@ -264,12 +264,12 @@ mkdir ./temp3/16055/
 echo "MSG: unzipping E16055"
 unzip ./temp2/e16055_Lab5_Part2.zip -d ./temp3/16055/
 cd ./temp3/16055/
-rm *tb*
-rm *testbench*
-rm *test_bench*
-rm *TestBench*
-rm *Testbench*
-rm *testBench*
+rm -f *tb*
+rm -f *testbench*
+rm -f *test_bench*
+rm -f *TestBench*
+rm -f *Testbench*
+rm -f *testBench*
 cp ../../groundtruth/reg_file_tb_groundtruth.v ./
 echo "MSG: Compiling E16055"
 iverilog ./*.v -o compiled.out -s reg_file_tb_groundtruth
@@ -284,12 +284,12 @@ mkdir ./temp3/16366/
 echo "MSG: unzipping E16366"
 unzip ./temp2/e16366_lab5_part2.zip -d ./temp3/16366/
 cd ./temp3/16366/
-rm *tb*
-rm *testbench*
-rm *test_bench*
-rm *TestBench*
-rm *Testbench*
-rm *testBench*
+rm -f *tb*
+rm -f *testbench*
+rm -f *test_bench*
+rm -f *TestBench*
+rm -f *Testbench*
+rm -f *testBench*
 cp ../../groundtruth/reg_file_tb_groundtruth.v ./
 echo "MSG: Compiling E16366"
 iverilog ./*.v -o compiled.out -s reg_file_tb_groundtruth
@@ -304,12 +304,12 @@ mkdir ./temp3/16223/
 echo "MSG: unzipping E16223"
 unzip ./temp2/e16223_lab5_part2.zip -d ./temp3/16223/
 cd ./temp3/16223/
-rm *tb*
-rm *testbench*
-rm *test_bench*
-rm *TestBench*
-rm *Testbench*
-rm *testBench*
+rm -f *tb*
+rm -f *testbench*
+rm -f *test_bench*
+rm -f *TestBench*
+rm -f *Testbench*
+rm -f *testBench*
 cp ../../groundtruth/reg_file_tb_groundtruth.v ./
 echo "MSG: Compiling E16223"
 iverilog ./*.v -o compiled.out -s reg_file_tb_groundtruth
@@ -324,12 +324,12 @@ mkdir ./temp3/16012/
 echo "MSG: unzipping E16012"
 unzip ./temp2/e16012_lab5_part2.zip -d ./temp3/16012/
 cd ./temp3/16012/
-rm *tb*
-rm *testbench*
-rm *test_bench*
-rm *TestBench*
-rm *Testbench*
-rm *testBench*
+rm -f *tb*
+rm -f *testbench*
+rm -f *test_bench*
+rm -f *TestBench*
+rm -f *Testbench*
+rm -f *testBench*
 cp ../../groundtruth/reg_file_tb_groundtruth.v ./
 echo "MSG: Compiling E16012"
 iverilog ./*.v -o compiled.out -s reg_file_tb_groundtruth
@@ -344,12 +344,12 @@ mkdir ./temp3/16049/
 echo "MSG: unzipping E16049"
 unzip ./temp2/e16049_lab5_part2.zip -d ./temp3/16049/
 cd ./temp3/16049/
-rm *tb*
-rm *testbench*
-rm *test_bench*
-rm *TestBench*
-rm *Testbench*
-rm *testBench*
+rm -f *tb*
+rm -f *testbench*
+rm -f *test_bench*
+rm -f *TestBench*
+rm -f *Testbench*
+rm -f *testBench*
 cp ../../groundtruth/reg_file_tb_groundtruth.v ./
 echo "MSG: Compiling E16049"
 iverilog ./*.v -o compiled.out -s reg_file_tb_groundtruth
@@ -364,12 +364,12 @@ mkdir ./temp3/16275/
 echo "MSG: unzipping E16275"
 unzip ./temp2/e16275_lab5_part2.zip -d ./temp3/16275/
 cd ./temp3/16275/
-rm *tb*
-rm *testbench*
-rm *test_bench*
-rm *TestBench*
-rm *Testbench*
-rm *testBench*
+rm -f *tb*
+rm -f *testbench*
+rm -f *test_bench*
+rm -f *TestBench*
+rm -f *Testbench*
+rm -f *testBench*
 cp ../../groundtruth/reg_file_tb_groundtruth.v ./
 echo "MSG: Compiling E16275"
 iverilog ./*.v -o compiled.out -s reg_file_tb_groundtruth
@@ -384,12 +384,12 @@ mkdir ./temp3/16399/
 echo "MSG: unzipping E16399"
 unzip ./temp2/e16399_lab5_part2.zip -d ./temp3/16399/
 cd ./temp3/16399/
-rm *tb*
-rm *testbench*
-rm *test_bench*
-rm *TestBench*
-rm *Testbench*
-rm *testBench*
+rm -f *tb*
+rm -f *testbench*
+rm -f *test_bench*
+rm -f *TestBench*
+rm -f *Testbench*
+rm -f *testBench*
 cp ../../groundtruth/reg_file_tb_groundtruth.v ./
 echo "MSG: Compiling E16399"
 iverilog ./*.v -o compiled.out -s reg_file_tb_groundtruth
@@ -404,12 +404,12 @@ mkdir ./temp3/16069/
 echo "MSG: unzipping E16069"
 unzip ./temp2/e16069_lab5_part2.zip -d ./temp3/16069/
 cd ./temp3/16069/
-rm *tb*
-rm *testbench*
-rm *test_bench*
-rm *TestBench*
-rm *Testbench*
-rm *testBench*
+rm -f *tb*
+rm -f *testbench*
+rm -f *test_bench*
+rm -f *TestBench*
+rm -f *Testbench*
+rm -f *testBench*
 cp ../../groundtruth/reg_file_tb_groundtruth.v ./
 echo "MSG: Compiling E16069"
 iverilog ./*.v -o compiled.out -s reg_file_tb_groundtruth
@@ -424,12 +424,12 @@ mkdir ./temp3/16232/
 echo "MSG: unzipping E16232"
 unzip ./temp2/e16232_lab5_part2.zip -d ./temp3/16232/
 cd ./temp3/16232/
-rm *tb*
-rm *testbench*
-rm *test_bench*
-rm *TestBench*
-rm *Testbench*
-rm *testBench*
+rm -f *tb*
+rm -f *testbench*
+rm -f *test_bench*
+rm -f *TestBench*
+rm -f *Testbench*
+rm -f *testBench*
 cp ../../groundtruth/reg_file_tb_groundtruth.v ./
 echo "MSG: Compiling E16232"
 iverilog ./*.v -o compiled.out -s reg_file_tb_groundtruth
@@ -444,12 +444,12 @@ mkdir ./temp3/16286/
 echo "MSG: unzipping E16286"
 unzip ./temp2/e16286_lab5_part2.zip -d ./temp3/16286/
 cd ./temp3/16286/
-rm *tb*
-rm *testbench*
-rm *test_bench*
-rm *TestBench*
-rm *Testbench*
-rm *testBench*
+rm -f *tb*
+rm -f *testbench*
+rm -f *test_bench*
+rm -f *TestBench*
+rm -f *Testbench*
+rm -f *testBench*
 cp ../../groundtruth/reg_file_tb_groundtruth.v ./
 echo "MSG: Compiling E16286"
 iverilog ./*.v -o compiled.out -s reg_file_tb_groundtruth
@@ -464,12 +464,12 @@ mkdir ./temp3/16087/
 echo "MSG: unzipping E16087"
 unzip ./temp2/e16087_lab5_part2.zip -d ./temp3/16087/
 cd ./temp3/16087/
-rm *tb*
-rm *testbench*
-rm *test_bench*
-rm *TestBench*
-rm *Testbench*
-rm *testBench*
+rm -f *tb*
+rm -f *testbench*
+rm -f *test_bench*
+rm -f *TestBench*
+rm -f *Testbench*
+rm -f *testBench*
 cp ../../groundtruth/reg_file_tb_groundtruth.v ./
 echo "MSG: Compiling E16087"
 iverilog ./*.v -o compiled.out -s reg_file_tb_groundtruth
@@ -484,12 +484,12 @@ mkdir ./temp3/16081/
 echo "MSG: unzipping E16081"
 unzip ./temp2/e16081_lab5_part2.zip -d ./temp3/16081/
 cd ./temp3/16081/
-rm *tb*
-rm *testbench*
-rm *test_bench*
-rm *TestBench*
-rm *Testbench*
-rm *testBench*
+rm -f *tb*
+rm -f *testbench*
+rm -f *test_bench*
+rm -f *TestBench*
+rm -f *Testbench*
+rm -f *testBench*
 cp ../../groundtruth/reg_file_tb_groundtruth.v ./
 echo "MSG: Compiling E16081"
 iverilog ./*.v -o compiled.out -s reg_file_tb_groundtruth
@@ -504,12 +504,12 @@ mkdir ./temp3/16172/
 echo "MSG: unzipping E16172"
 unzip ./temp2/e16172_lab5_part2.zip -d ./temp3/16172/
 cd ./temp3/16172/
-rm *tb*
-rm *testbench*
-rm *test_bench*
-rm *TestBench*
-rm *Testbench*
-rm *testBench*
+rm -f *tb*
+rm -f *testbench*
+rm -f *test_bench*
+rm -f *TestBench*
+rm -f *Testbench*
+rm -f *testBench*
 cp ../../groundtruth/reg_file_tb_groundtruth.v ./
 echo "MSG: Compiling E16172"
 iverilog ./*.v -o compiled.out -s reg_file_tb_groundtruth
@@ -524,12 +524,12 @@ mkdir ./temp3/16200/
 echo "MSG: unzipping E16200"
 unzip ./temp2/e16200_lab5_part2.zip -d ./temp3/16200/
 cd ./temp3/16200/
-rm *tb*
-rm *testbench*
-rm *test_bench*
-rm *TestBench*
-rm *Testbench*
-rm *testBench*
+rm -f *tb*
+rm -f *testbench*
+rm -f *test_bench*
+rm -f *TestBench*
+rm -f *Testbench*
+rm -f *testBench*
 cp ../../groundtruth/reg_file_tb_groundtruth.v ./
 echo "MSG: Compiling E16200"
 iverilog ./*.v -o compiled.out -s reg_file_tb_groundtruth
@@ -544,12 +544,12 @@ mkdir ./temp3/16320/
 echo "MSG: unzipping E16320"
 unzip ./temp2/e16320_lab5_part2.zip -d ./temp3/16320/
 cd ./temp3/16320/
-rm *tb*
-rm *testbench*
-rm *test_bench*
-rm *TestBench*
-rm *Testbench*
-rm *testBench*
+rm -f *tb*
+rm -f *testbench*
+rm -f *test_bench*
+rm -f *TestBench*
+rm -f *Testbench*
+rm -f *testBench*
 cp ../../groundtruth/reg_file_tb_groundtruth.v ./
 echo "MSG: Compiling E16320"
 iverilog ./*.v -o compiled.out -s reg_file_tb_groundtruth
@@ -564,12 +564,12 @@ mkdir ./temp3/16313/
 echo "MSG: unzipping E16313"
 unzip ./temp2/e16313_lab5_part2.zip -d ./temp3/16313/
 cd ./temp3/16313/
-rm *tb*
-rm *testbench*
-rm *test_bench*
-rm *TestBench*
-rm *Testbench*
-rm *testBench*
+rm -f *tb*
+rm -f *testbench*
+rm -f *test_bench*
+rm -f *TestBench*
+rm -f *Testbench*
+rm -f *testBench*
 cp ../../groundtruth/reg_file_tb_groundtruth.v ./
 echo "MSG: Compiling E16313"
 iverilog ./*.v -o compiled.out -s reg_file_tb_groundtruth
@@ -584,12 +584,12 @@ mkdir ./temp3/16360/
 echo "MSG: unzipping E16360"
 unzip ./temp2/e16360_lab5_part2.zip -d ./temp3/16360/
 cd ./temp3/16360/
-rm *tb*
-rm *testbench*
-rm *test_bench*
-rm *TestBench*
-rm *Testbench*
-rm *testBench*
+rm -f *tb*
+rm -f *testbench*
+rm -f *test_bench*
+rm -f *TestBench*
+rm -f *Testbench*
+rm -f *testBench*
 cp ../../groundtruth/reg_file_tb_groundtruth.v ./
 echo "MSG: Compiling E16360"
 iverilog ./*.v -o compiled.out -s reg_file_tb_groundtruth
@@ -604,12 +604,12 @@ mkdir ./temp3/16394/
 echo "MSG: unzipping E16394"
 unzip ./temp2/e16394_lab5_part2.zip -d ./temp3/16394/
 cd ./temp3/16394/
-rm *tb*
-rm *testbench*
-rm *test_bench*
-rm *TestBench*
-rm *Testbench*
-rm *testBench*
+rm -f *tb*
+rm -f *testbench*
+rm -f *test_bench*
+rm -f *TestBench*
+rm -f *Testbench*
+rm -f *testBench*
 cp ../../groundtruth/reg_file_tb_groundtruth.v ./
 echo "MSG: Compiling E16394"
 iverilog ./*.v -o compiled.out -s reg_file_tb_groundtruth
@@ -624,12 +624,12 @@ mkdir ./temp3/16168/
 echo "MSG: unzipping E16168"
 unzip ./temp2/e16168_lab5_part2.zip -d ./temp3/16168/
 cd ./temp3/16168/
-rm *tb*
-rm *testbench*
-rm *test_bench*
-rm *TestBench*
-rm *Testbench*
-rm *testBench*
+rm -f *tb*
+rm -f *testbench*
+rm -f *test_bench*
+rm -f *TestBench*
+rm -f *Testbench*
+rm -f *testBench*
 cp ../../groundtruth/reg_file_tb_groundtruth.v ./
 echo "MSG: Compiling E16168"
 iverilog ./*.v -o compiled.out -s reg_file_tb_groundtruth
@@ -644,12 +644,12 @@ mkdir ./temp3/16083/
 echo "MSG: unzipping E16083"
 unzip ./temp2/e16083_lab5_part2.zip -d ./temp3/16083/
 cd ./temp3/16083/
-rm *tb*
-rm *testbench*
-rm *test_bench*
-rm *TestBench*
-rm *Testbench*
-rm *testBench*
+rm -f *tb*
+rm -f *testbench*
+rm -f *test_bench*
+rm -f *TestBench*
+rm -f *Testbench*
+rm -f *testBench*
 cp ../../groundtruth/reg_file_tb_groundtruth.v ./
 echo "MSG: Compiling E16083"
 iverilog ./*.v -o compiled.out -s reg_file_tb_groundtruth
@@ -664,12 +664,12 @@ mkdir ./temp3/16276/
 echo "MSG: unzipping E16276"
 unzip ./temp2/e16276_lab5_part2.zip -d ./temp3/16276/
 cd ./temp3/16276/
-rm *tb*
-rm *testbench*
-rm *test_bench*
-rm *TestBench*
-rm *Testbench*
-rm *testBench*
+rm -f *tb*
+rm -f *testbench*
+rm -f *test_bench*
+rm -f *TestBench*
+rm -f *Testbench*
+rm -f *testBench*
 cp ../../groundtruth/reg_file_tb_groundtruth.v ./
 echo "MSG: Compiling E16276"
 iverilog ./*.v -o compiled.out -s reg_file_tb_groundtruth
@@ -684,12 +684,12 @@ mkdir ./temp3/16022/
 echo "MSG: unzipping E16022"
 unzip ./temp2/e16022_lab5_part2.zip -d ./temp3/16022/
 cd ./temp3/16022/
-rm *tb*
-rm *testbench*
-rm *test_bench*
-rm *TestBench*
-rm *Testbench*
-rm *testBench*
+rm -f *tb*
+rm -f *testbench*
+rm -f *test_bench*
+rm -f *TestBench*
+rm -f *Testbench*
+rm -f *testBench*
 cp ../../groundtruth/reg_file_tb_groundtruth.v ./
 echo "MSG: Compiling E16022"
 iverilog ./*.v -o compiled.out -s reg_file_tb_groundtruth
@@ -704,12 +704,12 @@ mkdir ./temp3/16396/
 echo "MSG: unzipping E16396"
 unzip ./temp2/e16396_lab5_part2.zip -d ./temp3/16396/
 cd ./temp3/16396/
-rm *tb*
-rm *testbench*
-rm *test_bench*
-rm *TestBench*
-rm *Testbench*
-rm *testBench*
+rm -f *tb*
+rm -f *testbench*
+rm -f *test_bench*
+rm -f *TestBench*
+rm -f *Testbench*
+rm -f *testBench*
 cp ../../groundtruth/reg_file_tb_groundtruth.v ./
 echo "MSG: Compiling E16396"
 iverilog ./*.v -o compiled.out -s reg_file_tb_groundtruth
@@ -724,12 +724,12 @@ mkdir ./temp3/16156/
 echo "MSG: unzipping E16156"
 unzip ./temp2/e16156_lab5_part2.zip -d ./temp3/16156/
 cd ./temp3/16156/
-rm *tb*
-rm *testbench*
-rm *test_bench*
-rm *TestBench*
-rm *Testbench*
-rm *testBench*
+rm -f *tb*
+rm -f *testbench*
+rm -f *test_bench*
+rm -f *TestBench*
+rm -f *Testbench*
+rm -f *testBench*
 cp ../../groundtruth/reg_file_tb_groundtruth.v ./
 echo "MSG: Compiling E16156"
 iverilog ./*.v -o compiled.out -s reg_file_tb_groundtruth
@@ -744,12 +744,12 @@ mkdir ./temp3/16076/
 echo "MSG: unzipping E16076"
 unzip ./temp2/e16076_lab5_part2.zip -d ./temp3/16076/
 cd ./temp3/16076/
-rm *tb*
-rm *testbench*
-rm *test_bench*
-rm *TestBench*
-rm *Testbench*
-rm *testBench*
+rm -f *tb*
+rm -f *testbench*
+rm -f *test_bench*
+rm -f *TestBench*
+rm -f *Testbench*
+rm -f *testBench*
 cp ../../groundtruth/reg_file_tb_groundtruth.v ./
 echo "MSG: Compiling E16076"
 iverilog ./*.v -o compiled.out -s reg_file_tb_groundtruth
@@ -764,12 +764,12 @@ mkdir ./temp3/16089/
 echo "MSG: unzipping E16089"
 unzip ./temp2/e16089_lab5_part2.zip -d ./temp3/16089/
 cd ./temp3/16089/
-rm *tb*
-rm *testbench*
-rm *test_bench*
-rm *TestBench*
-rm *Testbench*
-rm *testBench*
+rm -f *tb*
+rm -f *testbench*
+rm -f *test_bench*
+rm -f *TestBench*
+rm -f *Testbench*
+rm -f *testBench*
 cp ../../groundtruth/reg_file_tb_groundtruth.v ./
 echo "MSG: Compiling E16089"
 iverilog ./*.v -o compiled.out -s reg_file_tb_groundtruth
@@ -784,12 +784,12 @@ mkdir ./temp3/16025/
 echo "MSG: unzipping E16025"
 unzip ./temp2/e16025_lab5_part2.zip -d ./temp3/16025/
 cd ./temp3/16025/
-rm *tb*
-rm *testbench*
-rm *test_bench*
-rm *TestBench*
-rm *Testbench*
-rm *testBench*
+rm -f *tb*
+rm -f *testbench*
+rm -f *test_bench*
+rm -f *TestBench*
+rm -f *Testbench*
+rm -f *testBench*
 cp ../../groundtruth/reg_file_tb_groundtruth.v ./
 echo "MSG: Compiling E16025"
 iverilog ./*.v -o compiled.out -s reg_file_tb_groundtruth
@@ -804,12 +804,12 @@ mkdir ./temp3/16086/
 echo "MSG: unzipping E16086"
 unzip ./temp2/e16086_lab5_part2.zip -d ./temp3/16086/
 cd ./temp3/16086/
-rm *tb*
-rm *testbench*
-rm *test_bench*
-rm *TestBench*
-rm *Testbench*
-rm *testBench*
+rm -f *tb*
+rm -f *testbench*
+rm -f *test_bench*
+rm -f *TestBench*
+rm -f *Testbench*
+rm -f *testBench*
 cp ../../groundtruth/reg_file_tb_groundtruth.v ./
 echo "MSG: Compiling E16086"
 iverilog ./*.v -o compiled.out -s reg_file_tb_groundtruth
@@ -824,12 +824,12 @@ mkdir ./temp3/16078/
 echo "MSG: unzipping E16078"
 unzip ./temp2/e16078_lab5_part2.zip -d ./temp3/16078/
 cd ./temp3/16078/
-rm *tb*
-rm *testbench*
-rm *test_bench*
-rm *TestBench*
-rm *Testbench*
-rm *testBench*
+rm -f *tb*
+rm -f *testbench*
+rm -f *test_bench*
+rm -f *TestBench*
+rm -f *Testbench*
+rm -f *testBench*
 cp ../../groundtruth/reg_file_tb_groundtruth.v ./
 echo "MSG: Compiling E16078"
 iverilog ./*.v -o compiled.out -s reg_file_tb_groundtruth
@@ -844,12 +844,12 @@ mkdir ./temp3/16222/
 echo "MSG: unzipping E16222"
 unzip ./temp2/e16222_lab5_part2.zip -d ./temp3/16222/
 cd ./temp3/16222/
-rm *tb*
-rm *testbench*
-rm *test_bench*
-rm *TestBench*
-rm *Testbench*
-rm *testBench*
+rm -f *tb*
+rm -f *testbench*
+rm -f *test_bench*
+rm -f *TestBench*
+rm -f *Testbench*
+rm -f *testBench*
 cp ../../groundtruth/reg_file_tb_groundtruth.v ./
 echo "MSG: Compiling E16222"
 iverilog ./*.v -o compiled.out -s reg_file_tb_groundtruth
@@ -864,12 +864,12 @@ mkdir ./temp3/16070/
 echo "MSG: unzipping E16070"
 unzip ./temp2/e16070_lab5_part2.zip -d ./temp3/16070/
 cd ./temp3/16070/
-rm *tb*
-rm *testbench*
-rm *test_bench*
-rm *TestBench*
-rm *Testbench*
-rm *testBench*
+rm -f *tb*
+rm -f *testbench*
+rm -f *test_bench*
+rm -f *TestBench*
+rm -f *Testbench*
+rm -f *testBench*
 cp ../../groundtruth/reg_file_tb_groundtruth.v ./
 echo "MSG: Compiling E16070"
 iverilog ./*.v -o compiled.out -s reg_file_tb_groundtruth
@@ -884,12 +884,12 @@ mkdir ./temp3/16332/
 echo "MSG: unzipping E16332"
 unzip ./temp2/e16332_lab5_part2.zip -d ./temp3/16332/
 cd ./temp3/16332/
-rm *tb*
-rm *testbench*
-rm *test_bench*
-rm *TestBench*
-rm *Testbench*
-rm *testBench*
+rm -f *tb*
+rm -f *testbench*
+rm -f *test_bench*
+rm -f *TestBench*
+rm -f *Testbench*
+rm -f *testBench*
 cp ../../groundtruth/reg_file_tb_groundtruth.v ./
 echo "MSG: Compiling E16332"
 iverilog ./*.v -o compiled.out -s reg_file_tb_groundtruth
@@ -904,12 +904,12 @@ mkdir ./temp3/16127/
 echo "MSG: unzipping E16127"
 unzip ./temp2/e16127_lab5_part2.zip -d ./temp3/16127/
 cd ./temp3/16127/
-rm *tb*
-rm *testbench*
-rm *test_bench*
-rm *TestBench*
-rm *Testbench*
-rm *testBench*
+rm -f *tb*
+rm -f *testbench*
+rm -f *test_bench*
+rm -f *TestBench*
+rm -f *Testbench*
+rm -f *testBench*
 cp ../../groundtruth/reg_file_tb_groundtruth.v ./
 echo "MSG: Compiling E16127"
 iverilog ./*.v -o compiled.out -s reg_file_tb_groundtruth
@@ -924,12 +924,12 @@ mkdir ./temp3/16096/
 echo "MSG: unzipping E16096"
 unzip ./temp2/e16096_lab5_part2.zip -d ./temp3/16096/
 cd ./temp3/16096/
-rm *tb*
-rm *testbench*
-rm *test_bench*
-rm *TestBench*
-rm *Testbench*
-rm *testBench*
+rm -f *tb*
+rm -f *testbench*
+rm -f *test_bench*
+rm -f *TestBench*
+rm -f *Testbench*
+rm -f *testBench*
 cp ../../groundtruth/reg_file_tb_groundtruth.v ./
 echo "MSG: Compiling E16096"
 iverilog ./*.v -o compiled.out -s reg_file_tb_groundtruth
@@ -944,12 +944,12 @@ mkdir ./temp3/16388/
 echo "MSG: unzipping E16388"
 unzip ./temp2/e16388_lab5_part2.zip -d ./temp3/16388/
 cd ./temp3/16388/
-rm *tb*
-rm *testbench*
-rm *test_bench*
-rm *TestBench*
-rm *Testbench*
-rm *testBench*
+rm -f *tb*
+rm -f *testbench*
+rm -f *test_bench*
+rm -f *TestBench*
+rm -f *Testbench*
+rm -f *testBench*
 cp ../../groundtruth/reg_file_tb_groundtruth.v ./
 echo "MSG: Compiling E16388"
 iverilog ./*.v -o compiled.out -s reg_file_tb_groundtruth
@@ -964,12 +964,12 @@ mkdir ./temp3/16134/
 echo "MSG: unzipping E16134"
 unzip ./temp2/e16134_lab5_part2.zip -d ./temp3/16134/
 cd ./temp3/16134/
-rm *tb*
-rm *testbench*
-rm *test_bench*
-rm *TestBench*
-rm *Testbench*
-rm *testBench*
+rm -f *tb*
+rm -f *testbench*
+rm -f *test_bench*
+rm -f *TestBench*
+rm -f *Testbench*
+rm -f *testBench*
 cp ../../groundtruth/reg_file_tb_groundtruth.v ./
 echo "MSG: Compiling E16134"
 iverilog ./*.v -o compiled.out -s reg_file_tb_groundtruth
@@ -984,12 +984,12 @@ mkdir ./temp3/16115/
 echo "MSG: unzipping E16115"
 unzip ./temp2/e16115_lab5_part2.zip -d ./temp3/16115/
 cd ./temp3/16115/
-rm *tb*
-rm *testbench*
-rm *test_bench*
-rm *TestBench*
-rm *Testbench*
-rm *testBench*
+rm -f *tb*
+rm -f *testbench*
+rm -f *test_bench*
+rm -f *TestBench*
+rm -f *Testbench*
+rm -f *testBench*
 cp ../../groundtruth/reg_file_tb_groundtruth.v ./
 echo "MSG: Compiling E16115"
 iverilog ./*.v -o compiled.out -s reg_file_tb_groundtruth
@@ -1004,12 +1004,12 @@ mkdir ./temp3/16221/
 echo "MSG: unzipping E16221"
 unzip ./temp2/e16221_lab5_part2.zip -d ./temp3/16221/
 cd ./temp3/16221/
-rm *tb*
-rm *testbench*
-rm *test_bench*
-rm *TestBench*
-rm *Testbench*
-rm *testBench*
+rm -f *tb*
+rm -f *testbench*
+rm -f *test_bench*
+rm -f *TestBench*
+rm -f *Testbench*
+rm -f *testBench*
 cp ../../groundtruth/reg_file_tb_groundtruth.v ./
 echo "MSG: Compiling E16221"
 iverilog ./*.v -o compiled.out -s reg_file_tb_groundtruth
@@ -1024,12 +1024,12 @@ mkdir ./temp3/16061/
 echo "MSG: unzipping E16061"
 unzip ./temp2/e16061_lab5_part2.zip -d ./temp3/16061/
 cd ./temp3/16061/
-rm *tb*
-rm *testbench*
-rm *test_bench*
-rm *TestBench*
-rm *Testbench*
-rm *testBench*
+rm -f *tb*
+rm -f *testbench*
+rm -f *test_bench*
+rm -f *TestBench*
+rm -f *Testbench*
+rm -f *testBench*
 cp ../../groundtruth/reg_file_tb_groundtruth.v ./
 echo "MSG: Compiling E16061"
 iverilog ./*.v -o compiled.out -s reg_file_tb_groundtruth
@@ -1044,12 +1044,12 @@ mkdir ./temp3/16039/
 echo "MSG: unzipping E16039"
 unzip ./temp2/e16039_lab5_part2.zip -d ./temp3/16039/
 cd ./temp3/16039/
-rm *tb*
-rm *testbench*
-rm *test_bench*
-rm *TestBench*
-rm *Testbench*
-rm *testBench*
+rm -f *tb*
+rm -f *testbench*
+rm -f *test_bench*
+rm -f *TestBench*
+rm -f *Testbench*
+rm -f *testBench*
 cp ../../groundtruth/reg_file_tb_groundtruth.v ./
 echo "MSG: Compiling E16039"
 iverilog ./*.v -o compiled.out -s reg_file_tb_groundtruth
@@ -1064,12 +1064,12 @@ mkdir ./temp3/16364/
 echo "MSG: unzipping E16364"
 unzip ./temp2/e16364_lab5_part2.zip -d ./temp3/16364/
 cd ./temp3/16364/
-rm *tb*
-rm *testbench*
-rm *test_bench*
-rm *TestBench*
-rm *Testbench*
-rm *testBench*
+rm -f *tb*
+rm -f *testbench*
+rm -f *test_bench*
+rm -f *TestBench*
+rm -f *Testbench*
+rm -f *testBench*
 cp ../../groundtruth/reg_file_tb_groundtruth.v ./
 echo "MSG: Compiling E16364"
 iverilog ./*.v -o compiled.out -s reg_file_tb_groundtruth
@@ -1084,12 +1084,12 @@ mkdir ./temp3/1642/
 echo "MSG: unzipping E1642"
 unzip ./temp2/e1642_lab5_part2.zip -d ./temp3/1642/
 cd ./temp3/1642/
-rm *tb*
-rm *testbench*
-rm *test_bench*
-rm *TestBench*
-rm *Testbench*
-rm *testBench*
+rm -f *tb*
+rm -f *testbench*
+rm -f *test_bench*
+rm -f *TestBench*
+rm -f *Testbench*
+rm -f *testBench*
 cp ../../groundtruth/reg_file_tb_groundtruth.v ./
 echo "MSG: Compiling E1642"
 iverilog ./*.v -o compiled.out -s reg_file_tb_groundtruth
@@ -1104,12 +1104,12 @@ mkdir ./temp3/16054/
 echo "MSG: unzipping E16054"
 unzip ./temp2/e16054_lab5_part2.zip -d ./temp3/16054/
 cd ./temp3/16054/
-rm *tb*
-rm *testbench*
-rm *test_bench*
-rm *TestBench*
-rm *Testbench*
-rm *testBench*
+rm -f *tb*
+rm -f *testbench*
+rm -f *test_bench*
+rm -f *TestBench*
+rm -f *Testbench*
+rm -f *testBench*
 cp ../../groundtruth/reg_file_tb_groundtruth.v ./
 echo "MSG: Compiling E16054"
 iverilog ./*.v -o compiled.out -s reg_file_tb_groundtruth
@@ -1124,12 +1124,12 @@ mkdir ./temp3/16377/
 echo "MSG: unzipping E16377"
 unzip ./temp2/e16377_lab5_part2.zip -d ./temp3/16377/
 cd ./temp3/16377/
-rm *tb*
-rm *testbench*
-rm *test_bench*
-rm *TestBench*
-rm *Testbench*
-rm *testBench*
+rm -f *tb*
+rm -f *testbench*
+rm -f *test_bench*
+rm -f *TestBench*
+rm -f *Testbench*
+rm -f *testBench*
 cp ../../groundtruth/reg_file_tb_groundtruth.v ./
 echo "MSG: Compiling E16377"
 iverilog ./*.v -o compiled.out -s reg_file_tb_groundtruth
@@ -1144,12 +1144,12 @@ mkdir ./temp3/16267/
 echo "MSG: unzipping E16267"
 unzip ./temp2/e16267_lab5_part2.zip -d ./temp3/16267/
 cd ./temp3/16267/
-rm *tb*
-rm *testbench*
-rm *test_bench*
-rm *TestBench*
-rm *Testbench*
-rm *testBench*
+rm -f *tb*
+rm -f *testbench*
+rm -f *test_bench*
+rm -f *TestBench*
+rm -f *Testbench*
+rm -f *testBench*
 cp ../../groundtruth/reg_file_tb_groundtruth.v ./
 echo "MSG: Compiling E16267"
 iverilog ./*.v -o compiled.out -s reg_file_tb_groundtruth
@@ -1164,12 +1164,12 @@ mkdir ./temp3/16173/
 echo "MSG: unzipping E16173"
 unzip ./temp2/e16173_lab5_part2.zip -d ./temp3/16173/
 cd ./temp3/16173/
-rm *tb*
-rm *testbench*
-rm *test_bench*
-rm *TestBench*
-rm *Testbench*
-rm *testBench*
+rm -f *tb*
+rm -f *testbench*
+rm -f *test_bench*
+rm -f *TestBench*
+rm -f *Testbench*
+rm -f *testBench*
 cp ../../groundtruth/reg_file_tb_groundtruth.v ./
 echo "MSG: Compiling E16173"
 iverilog ./*.v -o compiled.out -s reg_file_tb_groundtruth

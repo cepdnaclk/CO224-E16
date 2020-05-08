@@ -21,12 +21,12 @@ First, the zip files are extracted to <b>temp3/e16XXX</b><br>
 
 We try to delete all the testbench files you have written by running<br>
 <pre><code>
-rm *tb*
-rm *testbench*
-rm *test_bench*
-rm *TestBench*
-rm *Testbench*
-rm *testBench*
+rm -f  *tb*
+rm -f *testbench*
+rm -f *test_bench*
+rm -f *TestBench*
+rm -f *Testbench*
+rm -f *testBench*
 </code></pre>
 
 Then <b>groundtruth/reg_file_tb_groundtruth.v</b> is copied to the folder.<br>
