@@ -76,6 +76,12 @@ Then we run the corrected zip file through the **[second-marking](second-marking
     <td>Edited the module name in the code module register_file to module reg_file</td>
     <td>1</td>
 </tr>
+<tr>
+    <td>E16396</td>
+    <td>0</td>
+    <td>There was an additional semi colon. Dont add semicolons after begin keyword</td>
+    <td>1</td>
+</tr>
 </table>
 
 

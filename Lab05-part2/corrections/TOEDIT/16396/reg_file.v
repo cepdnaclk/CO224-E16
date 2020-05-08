@@ -135,7 +135,7 @@ module reg_file(IN,OUT1,OUT2,INADDRESS,OUT1ADDRESS,OUT2ADDRESS,WRITE,CLK,RESET);
 	   end
      end
      
-     always @(*) #2 begin;
+     always @(*) #2 begin
 	    OUT1=regNum[OUT1ADDRESS];       //register identified by OUT1ADDRESS is read and value is loaded onto OUT1
         OUT2=regNum[OUT2ADDRESS];       //register identified by OUT2ADDRESS is read and value is loaded onto OUT2 
      end

@@ -198,12 +198,8 @@ MSG: Checking difference E16022
  
 ------STUDENT: E16396
 MSG: Compiling E16396
-./reg_file.v:138: syntax error
-./reg_file.v:138: error: malformed statement
 MSG: Running E16396
-./tempscript.sh: line 609: ./compiled.out: No such file or directory
 MSG: Checking difference E16396
-diff: waveDump.vcd: No such file or directory
  
 ------STUDENT: E16156
 MSG: Compiling E16156
