@@ -29,4 +29,5 @@ Then we run the corrected zip file through the **[second-marking](second-marking
 ## Issues
 
 **E16057** <code>output reg[7:0] registers[0:7]; // 8bit eight registers</code>
-
+**E16061** Wavedump lines 39,40-->40,39. Shall we give full maks?
+ 
