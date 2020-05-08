@@ -39,3 +39,21 @@ diff waveDump.vcd ../../groundtruth/waveDump.vcd >> compareDiff.txt
 
 Finally, you get marks if the <b>compareDiff.txt</b> file contains no difference than the time stamp.
 </ol>
+
+## If you think the marking was unfair
+
+<ol>
+    <li>Open <a href="log.txt">log.txt</a>, find the part of log containing your marking process. You can see what went wrong.<li>
+    <li>Open temp2/16XXX. If your submission is not there, and you are sure about submitting to feels, let us know. This is highly unlikely.</li>
+    <li>Open temp3/16XXX</li>
+    <li>If your files are not extracted properly, let us know.</li>
+    <li>If the files are extracted properly but you can get full marks by deleting or renaming some files, let us know.</li>
+    <li>If you dont have a <b>compiled.out</b> file, then there is an issue with compiling. If the compiling didin't happen becase of a fault in the auto marking process, let us know.</li>
+    <li>If you have <b>compiled.out</b> but do not have <b>waveDump.vcd</b>, let us know. This is highly unlikely.</li>
+    <li>If you have <b>waveDump.vcd</b>, look at <b>compareDiff.txt</b> to see what is different from <b>groudtruth/waveDump.vcd</b>. If you think the difference is miniute and the marking is unfair, let us know.</li>
+</ol>
+<ul>
+    <li>If you have some other problem, please let us know before we finalize the marks</li>
+</ul>
+
+Let us know = send an email to kisarul[at]eng[dot]pdn[dot]ac[dot]lk with a carbon copy to gihanjayatilaka[at]eng[dot]pdn[dot]ac[dot]lk.
