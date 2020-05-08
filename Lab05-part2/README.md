@@ -4,7 +4,7 @@ The submissions made to feels go through **[first-marking](first-marking/)** and
 
 Then we make **[corrections](corrections/)**, docment them [#corrections](here) and generate a new zip file.
 
-Then we run the corrected zip file through the **[first-marking](first-marking/)** to generate the **[second MARKS_LIST.csv](second-marking/MARKS_LIST.csv)
+Then we run the corrected zip file through the **[second-marking](second-marking/)** to generate the **[second MARKS_LIST.csv](second-marking/MARKS_LIST.csv)**
 
 ## Corrections
 
