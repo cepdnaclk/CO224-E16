@@ -54,3 +54,7 @@ Issue 2:
 
 
 **E16081** #93 instead of #94 in waveDump. Shall we give full marks?
+
+**E16083** 2 line diff in wavedump.
+
+
