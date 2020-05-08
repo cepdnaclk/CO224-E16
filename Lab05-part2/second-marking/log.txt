@@ -126,15 +126,10 @@ diff: waveDump.vcd: No such file or directory
  
 ------STUDENT: E16232
 MSG: Compiling E16232
-./reg_file_tb_groundtruth.v:8: error: Unknown module type: reg_file
-2 error(s) during elaboration.
-*** These modules were missing:
-        reg_file referenced 1 times.
-***
+warning: Found both default and `timescale based delays. Use
+         -Wtimescale to find the module(s) with no `timescale.
 MSG: Running E16232
-./tempscript.sh: line 371: ./compiled.out: No such file or directory
 MSG: Checking difference E16232
-diff: waveDump.vcd: No such file or directory
  
 ------STUDENT: E16286
 MSG: Compiling E16286

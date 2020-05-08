@@ -107,3 +107,5 @@ Issue 2:
 
 **E16221** reg_file module definition parameter order is wrong.
 
+**E16232** The code has been changed to nano scale for time delays. The wavedumps are different. But the answers are correct (once we divide by the scale)
+
