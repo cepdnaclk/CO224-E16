@@ -40,8 +40,15 @@ Then we run the corrected zip file through the **[second-marking](second-marking
 **E16069** 
 
 <code><pre>
-            for (i = 0; i < 8; i++) begin
-                regfile[i] <= 0;
-            end   
+for (i = 0; i < 8; i++) begin
+    regfile[i] <= 0;
+end   
 </pre></code>
+
+
+**E16070** 
+
+Issue 1: Faulty folder structure. (corrected)
+Issue 2:
+<code>for(i=0; i<8; i++) begin </code>
 

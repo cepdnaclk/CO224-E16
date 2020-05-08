@@ -303,11 +303,8 @@ MSG: Checking difference E16222
  
 ------STUDENT: E16070
 MSG: Compiling E16070
-./reg_file_tb_groundtruth.v:8: error: Unknown module type: reg_file
-2 error(s) during elaboration.
-*** These modules were missing:
-        reg_file referenced 1 times.
-***
+./Part2.v:66: syntax error
+./Part2.v:66: error: Error in for loop step assignment.
 MSG: Running E16070
 ./tempscript.sh: line 745: ./compiled.out: No such file or directory
 MSG: Checking difference E16070
