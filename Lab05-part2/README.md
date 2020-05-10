@@ -142,7 +142,7 @@ Then we run the corrected file from **[corrections/TOEDIT](corrections/TOEDIT)**
 
 **E16168** Solved the extra folder problem and renamed the module to reg_file from register_file. But still there are many differences in the wavedump
 
-**E16168** Many differences in the wavedump
+**E16173** Many differences in the wavedump
 
 **E16217** Many lines of difference between wavedumps
 
