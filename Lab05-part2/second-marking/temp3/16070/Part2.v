@@ -63,7 +63,7 @@ always @ (RESET)
 begin
 	if(RESET) begin
 		#2            // delay for rest is two time units
-		for(i=0; i<8; i++) begin
+		for(i=0; i<8; i=i+1) begin
 			reg_arr[i] <= 0 ; // make each value zero
 		end
 	end

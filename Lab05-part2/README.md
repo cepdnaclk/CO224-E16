@@ -36,6 +36,12 @@ Then we run the corrected file from **[corrections/TOEDIT](corrections/TOEDIT)**
     <td>1</td>
 </tr>
 <tr>
+    <td>E16070</td>
+    <td>0</td>
+    <td>E16039 + E16069</td>
+    <td>1</td>
+</tr>
+<tr>
     <td>E16086</td>
     <td>0</td>
     <td>Same as E16039</td>
@@ -121,10 +127,6 @@ Then we run the corrected file from **[corrections/TOEDIT](corrections/TOEDIT)**
 **E16057** <code>output reg[7:0] registers[0:7]; // 8bit eight registers</code>
 
 **E16061** Wavedump lines 39,40-->40,39. Shall we give full maks?
-
-**E16070** Issue 1: Faulty folder structure. (corrected)
-Issue 2:
-<code>for(i=0; i<8; i++) begin </code>
 
 
 **E16081** #93 instead of #94 in waveDump. Shall we give full marks?

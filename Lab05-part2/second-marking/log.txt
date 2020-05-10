@@ -226,12 +226,8 @@ MSG: Checking difference E16222
  
 ------STUDENT: E16070
 MSG: Compiling E16070
-./Part2.v:66: syntax error
-./Part2.v:66: error: Error in for loop step assignment.
 MSG: Running E16070
-./tempscript.sh: line 745: ./compiled.out: No such file or directory
 MSG: Checking difference E16070
-diff: waveDump.vcd: No such file or directory
  
 ------STUDENT: E16332
 MSG: Compiling E16332
