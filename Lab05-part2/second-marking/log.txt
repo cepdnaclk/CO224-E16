@@ -16,12 +16,8 @@ MSG: Checking difference E16217
  
 ------STUDENT: E16369
 MSG: Compiling E16369
-./reg_file.v:34: syntax error
-./reg_file.v:34: error: Error in for loop step assignment.
 MSG: Running E16369
-./tempscript.sh: line 65: ./compiled.out: No such file or directory
 MSG: Checking difference E16369
-diff: waveDump.vcd: No such file or directory
  
 ------STUDENT: E16290
 MSG: Compiling E16290
@@ -83,12 +79,8 @@ MSG: Checking difference E16055
  
 ------STUDENT: E16366
 MSG: Compiling E16366
-./reg_file.v:31: syntax error
-./reg_file.v:31: error: Error in for loop step assignment.
 MSG: Running E16366
-./tempscript.sh: line 252: ./compiled.out: No such file or directory
 MSG: Checking difference E16366
-diff: waveDump.vcd: No such file or directory
  
 ------STUDENT: E16223
 MSG: Compiling E16223
@@ -117,12 +109,8 @@ MSG: Checking difference E16399
  
 ------STUDENT: E16069
 MSG: Compiling E16069
-./reg_file.v:30: syntax error
-./reg_file.v:30: error: Error in for loop step assignment.
 MSG: Running E16069
-./tempscript.sh: line 354: ./compiled.out: No such file or directory
 MSG: Checking difference E16069
-diff: waveDump.vcd: No such file or directory
  
 ------STUDENT: E16232
 MSG: Compiling E16232
@@ -262,12 +250,8 @@ MSG: Checking difference E16096
  
 ------STUDENT: E16388
 MSG: Compiling E16388
-./regfile.v:36: syntax error
-./regfile.v:36: error: Error in for loop step assignment.
 MSG: Running E16388
-./tempscript.sh: line 813: ./compiled.out: No such file or directory
 MSG: Checking difference E16388
-diff: waveDump.vcd: No such file or directory
  
 ------STUDENT: E16134
 MSG: Compiling E16134
@@ -319,12 +303,8 @@ MSG: Checking difference E16039
  
 ------STUDENT: E16364
 MSG: Compiling E16364
-./regfile.v:24: syntax error
-./regfile.v:24: error: Error in for loop step assignment.
 MSG: Running E16364
-./tempscript.sh: line 915: ./compiled.out: No such file or directory
 MSG: Checking difference E16364
-diff: waveDump.vcd: No such file or directory
  
 ------STUDENT: E1642
 MSG: Compiling E1642

@@ -21,7 +21,7 @@ module reg_file(IN, OUT1, OUT2, INADDRESS, OUT1ADDRESS, OUT2ADDRESS, WRITE, CLK,
 
 		if(RESET)begin						//if the reset command is given then assigning 0 to all the registers in the 
 			#2								//delaying read and reset
-			for(i = 0 ;i< 8 ; i++)begin		// register file
+			for(i = 0 ;i< 8 ; i=i+1)begin		// register file
 				RegisterFile[i] <= 0;			
 			end
 		end else begin 

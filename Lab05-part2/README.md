@@ -30,6 +30,12 @@ Then we run the corrected file from **[corrections/TOEDIT](corrections/TOEDIT)**
     <td>1</td>
 </tr>
 <tr>
+    <td>E16069</td>
+    <td>0</td>
+    <td>For some reason the compiler does not work with i++. It works only with i=i+1</td>
+    <td>1</td>
+</tr>
+<tr>
     <td>E16086</td>
     <td>0</td>
     <td>Same as E16039</td>
@@ -72,9 +78,33 @@ Then we run the corrected file from **[corrections/TOEDIT](corrections/TOEDIT)**
     <td>1</td>
 </tr>
 <tr>
+    <td>E16364</td>
+    <td>0</td>
+    <td>Same as E16069</td>
+    <td>1</td>
+</tr>
+<tr>
+    <td>E16366</td>
+    <td>0</td>
+    <td>Same as E16069</td>
+    <td>1</td>
+</tr>
+<tr>
+    <td>E16369</td>
+    <td>0</td>
+    <td>Same as E16069</td>
+    <td>1</td>
+</tr>
+<tr>
     <td>E16377</td>
     <td>0</td>
     <td>Edited the module name in the code module register_file to module reg_file</td>
+    <td>1</td>
+</tr>
+<tr>
+    <td>E16388</td>
+    <td>0</td>
+    <td>Same as E16069</td>
     <td>1</td>
 </tr>
 <tr>
@@ -91,13 +121,6 @@ Then we run the corrected file from **[corrections/TOEDIT](corrections/TOEDIT)**
 **E16057** <code>output reg[7:0] registers[0:7]; // 8bit eight registers</code>
 
 **E16061** Wavedump lines 39,40-->40,39. Shall we give full maks?
-
-**E16069** <code><pre>
-for (i = 0; i < 8; i++) begin
-    regfile[i] <= 0;
-end   
-</pre></code>
-
 
 **E16070** Issue 1: Faulty folder structure. (corrected)
 Issue 2:
@@ -123,14 +146,6 @@ Issue 2:
 **E16232** The code has been changed to nano scale for time delays. The wavedumps are different. But the answers are correct (once we divide by the scale)
 
 **E16286** Issue 1: Two line are swapped in the wavedata (looks okay). Issue 2: There is a difference of #3 (might be problematic, please check)
-
-**E16364** Issue in loop assignment <code>RegisterFile[i] <= 0;</code>
-
-**E16366** Same as E16364
-
-**E16369** Same as E16364
-
-**E16388** Same as E16364
 
 **E16389** 	<code>reg [0:7][0:7] reg_array;</code> Can we declare 2D register arrays?
 

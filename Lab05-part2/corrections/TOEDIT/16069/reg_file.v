@@ -27,7 +27,7 @@ module reg_file(IN, OUT1, OUT2, INADDRESS, OUT1ADDRESS, OUT2ADDRESS, WRITE, CLK,
         if(RESET) 
         begin
             #2
-            for (i = 0; i < 8; i++) begin
+            for (i = 0; i < 8; i=i+1) begin
                 regfile[i] <= 0;
             end   
         end

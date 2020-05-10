@@ -31,7 +31,7 @@ module reg_file(IN, OUT1, OUT2, INADDRESS, OUT1ADDRESS,
     always @(*) begin
         if(RESET) begin
             #2; // wait for 2ns
-            for(count = 0; count < 8; count += 1) begin 
+            for(count = 0; count < 8; count= count+1) begin 
                 // reset the reg_file with 0
                 REG_FILE[count] = 8'h00; 
             end

@@ -33,7 +33,7 @@ module reg_file(IN, OUT1, OUT2, INADDRESS, OUT1ADDRESS, OUT2ADDRESS, WRITE, CLK,
         if(RESET)                                           //If RESET is ENABLE after positive edge of RESET , Reset register_file
         begin
             #2                                              //delay of 2 time units for Reset operation
-            for (i=0; i<8; i++)
+            for (i=0; i<8; i=i+1)
               begin
                 register_file[i] = 8'b00000000;             //store 0 in all positions
               end

@@ -28,7 +28,7 @@ begin
     if (RESET == 1)
     begin
         #2 
-        for (i = 0; i < 8; i++) //looping through register file and setting them to 0s
+        for (i = 0; i < 8; i=i+1) //looping through register file and setting them to 0s
         begin
             registers[i] = 0;
         end   
