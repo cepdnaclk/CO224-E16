@@ -123,6 +123,7 @@ Then we run the corrected file from **[corrections/TOEDIT](corrections/TOEDIT)**
 
 
 ## Issues
+**E16055** Minor difference
 
 **E16057** <code>output reg[7:0] registers[0:7]; // 8bit eight registers</code>
 
