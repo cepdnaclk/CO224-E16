@@ -261,31 +261,8 @@ MSG: Checking difference E16115
  
 ------STUDENT: E16221
 MSG: Compiling E16221
-./reg_file_tb_groundtruth.v:8: warning: Port 1 (CLK) of reg_file expects 1 bits, got 8.
-./reg_file_tb_groundtruth.v:8:        : Pruning 7 high bits of the expression.
-./reg_file_tb_groundtruth.v:8: warning: Port 2 (RESET) of reg_file expects 1 bits, got 8.
-./reg_file_tb_groundtruth.v:8:        : Pruning 7 high bits of the expression.
-./reg_file_tb_groundtruth.v:8: warning: Port 3 (WRITE) of reg_file expects 1 bits, got 8.
-./reg_file_tb_groundtruth.v:8:        : Pruning 7 high bits of the expression.
-./reg_file_tb_groundtruth.v:8: warning: Port 4 (IN) of reg_file expects 8 bits, got 3.
-./reg_file_tb_groundtruth.v:8:        : Padding 5 high bits of the port.
-./reg_file_tb_groundtruth.v:8: error: reg READREG1; cannot be driven by primitives or continuous assignment.
-./reg_file_tb_groundtruth.v:8: error: Output port expression must support continuous assignment.
-./reg_file_tb_groundtruth.v:8:      : Port OUT1 of reg_file is connected to READREG1
-./reg_file_tb_groundtruth.v:8: error: reg READREG2; cannot be driven by primitives or continuous assignment.
-./reg_file_tb_groundtruth.v:8: error: Output port expression must support continuous assignment.
-./reg_file_tb_groundtruth.v:8:      : Port OUT2 of reg_file is connected to READREG2
-./reg_file_tb_groundtruth.v:8: warning: Port 7 (INADDRESS) of reg_file expects 3 bits, got 1.
-./reg_file_tb_groundtruth.v:8:        : Padding 2 high bits of the port.
-./reg_file_tb_groundtruth.v:8: warning: Port 8 (OUT1ADDRESS) of reg_file expects 3 bits, got 1.
-./reg_file_tb_groundtruth.v:8:        : Padding 2 high bits of the port.
-./reg_file_tb_groundtruth.v:8: warning: Port 9 (OUT2ADDRESS) of reg_file expects 3 bits, got 1.
-./reg_file_tb_groundtruth.v:8:        : Padding 2 high bits of the port.
-4 error(s) during elaboration.
 MSG: Running E16221
-./tempscript.sh: line 864: ./compiled.out: No such file or directory
 MSG: Checking difference E16221
-diff: waveDump.vcd: No such file or directory
  
 ------STUDENT: E16061
 MSG: Compiling E16061

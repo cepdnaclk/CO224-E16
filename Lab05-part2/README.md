@@ -72,6 +72,12 @@ Then we run the corrected file from **[corrections/TOEDIT](corrections/TOEDIT)**
     <td>1</td>
 </tr>
 <tr>
+    <td>E16200</td>
+    <td>0</td>
+    <td>Incorrect order of ports.</td>
+    <td>1</td>
+</tr>
+<tr>
     <td>E16223</td>
     <td>0</td>
     <td>Same as E16039</td>
@@ -145,8 +151,6 @@ Then we run the corrected file from **[corrections/TOEDIT](corrections/TOEDIT)**
 **E16173** Many differences in the wavedump
 
 **E16217** Many lines of difference between wavedumps
-
-**E16221** reg_file module definition parameter order is wrong.
 
 **E16232** The code has been changed to nano scale for time delays. The wavedumps are different. But the answers are correct (once we divide by the scale)
 

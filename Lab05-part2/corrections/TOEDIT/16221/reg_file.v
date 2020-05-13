@@ -3,7 +3,7 @@
 	Code for Register File
 */
 
-module reg_file(CLK, RESET, WRITE, IN, OUT1, OUT2, INADDRESS, OUT1ADDRESS, OUT2ADDRESS);
+module reg_file(IN, OUT1, OUT2, INADDRESS, OUT1ADDRESS, OUT2ADDRESS,WRITE,CLK, RESET);
 
 input[7:0] IN;	//8-bit input data to write
 input[2:0] OUT1ADDRESS, OUT2ADDRESS, INADDRESS;	//register addresses of read and write
