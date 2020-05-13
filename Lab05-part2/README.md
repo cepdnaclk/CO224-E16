@@ -6,6 +6,7 @@ Then we make **[corrections](corrections/)** and docment them [here](https://git
 
 Then we run the corrected file from **[corrections/TOEDIT](corrections/TOEDIT)** through the **[second-marking](second-marking/)** to generate the **[second MARKS_LIST.csv](second-marking/MARKS_LIST.csv)**
 
+The full mark list is [here](https://docs.google.com/spreadsheets/d/1LuNwV9OSPD5Ao1EbTsTpwb4d7jO7kM_NDegpb_vySzQ)
 
 ## Corrections
 
