@@ -72,7 +72,7 @@ Then we run the corrected file from **[corrections/TOEDIT](corrections/TOEDIT)**
     <td>1</td>
 </tr>
 <tr>
-    <td>E16200</td>
+    <td>E16221</td>
     <td>0</td>
     <td>Incorrect order of ports.</td>
     <td>1</td>
