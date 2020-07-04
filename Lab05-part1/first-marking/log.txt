@@ -1,0 +1,696 @@
+ 
+------STUDENT: E16394
+MSG: unzipping E16394
+Archive:  ./temp2/e16394_lab5_part1.zip
+  inflating: ./temp3/16394/alu.v     
+  inflating: ./temp3/16394/testAlu.v  
+MSG: Compiling E16394
+./testAlu.v:76: Module testbench was already declared here: ./alu_tb_gt.v:1
+
+MSG: Running E16394
+./tempscript.sh: line 17: ./compiled.out: No such file or directory
+MSG: Checking difference E16394
+ 
+------STUDENT: E16088
+MSG: unzipping E16088
+Archive:  ./temp2/e16088_lab5_part1.zip
+  inflating: ./temp3/16088/ALU.v     
+MSG: Compiling E16088
+MSG: Running E16088
+MSG: Checking difference E16088
+ 
+------STUDENT: E16276
+MSG: unzipping E16276
+Archive:  ./temp2/e16276_lab5_part1.zip
+  inflating: ./temp3/16276/alu.v     
+  inflating: ./temp3/16276/alu_tb.v  
+MSG: Compiling E16276
+./alu_tb_gt.v:7: warning: Port 3 (SELECT) of alu expects 3 bits, got 8.
+./alu_tb_gt.v:7:        : Pruning 5 high bits of the expression.
+./alu_tb_gt.v:7: error: reg SELECT_t; cannot be driven by primitives or continuous assignment.
+./alu_tb_gt.v:7: error: Output port expression must support continuous assignment.
+./alu_tb_gt.v:7:      : Port RESULT of alu is connected to SELECT_t
+2 error(s) during elaboration.
+MSG: Running E16276
+./tempscript.sh: line 57: ./compiled.out: No such file or directory
+MSG: Checking difference E16276
+ 
+------STUDENT: E16061
+MSG: unzipping E16061
+Archive:  ./temp2/e16061_lab5_part1.zip
+  inflating: ./temp3/16061/e16061_lab5_part1.v  
+MSG: Compiling E16061
+MSG: Running E16061
+MSG: Checking difference E16061
+ 
+------STUDENT: E0
+MSG: unzipping E0
+unzip:  cannot find or open ./temp2/, ./temp2/.zip or ./temp2/.ZIP.
+MSG: Compiling E0
+./alu_tb_gt.v:7: error: Unknown module type: alu
+2 error(s) during elaboration.
+*** These modules were missing:
+        alu referenced 1 times.
+***
+MSG: Running E0
+./tempscript.sh: line 97: ./compiled.out: No such file or directory
+MSG: Checking difference E0
+ 
+------STUDENT: E16200
+MSG: unzipping E16200
+Archive:  ./temp2/e16200_lab5_part1.zip
+   creating: ./temp3/16200/e16200_lab5_part1/
+  inflating: ./temp3/16200/e16200_lab5_part1/alu.v  
+  inflating: ./temp3/16200/e16200_lab5_part1/testbench.v  
+MSG: Compiling E16200
+./alu_tb_gt.v:7: error: Unknown module type: alu
+2 error(s) during elaboration.
+*** These modules were missing:
+        alu referenced 1 times.
+***
+MSG: Running E16200
+./tempscript.sh: line 117: ./compiled.out: No such file or directory
+MSG: Checking difference E16200
+ 
+------STUDENT: E16096
+MSG: unzipping E16096
+Archive:  ./temp2/e16096_lab5_part1.zip
+  inflating: ./temp3/16096/alu.v     
+  inflating: ./temp3/16096/testbench_alu.v  
+  inflating: ./temp3/16096/AluTiming.JPG  
+MSG: Compiling E16096
+MSG: Running E16096
+MSG: Checking difference E16096
+ 
+------STUDENT: E16377
+MSG: unzipping E16377
+Archive:  ./temp2/e16377_lab5_part1.zip
+  inflating: ./temp3/16377/alu.v     
+MSG: Compiling E16377
+MSG: Running E16377
+MSG: Checking difference E16377
+ 
+------STUDENT: E16078
+MSG: unzipping E16078
+Archive:  ./temp2/e16078_lab5_part1.zip
+  inflating: ./temp3/16078/alu_module.v  
+  inflating: ./temp3/16078/testbench_module.v  
+MSG: Compiling E16078
+MSG: Running E16078
+MSG: Checking difference E16078
+ 
+------STUDENT: E16068
+MSG: unzipping E16068
+Archive:  ./temp2/e16068_lab5_part1.zip
+  inflating: ./temp3/16068/ALU.v     
+  inflating: ./temp3/16068/ALU_testBench.v  
+MSG: Compiling E16068
+./alu_tb_gt.v:7: error: Unknown module type: alu
+2 error(s) during elaboration.
+*** These modules were missing:
+        alu referenced 1 times.
+***
+MSG: Running E16068
+./tempscript.sh: line 197: ./compiled.out: No such file or directory
+MSG: Checking difference E16068
+ 
+------STUDENT: E16083
+MSG: unzipping E16083
+Archive:  ./temp2/e16083_lab5_part1.zip
+  inflating: ./temp3/16083/alu.v     
+  inflating: ./temp3/16083/alu_tb.v  
+MSG: Compiling E16083
+MSG: Running E16083
+MSG: Checking difference E16083
+ 
+------STUDENT: E16172
+MSG: unzipping E16172
+Archive:  ./temp2/e16172_lab5_part1.zip
+   creating: ./temp3/16172/e16172_lab5_part1/
+  inflating: ./temp3/16172/e16172_lab5_part1/alu_part1_wavedata.vcd  
+  inflating: ./temp3/16172/e16172_lab5_part1/part1.v  
+  inflating: ./temp3/16172/e16172_lab5_part1/alu_test_wave.png  
+MSG: Compiling E16172
+./alu_tb_gt.v:7: error: Unknown module type: alu
+2 error(s) during elaboration.
+*** These modules were missing:
+        alu referenced 1 times.
+***
+MSG: Running E16172
+./tempscript.sh: line 237: ./compiled.out: No such file or directory
+MSG: Checking difference E16172
+ 
+------STUDENT: E16012
+MSG: unzipping E16012
+Archive:  ./temp2/e16012_lab5_part1.zip
+  inflating: ./temp3/16012/alu.v     
+  inflating: ./temp3/16012/alu_tb.v  
+MSG: Compiling E16012
+MSG: Running E16012
+MSG: Checking difference E16012
+ 
+------STUDENT: E16156
+MSG: unzipping E16156
+Archive:  ./temp2/e16156_lab5_part1.zip
+   creating: ./temp3/16156/e16156_lab5_part1/
+  inflating: ./temp3/16156/e16156_lab5_part1/ALU.v  
+  inflating: ./temp3/16156/e16156_lab5_part1/TestBench.v  
+MSG: Compiling E16156
+./alu_tb_gt.v:7: error: Unknown module type: alu
+2 error(s) during elaboration.
+*** These modules were missing:
+        alu referenced 1 times.
+***
+MSG: Running E16156
+./tempscript.sh: line 277: ./compiled.out: No such file or directory
+MSG: Checking difference E16156
+ 
+------STUDENT: E16070
+MSG: unzipping E16070
+Archive:  ./temp2/e16070_lab5_part1.zip
+   creating: ./temp3/16070/e16070_lab5_part1/
+  inflating: ./temp3/16070/e16070_lab5_part1/Part1.v  
+MSG: Compiling E16070
+./alu_tb_gt.v:7: error: Unknown module type: alu
+2 error(s) during elaboration.
+*** These modules were missing:
+        alu referenced 1 times.
+***
+MSG: Running E16070
+./tempscript.sh: line 297: ./compiled.out: No such file or directory
+MSG: Checking difference E16070
+ 
+------STUDENT: E16217
+MSG: unzipping E16217
+Archive:  ./temp2/e16217_lab5_part1.zip
+   creating: ./temp3/16217/part1/
+  inflating: ./temp3/16217/part1/alu_module.v  
+  inflating: ./temp3/16217/part1/alu_test_bench.v  
+  inflating: ./temp3/16217/part1/utils.v  
+MSG: Compiling E16217
+./alu_tb_gt.v:7: error: Unknown module type: alu
+2 error(s) during elaboration.
+*** These modules were missing:
+        alu referenced 1 times.
+***
+MSG: Running E16217
+./tempscript.sh: line 317: ./compiled.out: No such file or directory
+MSG: Checking difference E16217
+ 
+------STUDENT: E16054
+MSG: unzipping E16054
+Archive:  ./temp2/e16054_lab5_part1.zip
+  inflating: ./temp3/16054/aluModel.v  
+MSG: Compiling E16054
+MSG: Running E16054
+MSG: Checking difference E16054
+ 
+------STUDENT: E16055
+MSG: unzipping E16055
+Archive:  ./temp2/e16055_lab5_part1.zip
+  inflating: ./temp3/16055/Lab5_Part1.v  
+MSG: Compiling E16055
+./Lab5_Part1.v:24: syntax error
+./Lab5_Part1.v:24: error: malformed statement
+./Lab5_Part1.v:29: Module testbench was already declared here: ./alu_tb_gt.v:1
+
+MSG: Running E16055
+./tempscript.sh: line 357: ./compiled.out: No such file or directory
+MSG: Checking difference E16055
+ 
+------STUDENT: E16134
+MSG: unzipping E16134
+Archive:  ./temp2/e16134_lab5_part1.zip
+  inflating: ./temp3/16134/testbench.v  
+  inflating: ./temp3/16134/alu.v     
+MSG: Compiling E16134
+MSG: Running E16134
+MSG: Checking difference E16134
+ 
+------STUDENT: E16275
+MSG: unzipping E16275
+Archive:  ./temp2/e16275_lab5_part1.zip
+   creating: ./temp3/16275/ComplexALUModel/
+  inflating: ./temp3/16275/ComplexALUModel/README.txt  
+  inflating: ./temp3/16275/ComplexALUModel/alu.v  
+  inflating: ./temp3/16275/ComplexALUModel/wavedata.vcd  
+  inflating: ./temp3/16275/ComplexALUModel/testbench.v  
+  inflating: ./temp3/16275/ComplexALUModel/Screenshot from 2020-05-03 22-54-24.png  
+  inflating: ./temp3/16275/ComplexALUModel/e16275_lab5_part1.vvp  
+  inflating: ./temp3/16275/ComplexALUModel/adder.v  
+  inflating: ./temp3/16275/ComplexALUModel/andModule.v  
+  inflating: ./temp3/16275/ComplexALUModel/orModule.v  
+  inflating: ./temp3/16275/alu.v     
+  inflating: ./temp3/16275/e16275_lab5_part1.vvp  
+  inflating: ./temp3/16275/README.txt  
+  inflating: ./temp3/16275/Screenshot from 2020-05-03 22-54-24.png  
+  inflating: ./temp3/16275/testbench.v  
+  inflating: ./temp3/16275/wavedata.vcd  
+MSG: Compiling E16275
+MSG: Running E16275
+MSG: Checking difference E16275
+ 
+------STUDENT: E16369
+MSG: unzipping E16369
+Archive:  ./temp2/e16369_lab5_part1.zip
+  inflating: ./temp3/16369/alu.v     
+  inflating: ./temp3/16369/ALU_testbench.v  
+MSG: Compiling E16369
+MSG: Running E16369
+MSG: Checking difference E16369
+ 
+------STUDENT: E16222
+MSG: unzipping E16222
+Archive:  ./temp2/e16222_lab5_part1.zip
+  inflating: ./temp3/16222/alu.v     
+  inflating: ./temp3/16222/testbed.v  
+MSG: Compiling E16222
+MSG: Running E16222
+MSG: Checking difference E16222
+ 
+------STUDENT: E16290
+MSG: unzipping E16290
+Archive:  ./temp2/e16290_lab5_part1.zip
+  inflating: ./temp3/16290/alu.v     
+  inflating: ./temp3/16290/alu_test.v  
+MSG: Compiling E16290
+./alu_test.v:147: Module testbench was already declared here: ./alu_tb_gt.v:1
+
+MSG: Running E16290
+./tempscript.sh: line 457: ./compiled.out: No such file or directory
+MSG: Checking difference E16290
+ 
+------STUDENT: E16313
+MSG: unzipping E16313
+Archive:  ./temp2/e16313_lab5_part1.zip
+  inflating: ./temp3/16313/alu.v     
+MSG: Compiling E16313
+MSG: Running E16313
+MSG: Checking difference E16313
+ 
+------STUDENT: E16022
+MSG: unzipping E16022
+Archive:  ./temp2/e16022_lab5_part1.zip
+  inflating: ./temp3/16022/e16022alu.v  
+MSG: Compiling E16022
+./alu_tb_gt.v:7: warning: Port 3 (SELECT) of alu expects 3 bits, got 8.
+./alu_tb_gt.v:7:        : Pruning 5 high bits of the expression.
+./alu_tb_gt.v:7: error: reg SELECT_t; cannot be driven by primitives or continuous assignment.
+./alu_tb_gt.v:7: error: Output port expression must support continuous assignment.
+./alu_tb_gt.v:7:      : Port RESULT of alu is connected to SELECT_t
+2 error(s) during elaboration.
+MSG: Running E16022
+./tempscript.sh: line 497: ./compiled.out: No such file or directory
+MSG: Checking difference E16022
+ 
+------STUDENT: E16086
+MSG: unzipping E16086
+Archive:  ./temp2/e16086_lab5_part1.zip
+  inflating: ./temp3/16086/e16086_lab5_part1/alu.v  
+  inflating: ./temp3/16086/e16086_lab5_part1/testbench.v  
+MSG: Compiling E16086
+./alu_tb_gt.v:7: error: Unknown module type: alu
+2 error(s) during elaboration.
+*** These modules were missing:
+        alu referenced 1 times.
+***
+MSG: Running E16086
+./tempscript.sh: line 517: ./compiled.out: No such file or directory
+MSG: Checking difference E16086
+ 
+------STUDENT: E16232
+MSG: unzipping E16232
+Archive:  ./temp2/e16232_lab5_part1.zip
+   creating: ./temp3/16232/e16232_lab5_part1/
+  inflating: ./temp3/16232/e16232_lab5_part1/alu_tb.v  
+  inflating: ./temp3/16232/e16232_lab5_part1/alu.v  
+MSG: Compiling E16232
+./alu_tb_gt.v:7: error: Unknown module type: alu
+2 error(s) during elaboration.
+*** These modules were missing:
+        alu referenced 1 times.
+***
+MSG: Running E16232
+./tempscript.sh: line 537: ./compiled.out: No such file or directory
+MSG: Checking difference E16232
+ 
+------STUDENT: E16223
+MSG: unzipping E16223
+Archive:  ./temp2/e16223_lab5_part1.zip
+  inflating: ./temp3/16223/alu.v     
+MSG: Compiling E16223
+./alu.v:37: Module testbench was already declared here: ./alu_tb_gt.v:1
+
+MSG: Running E16223
+./tempscript.sh: line 557: ./compiled.out: No such file or directory
+MSG: Checking difference E16223
+ 
+------STUDENT: E16039
+MSG: unzipping E16039
+Archive:  ./temp2/e16039_lab5_part1.zip
+   creating: ./temp3/16039/e16039_lab5_part1/
+  inflating: ./temp3/16039/e16039_lab5_part1/alu.v  
+  inflating: ./temp3/16039/e16039_lab5_part1/alu.vvp  
+MSG: Compiling E16039
+./alu_tb_gt.v:7: error: Unknown module type: alu
+2 error(s) during elaboration.
+*** These modules were missing:
+        alu referenced 1 times.
+***
+MSG: Running E16039
+./tempscript.sh: line 577: ./compiled.out: No such file or directory
+MSG: Checking difference E16039
+ 
+------STUDENT: E16396
+MSG: unzipping E16396
+Archive:  ./temp2/e16396_lab5_part1.zip
+  inflating: ./temp3/16396/alu.v     
+MSG: Compiling E16396
+./alu_tb_gt.v:7: warning: Port 3 (SELECT) of alu expects 3 bits, got 8.
+./alu_tb_gt.v:7:        : Pruning 5 high bits of the expression.
+./alu_tb_gt.v:7: error: reg SELECT_t; cannot be driven by primitives or continuous assignment.
+./alu_tb_gt.v:7: error: Output port expression must support continuous assignment.
+./alu_tb_gt.v:7:      : Port RESULT of alu is connected to SELECT_t
+2 error(s) during elaboration.
+MSG: Running E16396
+./tempscript.sh: line 597: ./compiled.out: No such file or directory
+MSG: Checking difference E16396
+ 
+------STUDENT: E16089
+MSG: unzipping E16089
+Archive:  ./temp2/e16089_lab5_part1.zip
+  inflating: ./temp3/16089/alu.v     
+MSG: Compiling E16089
+./alu.v:42: Module testbench was already declared here: ./alu_tb_gt.v:1
+
+MSG: Running E16089
+./tempscript.sh: line 617: ./compiled.out: No such file or directory
+MSG: Checking difference E16089
+ 
+------STUDENT: E16366
+MSG: unzipping E16366
+Archive:  ./temp2/e16366_lab5_part1.zip
+  inflating: ./temp3/16366/alu.v     
+  inflating: ./temp3/16366/testbench.v  
+MSG: Compiling E16366
+MSG: Running E16366
+MSG: Checking difference E16366
+ 
+------STUDENT: E1642
+MSG: unzipping E1642
+Archive:  ./temp2/e1642_lab5_part1.zip
+  inflating: ./temp3/1642/e1642_lab5_part1.v  
+MSG: Compiling E1642
+MSG: Running E1642
+MSG: Checking difference E1642
+ 
+------STUDENT: E16388
+MSG: unzipping E16388
+Archive:  ./temp2/e16388_lab5_part1.zip
+  inflating: ./temp3/16388/testbench.v  
+  inflating: ./temp3/16388/alu.v     
+MSG: Compiling E16388
+MSG: Running E16388
+MSG: Checking difference E16388
+ 
+------STUDENT: E16221
+MSG: unzipping E16221
+Archive:  ./temp2/e16221_lab5_part1.zip
+  inflating: ./temp3/16221/e16221_lab5_part1.v  
+MSG: Compiling E16221
+./alu_tb_gt.v:7: warning: Port 3 (Select) of alu expects 3 bits, got 8.
+./alu_tb_gt.v:7:        : Pruning 5 high bits of the expression.
+./alu_tb_gt.v:7: error: reg SELECT_t; cannot be driven by primitives or continuous assignment.
+./alu_tb_gt.v:7: error: Output port expression must support continuous assignment.
+./alu_tb_gt.v:7:      : Port Result of alu is connected to SELECT_t
+2 error(s) during elaboration.
+MSG: Running E16221
+./tempscript.sh: line 697: ./compiled.out: No such file or directory
+MSG: Checking difference E16221
+ 
+------STUDENT: E16399
+MSG: unzipping E16399
+Archive:  ./temp2/e16399_lab5_part1.zip
+  inflating: ./temp3/16399/alu.v     
+MSG: Compiling E16399
+./alu.v:51: Module testbench was already declared here: ./alu_tb_gt.v:1
+
+MSG: Running E16399
+./tempscript.sh: line 717: ./compiled.out: No such file or directory
+MSG: Checking difference E16399
+ 
+------STUDENT: E16364
+MSG: unzipping E16364
+Archive:  ./temp2/e16364_lab5_part1.zip
+   creating: ./temp3/16364/e16364_lab5_part1/
+  inflating: ./temp3/16364/e16364_lab5_part1/alu_module.v  
+  inflating: ./temp3/16364/e16364_lab5_part1/alu_tb.v  
+MSG: Compiling E16364
+./alu_tb_gt.v:7: error: Unknown module type: alu
+2 error(s) during elaboration.
+*** These modules were missing:
+        alu referenced 1 times.
+***
+MSG: Running E16364
+./tempscript.sh: line 737: ./compiled.out: No such file or directory
+MSG: Checking difference E16364
+ 
+------STUDENT: E16389
+MSG: unzipping E16389
+Archive:  ./temp2/e16389_lab5_part1.zip
+  inflating: ./temp3/16389/e16389_alu.v  
+  inflating: ./temp3/16389/alu_file_wavedata.png  
+MSG: Compiling E16389
+./e16389_alu.v:88: Module testbench was already declared here: ./alu_tb_gt.v:1
+
+MSG: Running E16389
+./tempscript.sh: line 757: ./compiled.out: No such file or directory
+MSG: Checking difference E16389
+ 
+------STUDENT: E16168
+MSG: unzipping E16168
+Archive:  ./temp2/e16168_lab5_part1.zip
+  inflating: ./temp3/16168/alu_tb.v  
+  inflating: ./temp3/16168/alu.v     
+MSG: Compiling E16168
+MSG: Running E16168
+MSG: Checking difference E16168
+ 
+------STUDENT: E16319
+MSG: unzipping E16319
+Archive:  ./temp2/e16319_lab5_part1.zip
+   creating: ./temp3/16319/e16319_lab5_part1/
+  inflating: ./temp3/16319/e16319_lab5_part1/alu.v  
+  inflating: ./temp3/16319/e16319_lab5_part1/wavedata.vcd  
+  inflating: ./temp3/16319/e16319_lab5_part1/alu.vvp  
+MSG: Compiling E16319
+./alu_tb_gt.v:7: error: Unknown module type: alu
+2 error(s) during elaboration.
+*** These modules were missing:
+        alu referenced 1 times.
+***
+MSG: Running E16319
+./tempscript.sh: line 797: ./compiled.out: No such file or directory
+MSG: Checking difference E16319
+ 
+------STUDENT: E16087
+MSG: unzipping E16087
+Archive:  ./temp2/e16087_lab5_part1.zip
+  inflating: ./temp3/16087/e16087_lab5_part1.v  
+MSG: Compiling E16087
+MSG: Running E16087
+MSG: Checking difference E16087
+ 
+------STUDENT: E16127
+MSG: unzipping E16127
+Archive:  ./temp2/e16127_lab5_part1.zip
+  inflating: ./temp3/16127/e16127_lab5_part1/alu.v  
+MSG: Compiling E16127
+./alu_tb_gt.v:7: error: Unknown module type: alu
+2 error(s) during elaboration.
+*** These modules were missing:
+        alu referenced 1 times.
+***
+MSG: Running E16127
+./tempscript.sh: line 837: ./compiled.out: No such file or directory
+MSG: Checking difference E16127
+ 
+------STUDENT: E16368
+MSG: unzipping E16368
+Archive:  ./temp2/e16368_lab5_part1.zip
+  inflating: ./temp3/16368/alu.v     
+MSG: Compiling E16368
+MSG: Running E16368
+MSG: Checking difference E16368
+ 
+------STUDENT: E16126
+MSG: unzipping E16126
+Archive:  ./temp2/e16126_lab5_part1.zip
+   creating: ./temp3/16126/e16126_lab5_part1/
+  inflating: ./temp3/16126/e16126_lab5_part1/alu.v  
+MSG: Compiling E16126
+./alu_tb_gt.v:7: error: Unknown module type: alu
+2 error(s) during elaboration.
+*** These modules were missing:
+        alu referenced 1 times.
+***
+MSG: Running E16126
+./tempscript.sh: line 877: ./compiled.out: No such file or directory
+MSG: Checking difference E16126
+ 
+------STUDENT: E16267
+MSG: unzipping E16267
+Archive:  ./temp2/e16267_lab5_part1.zip
+  inflating: ./temp3/16267/testbench.v  
+  inflating: ./temp3/16267/ALU.v     
+  inflating: ./temp3/16267/Alu_timing.PNG  
+MSG: Compiling E16267
+MSG: Running E16267
+MSG: Checking difference E16267
+ 
+------STUDENT: E16261
+MSG: unzipping E16261
+Archive:  ./temp2/e16261_lab5_part1.zip
+  inflating: ./temp3/16261/e16261_lab5_part1.v  
+MSG: Compiling E16261
+MSG: Running E16261
+MSG: Checking difference E16261
+ 
+------STUDENT: E16332
+MSG: unzipping E16332
+Archive:  ./temp2/e16332_lab5_part1.zip
+  inflating: ./temp3/16332/e16332_lab5_part1.v  
+MSG: Compiling E16332
+MSG: Running E16332
+MSG: Checking difference E16332
+ 
+------STUDENT: E16081
+MSG: unzipping E16081
+Archive:  ./temp2/e16081_lab5_part1.zip
+   creating: ./temp3/16081/e16081_lab5_part1/
+  inflating: ./temp3/16081/e16081_lab5_part1/alu.v.out  
+  inflating: ./temp3/16081/e16081_lab5_part1/wavedata.vcd  
+  inflating: ./temp3/16081/e16081_lab5_part1/Testbench.v.out  
+  inflating: ./temp3/16081/e16081_lab5_part1/alu.v  
+  inflating: ./temp3/16081/e16081_lab5_part1/Testbench.v  
+MSG: Compiling E16081
+./alu_tb_gt.v:7: error: Unknown module type: alu
+2 error(s) during elaboration.
+*** These modules were missing:
+        alu referenced 1 times.
+***
+MSG: Running E16081
+./tempscript.sh: line 957: ./compiled.out: No such file or directory
+MSG: Checking difference E16081
+ 
+------STUDENT: E16049
+MSG: unzipping E16049
+Archive:  ./temp2/e16049_lab5_part1.zip
+  inflating: ./temp3/16049/e16049_lab5_part1.v  
+MSG: Compiling E16049
+MSG: Running E16049
+MSG: Checking difference E16049
+ 
+------STUDENT: E16025
+MSG: unzipping E16025
+Archive:  ./temp2/e16025_lab5_part1.zip
+  inflating: ./temp3/16025/alu.v     
+  inflating: ./temp3/16025/alu_tb.v  
+MSG: Compiling E16025
+MSG: Running E16025
+MSG: Checking difference E16025
+ 
+------STUDENT: E16360
+MSG: unzipping E16360
+Archive:  ./temp2/e16360_lab5_part1.zip
+  inflating: ./temp3/16360/alu.v     
+  inflating: ./temp3/16360/alu_testbench.v  
+MSG: Compiling E16360
+MSG: Running E16360
+MSG: Checking difference E16360
+ 
+------STUDENT: E16173
+MSG: unzipping E16173
+Archive:  ./temp2/e16173_lab5_part1.zip
+   creating: ./temp3/16173/e16173_lab5_part1/
+  inflating: ./temp3/16173/e16173_lab5_part1/screenshot_alu.png  
+  inflating: ./temp3/16173/e16173_lab5_part1/E16173wavedataALU.vcd  
+  inflating: ./temp3/16173/e16173_lab5_part1/E16173alu.vvp  
+  inflating: ./temp3/16173/e16173_lab5_part1/E16173_lab5_part1.v  
+MSG: Compiling E16173
+./alu_tb_gt.v:7: error: Unknown module type: alu
+2 error(s) during elaboration.
+*** These modules were missing:
+        alu referenced 1 times.
+***
+MSG: Running E16173
+./tempscript.sh: line 1037: ./compiled.out: No such file or directory
+MSG: Checking difference E16173
+ 
+------STUDENT: E16115
+MSG: unzipping E16115
+Archive:  ./temp2/e16115_lab5_part1.zip
+  inflating: ./temp3/16115/alu.v     
+MSG: Compiling E16115
+./alu.v:29: syntax error
+./alu.v:29: error: malformed statement
+MSG: Running E16115
+./tempscript.sh: line 1057: ./compiled.out: No such file or directory
+MSG: Checking difference E16115
+ 
+------STUDENT: E16057
+MSG: unzipping E16057
+Archive:  ./temp2/e16057_lab5_part1.zip
+  inflating: ./temp3/16057/alu.v     
+MSG: Compiling E16057
+./alu.v:41: Module testbench was already declared here: ./alu_tb_gt.v:1
+
+MSG: Running E16057
+./tempscript.sh: line 1077: ./compiled.out: No such file or directory
+MSG: Checking difference E16057
+ 
+------STUDENT: E16076
+MSG: unzipping E16076
+Archive:  ./temp2/e16076_lab5_part1.zip
+  inflating: ./temp3/16076/alu.v     
+MSG: Compiling E16076
+MSG: Running E16076
+MSG: Checking difference E16076
+ 
+------STUDENT: E16203
+MSG: unzipping E16203
+Archive:  ./temp2/e16203_lab5_part1.zip
+  inflating: ./temp3/16203/e16203_lab5_part1.v  
+MSG: Compiling E16203
+MSG: Running E16203
+MSG: Checking difference E16203
+ 
+------STUDENT: E16286
+MSG: unzipping E16286
+Archive:  ./temp2/e16286_lab5_part1.zip
+  inflating: ./temp3/16286/alu.v     
+MSG: Compiling E16286
+./alu.v:59: Module testbench was already declared here: ./alu_tb_gt.v:1
+
+MSG: Running E16286
+./tempscript.sh: line 1137: ./compiled.out: No such file or directory
+MSG: Checking difference E16286
+ 
+------STUDENT: E16351
+MSG: unzipping E16351
+Archive:  ./temp2/e16351_lab5_part1.zip
+  inflating: ./temp3/16351/ALU.v     
+MSG: Compiling E16351
+./ALU.v:41: Module testbench was already declared here: ./alu_tb_gt.v:1
+
+MSG: Running E16351
+./tempscript.sh: line 1157: ./compiled.out: No such file or directory
+MSG: Checking difference E16351
+ 
+------STUDENT: E16069
+MSG: unzipping E16069
+Archive:  ./temp2/e16069_lab5_part1.zip
+  inflating: ./temp3/16069/alu.v     
+MSG: Compiling E16069
+MSG: Running E16069
+MSG: Checking difference E16069

@@ -1,0 +1,5 @@
+11,12c11
+<                   50 Not Implemented
+<                   50 DATA1_t: 10101011, DATA2_t: 01100110, SELECT_t: 111, RESULT_t: xxxxxxxx
+---
+>                   50 DATA1_t: 10101011, DATA2_t: 01100110, SELECT_t: 111, RESULT_t: 00000000
