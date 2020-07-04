@@ -6,7 +6,7 @@ Then we make **[corrections](corrections/)** and docment them [here](https://git
 
 Then we run the corrected file from **[corrections/TOEDIT](corrections/TOEDIT)** through the **[second-marking](second-marking/)** to generate the **[second MARKS_LIST.csv](second-marking/MARKS_LIST.csv)**
 
-Finally, the full marks list is **[https://docs.google.com/spreadsheets/d/1LuNwV9OSPD5Ao1EbTsTpwb4d7jO7kM_NDegpb_vySzQ](here)**
+Finally, the full marks list is **[here](https://docs.google.com/spreadsheets/d/1LuNwV9OSPD5Ao1EbTsTpwb4d7jO7kM_NDegpb_vySzQ)**
 
 E16055 : Commented out the testbench
 E16057 : Commented out the testbench
