@@ -1,4 +1,4 @@
-// `include "utils.v"
+`include "utils.v"
 
 module alu(DATA1, DATA2, RESULT, SELECT) ;
 	

@@ -25,3 +25,12 @@ E16389 : Commented the testbench
 E16394 : Removed the testbench
 E16396 : Result, select order issue
 E16399 : Commented the testbench
+
+
+E16022 : A result is xxxxxxxx instead of 00000000
+E16039 : Result, select order issue solved. Still output is different.
+E16068 : The input/output is differnt from the specs
+E16115 : ??
+E16173 : ??
+E16217 : ??
+E16319 : ??

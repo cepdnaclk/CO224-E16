@@ -71,7 +71,7 @@ endmodule
 
 
 // Define module called alu
-module alu (DATA1, DATA2, SELECT, RESULT);
+module alu (DATA1, DATA2, RESULT, SELECT);
 
     // Declare input and output ports
     output reg [7:0] RESULT;

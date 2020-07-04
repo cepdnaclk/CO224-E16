@@ -85,19 +85,10 @@ MSG: Checking difference E16070
  
 ------STUDENT: E16217
 MSG: Compiling E16217
-./alu_module.v:18: error: Unknown module type: adder
-./alu_module.v:75: error: Unknown module type: mux8_1
-./alu_module.v:76: error: Unknown module type: mux8_1
-./alu_module.v:77: error: Unknown module type: mux8_1
-./alu_module.v:78: error: Unknown module type: mux8_1
-./alu_module.v:80: error: Unknown module type: mux8_1
-./alu_module.v:81: error: Unknown module type: mux8_1
-./alu_module.v:82: error: Unknown module type: mux8_1
-./alu_module.v:83: error: Unknown module type: mux8_1
-10 error(s) during elaboration.
+./alu_tb_gt.v:7: error: Unknown module type: alu
+2 error(s) during elaboration.
 *** These modules were missing:
-        adder referenced 1 times.
-        mux8_1 referenced 8 times.
+        alu referenced 1 times.
 ***
 MSG: Running E16217
 ./tempscript.sh: line 269: ./compiled.out: No such file or directory
@@ -145,14 +136,7 @@ MSG: Checking difference E16313
  
 ------STUDENT: E16022
 MSG: Compiling E16022
-./alu_tb_gt.v:7: warning: Port 3 (SELECT) of alu expects 3 bits, got 8.
-./alu_tb_gt.v:7:        : Pruning 5 high bits of the expression.
-./alu_tb_gt.v:7: error: reg SELECT_t; cannot be driven by primitives or continuous assignment.
-./alu_tb_gt.v:7: error: Output port expression must support continuous assignment.
-./alu_tb_gt.v:7:      : Port RESULT of alu is connected to SELECT_t
-2 error(s) during elaboration.
 MSG: Running E16022
-./tempscript.sh: line 422: ./compiled.out: No such file or directory
 MSG: Checking difference E16022
  
 ------STUDENT: E16086
@@ -172,12 +156,7 @@ MSG: Checking difference E16223
  
 ------STUDENT: E16039
 MSG: Compiling E16039
-./alu.v:34: syntax error
-./alu.v:34: error: malformed statement
-./alu.v:38: Module testbench was already declared here: ./alu_tb_gt.v:1
-
 MSG: Running E16039
-./tempscript.sh: line 490: ./compiled.out: No such file or directory
 MSG: Checking difference E16039
  
 ------STUDENT: E16396
