@@ -1,0 +1,169 @@
+$date
+	Sun May  3 07:25:17 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$var wire 8 ! RESULT [7:0] $end
+$var reg 8 " DATA1 [7:0] $end
+$var reg 8 # DATA2 [7:0] $end
+$var reg 3 $ SELECT [2:0] $end
+$scope module alu1 $end
+$var wire 8 % DATA1 [7:0] $end
+$var wire 8 & DATA2 [7:0] $end
+$var wire 3 ' SELECT [2:0] $end
+$var wire 8 ( RESULT [7:0] $end
+$scope module alu1 $end
+$var wire 8 ) DATA1 [7:0] $end
+$var wire 8 * DATA2 [7:0] $end
+$var wire 3 + SELECT [2:0] $end
+$var reg 8 , RESULT [7:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx ,
+b0 +
+b0 *
+b0 )
+bx (
+b0 '
+b0 &
+b0 %
+b0 $
+b0 #
+b0 "
+bx !
+$end
+#1
+b0 !
+b0 (
+b0 ,
+#5
+b1 #
+b1 &
+b1 *
+b11111111 "
+b11111111 %
+b11111111 )
+#6
+b1 !
+b1 (
+b1 ,
+#10
+b1 $
+b1 '
+b1 +
+#12
+b0 !
+b0 (
+b0 ,
+#15
+b10 $
+b10 '
+b10 +
+#16
+b1 !
+b1 (
+b1 ,
+#20
+b11 $
+b11 '
+b11 +
+#21
+b11111111 !
+b11111111 (
+b11111111 ,
+#25
+b0 $
+b0 '
+b0 +
+b111010 #
+b111010 &
+b111010 *
+b110010 "
+b110010 %
+b110010 )
+#26
+b111010 !
+b111010 (
+b111010 ,
+#30
+b1 $
+b1 '
+b1 +
+#32
+b1101100 !
+b1101100 (
+b1101100 ,
+#35
+b10 $
+b10 '
+b10 +
+#36
+b110010 !
+b110010 (
+b110010 ,
+#40
+b11 $
+b11 '
+b11 +
+#41
+b111010 !
+b111010 (
+b111010 ,
+#45
+b0 $
+b0 '
+b0 +
+b11000110 #
+b11000110 &
+b11000110 *
+#46
+b11000110 !
+b11000110 (
+b11000110 ,
+#50
+b1 $
+b1 '
+b1 +
+#52
+b11111000 !
+b11111000 (
+b11111000 ,
+#55
+b10 $
+b10 '
+b10 +
+#56
+b10 !
+b10 (
+b10 ,
+#60
+b11 $
+b11 '
+b11 +
+#61
+b11110110 !
+b11110110 (
+b11110110 ,
+#65
+b0 #
+b0 &
+b0 *
+b0 "
+b0 %
+b0 )
+b0 $
+b0 '
+b0 +
+#66
+b0 !
+b0 (
+b0 ,

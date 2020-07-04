@@ -1,0 +1,148 @@
+
+module testbench;
+     
+    //OPERAND 8- BIT ARRAYS  
+	reg  [7:0]  OPERAND1; 
+	reg  [7:0]  OPERAND2;
+
+	//SELECT 
+	reg  [2:0]  ALUOP;
+
+	
+
+	//OUTPUT
+
+	wire [7:0]  ALURESULT;
+
+    //RUN MODULE
+	alu ALU(OPERAND1, OPERAND2,ALUOP,ALURESULT);
+
+
+	initial
+
+		begin
+		    //MONITER SIGNALS WITH CMD
+			$monitor($time," OPERAND1:%b, OPERAND2:%b,ALUOP:%b,ALURESULT:%b",OPERAND1, OPERAND2,ALUOP,ALURESULT);
+
+			//GENERATE ILE NEEDED TO PLOT WAVEFORM
+			$dumpfile("wavedata.vcd");
+			$dumpvars(0,testbench);
+		end
+
+
+	initial
+
+		begin
+
+			OPERAND1=8'b00000000;
+		    OPERAND2=8'b00000000;
+			ALUOP   =3'b000     ;
+
+			//CHECK FORWARD
+		    #10
+		    OPERAND2=8'b00001111;
+		    
+		    #10
+		    OPERAND2=8'b00011111;
+
+		    #10
+			OPERAND1=8'b11111111;
+		    OPERAND2=8'b00011111;
+
+			#10
+			OPERAND1=8'b11110000;
+		    OPERAND2=8'b00001111;
+
+		    //CHECK ADD
+			#10
+		    ALUOP   =3'b001;
+			OPERAND1=8'b00000000;
+		    OPERAND2=8'b00000000;
+			
+			#10
+			OPERAND1=8'b11111111;
+		    OPERAND2=8'b00000000;
+
+			#10
+			OPERAND1=8'b11111111;
+		    OPERAND2=8'b11111111;
+
+			#10
+			OPERAND1=8'b00000001;
+		    OPERAND2=8'b11111111;  
+		    
+		    //CHECK AND     
+		    #10
+		    ALUOP   =3'b010;
+			OPERAND1=8'b00000000;
+		    OPERAND2=8'b00000000;
+
+			#10
+			OPERAND1=8'b00000001;
+		    OPERAND2=8'b00000001;  
+		         
+			#10
+			OPERAND1=8'b00001111;
+		    OPERAND2=8'b11111111;  
+		     
+		    //CHECK OR 
+			#10
+		    ALUOP   =3'b011;
+			OPERAND1=8'b00000000;
+		    OPERAND2=8'b00000000;
+			
+			#10
+			OPERAND1=8'b11111111;
+		    OPERAND2=8'b00000000;
+
+			#10
+			OPERAND1=8'b00001111;
+		    OPERAND2=8'b00000000;
+		    
+		    //CHECK  RESERVED        
+		    #10
+			ALUOP   =3'b100;
+			OPERAND1=8'b00000000;
+		    OPERAND2=8'b00000000;
+
+			#10
+			OPERAND1=8'b00001111;
+			OPERAND2=8'b00000000;
+
+			#10
+			OPERAND1=8'b00001111;
+		    OPERAND2=8'b00001111;
+
+		    //CHECK FOR RESERVED 
+		    #10
+		    ALUOP   =3'b101;
+			OPERAND1=8'b00000000;
+		    OPERAND2=8'b00000000;
+
+			#10
+			OPERAND1=8'b00001111;
+			OPERAND2=8'b00000000;
+
+			#10
+			OPERAND1=8'b00001111;
+		    OPERAND2=8'b00001111;
+
+		    //CHECK FOR RESERVED 
+		    #10
+		    ALUOP   =3'b111;
+			OPERAND1=8'b00000000;
+		    OPERAND2=8'b00000000;
+
+			#10
+			OPERAND1=8'b00001111;
+			OPERAND2=8'b00000000;
+
+			#10
+			OPERAND1=8'b00001111;
+		    OPERAND2=8'b00001111;
+
+
+		end
+	
+endmodule
+

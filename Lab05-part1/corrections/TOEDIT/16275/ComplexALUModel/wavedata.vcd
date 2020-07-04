@@ -1,0 +1,555 @@
+$date
+	Sun May  3 22:47:14 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$var wire 8 ! RESULT [7:0] $end
+$var reg 8 " DATA1 [7:0] $end
+$var reg 8 # DATA2 [7:0] $end
+$var reg 3 $ SELECT [2:0] $end
+$scope module alu1 $end
+$var wire 8 % DATA1 [7:0] $end
+$var wire 8 & DATA2 [7:0] $end
+$var wire 3 ' SELECT [2:0] $end
+$var wire 8 ( RESULT [7:0] $end
+$scope module alu1 $end
+$var wire 8 ) DATA1 [7:0] $end
+$var wire 8 * DATA2 [7:0] $end
+$var wire 3 + SELECT [2:0] $end
+$var wire 8 , ORCONNECT [7:0] $end
+$var wire 8 - ANDCONNECT [7:0] $end
+$var wire 8 . ADDERCONNECT [7:0] $end
+$var reg 8 / RESULT [7:0] $end
+$scope module adder1 $end
+$var wire 8 0 DATA1 [7:0] $end
+$var wire 8 1 DATA2 [7:0] $end
+$var wire 8 2 RESULT [7:0] $end
+$scope module adder1 $end
+$var wire 8 3 op1 [7:0] $end
+$var wire 8 4 op2 [7:0] $end
+$var wire 8 5 c [7:0] $end
+$var wire 8 6 ans [7:0] $end
+$scope module sb0 $end
+$var wire 1 7 bit1 $end
+$var wire 1 8 bit2 $end
+$var wire 1 9 c_in $end
+$var reg 1 : ans $end
+$var reg 1 ; c_out $end
+$upscope $end
+$scope module sb1 $end
+$var wire 1 < bit1 $end
+$var wire 1 = bit2 $end
+$var wire 1 > c_in $end
+$var reg 1 ? ans $end
+$var reg 1 @ c_out $end
+$upscope $end
+$scope module sb2 $end
+$var wire 1 A bit1 $end
+$var wire 1 B bit2 $end
+$var wire 1 C c_in $end
+$var reg 1 D ans $end
+$var reg 1 E c_out $end
+$upscope $end
+$scope module sb3 $end
+$var wire 1 F bit1 $end
+$var wire 1 G bit2 $end
+$var wire 1 H c_in $end
+$var reg 1 I ans $end
+$var reg 1 J c_out $end
+$upscope $end
+$scope module sb4 $end
+$var wire 1 K bit1 $end
+$var wire 1 L bit2 $end
+$var wire 1 M c_in $end
+$var reg 1 N ans $end
+$var reg 1 O c_out $end
+$upscope $end
+$scope module sb5 $end
+$var wire 1 P bit1 $end
+$var wire 1 Q bit2 $end
+$var wire 1 R c_in $end
+$var reg 1 S ans $end
+$var reg 1 T c_out $end
+$upscope $end
+$scope module sb6 $end
+$var wire 1 U bit1 $end
+$var wire 1 V bit2 $end
+$var wire 1 W c_in $end
+$var reg 1 X ans $end
+$var reg 1 Y c_out $end
+$upscope $end
+$scope module sb7 $end
+$var wire 1 Z bit1 $end
+$var wire 1 [ bit2 $end
+$var wire 1 \ c_in $end
+$var reg 1 ] ans $end
+$var reg 1 ^ c_out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module and1 $end
+$var wire 8 _ DATA1 [7:0] $end
+$var wire 8 ` DATA2 [7:0] $end
+$var wire 8 a RESULT [7:0] $end
+$scope module and1 $end
+$var wire 8 b op1 [7:0] $end
+$var wire 8 c op2 [7:0] $end
+$var wire 8 d ans [7:0] $end
+$scope module and0 $end
+$var wire 1 e bit1 $end
+$var wire 1 f bit2 $end
+$var reg 1 g ans $end
+$upscope $end
+$scope module and1 $end
+$var wire 1 h bit1 $end
+$var wire 1 i bit2 $end
+$var reg 1 j ans $end
+$upscope $end
+$scope module and2 $end
+$var wire 1 k bit1 $end
+$var wire 1 l bit2 $end
+$var reg 1 m ans $end
+$upscope $end
+$scope module and3 $end
+$var wire 1 n bit1 $end
+$var wire 1 o bit2 $end
+$var reg 1 p ans $end
+$upscope $end
+$scope module and4 $end
+$var wire 1 q bit1 $end
+$var wire 1 r bit2 $end
+$var reg 1 s ans $end
+$upscope $end
+$scope module and5 $end
+$var wire 1 t bit1 $end
+$var wire 1 u bit2 $end
+$var reg 1 v ans $end
+$upscope $end
+$scope module and6 $end
+$var wire 1 w bit1 $end
+$var wire 1 x bit2 $end
+$var reg 1 y ans $end
+$upscope $end
+$scope module and7 $end
+$var wire 1 z bit1 $end
+$var wire 1 { bit2 $end
+$var reg 1 | ans $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module or1 $end
+$var wire 8 } DATA1 [7:0] $end
+$var wire 8 ~ DATA2 [7:0] $end
+$var wire 8 !" RESULT [7:0] $end
+$scope module or1 $end
+$var wire 8 "" op1 [7:0] $end
+$var wire 8 #" op2 [7:0] $end
+$var wire 8 $" ans [7:0] $end
+$scope module or0 $end
+$var wire 1 %" bit1 $end
+$var wire 1 &" bit2 $end
+$var reg 1 '" ans $end
+$upscope $end
+$scope module or1 $end
+$var wire 1 (" bit1 $end
+$var wire 1 )" bit2 $end
+$var reg 1 *" ans $end
+$upscope $end
+$scope module or2 $end
+$var wire 1 +" bit1 $end
+$var wire 1 ," bit2 $end
+$var reg 1 -" ans $end
+$upscope $end
+$scope module or3 $end
+$var wire 1 ." bit1 $end
+$var wire 1 /" bit2 $end
+$var reg 1 0" ans $end
+$upscope $end
+$scope module or4 $end
+$var wire 1 1" bit1 $end
+$var wire 1 2" bit2 $end
+$var reg 1 3" ans $end
+$upscope $end
+$scope module or5 $end
+$var wire 1 4" bit1 $end
+$var wire 1 5" bit2 $end
+$var reg 1 6" ans $end
+$upscope $end
+$scope module or6 $end
+$var wire 1 7" bit1 $end
+$var wire 1 8" bit2 $end
+$var reg 1 9" ans $end
+$upscope $end
+$scope module or7 $end
+$var wire 1 :" bit1 $end
+$var wire 1 ;" bit2 $end
+$var reg 1 <" ans $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1<"
+0;"
+1:"
+19"
+08"
+17"
+16"
+05"
+14"
+13"
+02"
+11"
+10"
+0/"
+1."
+1-"
+0,"
+1+"
+1*"
+0)"
+1("
+1'"
+1&"
+1%"
+b11111111 $"
+b1 #"
+b11111111 ""
+b11111111 !"
+b1 ~
+b11111111 }
+0|
+0{
+1z
+0y
+0x
+1w
+0v
+0u
+1t
+0s
+0r
+1q
+0p
+0o
+1n
+0m
+0l
+1k
+0j
+0i
+1h
+1g
+1f
+1e
+b1 d
+b1 c
+b11111111 b
+b1 a
+b1 `
+b11111111 _
+1^
+0]
+1\
+0[
+1Z
+1Y
+0X
+1W
+0V
+1U
+1T
+0S
+1R
+0Q
+1P
+1O
+0N
+1M
+0L
+1K
+1J
+0I
+1H
+0G
+1F
+1E
+0D
+1C
+0B
+1A
+1@
+0?
+1>
+0=
+1<
+1;
+0:
+09
+18
+17
+b0 6
+b11111111 5
+b1 4
+b11111111 3
+b0 2
+b1 1
+b11111111 0
+bx /
+b0 .
+b1 -
+b11111111 ,
+b0 +
+b1 *
+b11111111 )
+bx (
+b0 '
+b1 &
+b11111111 %
+b0 $
+b1 #
+b11111111 "
+bx !
+$end
+#1
+b1 !
+b1 (
+b1 /
+#10
+b1 $
+b1 '
+b1 +
+#12
+b0 !
+b0 (
+b0 /
+#20
+b10 $
+b10 '
+b10 +
+#21
+b1 !
+b1 (
+b1 /
+#30
+b11 $
+b11 '
+b11 +
+#31
+b11111111 !
+b11111111 (
+b11111111 /
+#40
+0M
+1I
+0J
+0>
+0H
+0\
+0?
+0N
+1S
+1j
+1s
+1v
+0;
+1D
+0E
+1X
+0Y
+b1101100 .
+b1101100 2
+b1101100 6
+0]
+b110010 5
+0^
+b110010 -
+b110010 a
+b110010 d
+0g
+0'"
+0-"
+09"
+b111010 ,
+b111010 !"
+b111010 $"
+0<"
+08
+1=
+1G
+1L
+1Q
+0f
+1i
+1o
+1r
+1u
+0&"
+1)"
+1/"
+12"
+15"
+07
+0A
+0F
+0U
+0Z
+0e
+0k
+0n
+0w
+0z
+0%"
+0+"
+0."
+07"
+0:"
+b0 $
+b0 '
+b0 +
+b111010 #
+b111010 &
+b111010 *
+b111010 1
+b111010 4
+b111010 `
+b111010 c
+b111010 ~
+b111010 #"
+b110010 "
+b110010 %
+b110010 )
+b110010 0
+b110010 3
+b110010 _
+b110010 b
+b110010 }
+b110010 ""
+#41
+b111010 !
+b111010 (
+b111010 /
+#50
+b1 $
+b1 '
+b1 +
+#52
+b1101100 !
+b1101100 (
+b1101100 /
+#60
+b10 $
+b10 '
+b10 +
+#61
+b110010 !
+b110010 (
+b110010 /
+#70
+b11 $
+b11 '
+b11 +
+#71
+b111010 !
+b111010 (
+b111010 /
+#80
+0W
+0T
+0^
+1H
+0R
+0\
+0D
+1E
+1I
+1N
+0O
+1S
+1X
+b110 5
+0Y
+b11111000 .
+b11111000 2
+b11111000 6
+1]
+0s
+b10 -
+b10 a
+b10 d
+0v
+1-"
+00"
+19"
+b11110110 ,
+b11110110 !"
+b11110110 $"
+1<"
+1B
+0G
+0L
+0Q
+1V
+1[
+1l
+0o
+0r
+0u
+1x
+1{
+1,"
+0/"
+02"
+05"
+18"
+1;"
+b0 $
+b0 '
+b0 +
+b11000110 #
+b11000110 &
+b11000110 *
+b11000110 1
+b11000110 4
+b11000110 `
+b11000110 c
+b11000110 ~
+b11000110 #"
+#81
+b11000110 !
+b11000110 (
+b11000110 /
+#90
+b1 $
+b1 '
+b1 +
+#92
+b11111000 !
+b11111000 (
+b11111000 /
+#100
+b10 $
+b10 '
+b10 +
+#101
+b10 !
+b10 (
+b10 /
+#110
+b11 $
+b11 '
+b11 +
+#111
+b11110110 !
+b11110110 (
+b11110110 /

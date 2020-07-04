@@ -1,0 +1,5 @@
+11,12c11
+< This combination is preserved for future use, previous values will be printed.
+<                   50 DATA1_t: 10101011, DATA2_t: 01100110, SELECT_t: 111, RESULT_t: 01100110
+---
+>                   50 DATA1_t: 10101011, DATA2_t: 01100110, SELECT_t: 111, RESULT_t: 00000000

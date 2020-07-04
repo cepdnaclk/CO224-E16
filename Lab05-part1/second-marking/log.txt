@@ -1,0 +1,331 @@
+ 
+------STUDENT: E16394
+MSG: Compiling E16394
+MSG: Running E16394
+MSG: Checking difference E16394
+ 
+------STUDENT: E16088
+MSG: Compiling E16088
+MSG: Running E16088
+MSG: Checking difference E16088
+ 
+------STUDENT: E16276
+MSG: Compiling E16276
+MSG: Running E16276
+MSG: Checking difference E16276
+ 
+------STUDENT: E16061
+MSG: Compiling E16061
+MSG: Running E16061
+MSG: Checking difference E16061
+ 
+------STUDENT: E0
+MSG: Compiling E0
+./alu_tb_gt.v:7: error: Unknown module type: alu
+2 error(s) during elaboration.
+*** These modules were missing:
+        alu referenced 1 times.
+***
+MSG: Running E0
+./tempscript.sh: line 82: ./compiled.out: No such file or directory
+MSG: Checking difference E0
+ 
+------STUDENT: E16200
+MSG: Compiling E16200
+MSG: Running E16200
+MSG: Checking difference E16200
+ 
+------STUDENT: E16096
+MSG: Compiling E16096
+MSG: Running E16096
+MSG: Checking difference E16096
+ 
+------STUDENT: E16377
+MSG: Compiling E16377
+MSG: Running E16377
+MSG: Checking difference E16377
+ 
+------STUDENT: E16078
+MSG: Compiling E16078
+MSG: Running E16078
+MSG: Checking difference E16078
+ 
+------STUDENT: E16068
+MSG: Compiling E16068
+./alu_tb_gt.v:7: error: Wrong number of ports. Expecting 6, got 4.
+1 error(s) during elaboration.
+MSG: Running E16068
+./tempscript.sh: line 167: ./compiled.out: No such file or directory
+MSG: Checking difference E16068
+ 
+------STUDENT: E16083
+MSG: Compiling E16083
+MSG: Running E16083
+MSG: Checking difference E16083
+ 
+------STUDENT: E16172
+MSG: Compiling E16172
+MSG: Running E16172
+MSG: Checking difference E16172
+ 
+------STUDENT: E16012
+MSG: Compiling E16012
+MSG: Running E16012
+MSG: Checking difference E16012
+ 
+------STUDENT: E16156
+MSG: Compiling E16156
+MSG: Running E16156
+MSG: Checking difference E16156
+ 
+------STUDENT: E16070
+MSG: Compiling E16070
+MSG: Running E16070
+MSG: Checking difference E16070
+ 
+------STUDENT: E16217
+MSG: Compiling E16217
+./alu_module.v:18: error: Unknown module type: adder
+./alu_module.v:75: error: Unknown module type: mux8_1
+./alu_module.v:76: error: Unknown module type: mux8_1
+./alu_module.v:77: error: Unknown module type: mux8_1
+./alu_module.v:78: error: Unknown module type: mux8_1
+./alu_module.v:80: error: Unknown module type: mux8_1
+./alu_module.v:81: error: Unknown module type: mux8_1
+./alu_module.v:82: error: Unknown module type: mux8_1
+./alu_module.v:83: error: Unknown module type: mux8_1
+10 error(s) during elaboration.
+*** These modules were missing:
+        adder referenced 1 times.
+        mux8_1 referenced 8 times.
+***
+MSG: Running E16217
+./tempscript.sh: line 269: ./compiled.out: No such file or directory
+MSG: Checking difference E16217
+ 
+------STUDENT: E16054
+MSG: Compiling E16054
+MSG: Running E16054
+MSG: Checking difference E16054
+ 
+------STUDENT: E16055
+MSG: Compiling E16055
+MSG: Running E16055
+MSG: Checking difference E16055
+ 
+------STUDENT: E16134
+MSG: Compiling E16134
+MSG: Running E16134
+MSG: Checking difference E16134
+ 
+------STUDENT: E16275
+MSG: Compiling E16275
+MSG: Running E16275
+MSG: Checking difference E16275
+ 
+------STUDENT: E16369
+MSG: Compiling E16369
+MSG: Running E16369
+MSG: Checking difference E16369
+ 
+------STUDENT: E16222
+MSG: Compiling E16222
+MSG: Running E16222
+MSG: Checking difference E16222
+ 
+------STUDENT: E16290
+MSG: Compiling E16290
+MSG: Running E16290
+MSG: Checking difference E16290
+ 
+------STUDENT: E16313
+MSG: Compiling E16313
+MSG: Running E16313
+MSG: Checking difference E16313
+ 
+------STUDENT: E16022
+MSG: Compiling E16022
+./alu_tb_gt.v:7: warning: Port 3 (SELECT) of alu expects 3 bits, got 8.
+./alu_tb_gt.v:7:        : Pruning 5 high bits of the expression.
+./alu_tb_gt.v:7: error: reg SELECT_t; cannot be driven by primitives or continuous assignment.
+./alu_tb_gt.v:7: error: Output port expression must support continuous assignment.
+./alu_tb_gt.v:7:      : Port RESULT of alu is connected to SELECT_t
+2 error(s) during elaboration.
+MSG: Running E16022
+./tempscript.sh: line 422: ./compiled.out: No such file or directory
+MSG: Checking difference E16022
+ 
+------STUDENT: E16086
+MSG: Compiling E16086
+MSG: Running E16086
+MSG: Checking difference E16086
+ 
+------STUDENT: E16232
+MSG: Compiling E16232
+MSG: Running E16232
+MSG: Checking difference E16232
+ 
+------STUDENT: E16223
+MSG: Compiling E16223
+MSG: Running E16223
+MSG: Checking difference E16223
+ 
+------STUDENT: E16039
+MSG: Compiling E16039
+./alu.v:34: syntax error
+./alu.v:34: error: malformed statement
+./alu.v:38: Module testbench was already declared here: ./alu_tb_gt.v:1
+
+MSG: Running E16039
+./tempscript.sh: line 490: ./compiled.out: No such file or directory
+MSG: Checking difference E16039
+ 
+------STUDENT: E16396
+MSG: Compiling E16396
+MSG: Running E16396
+MSG: Checking difference E16396
+ 
+------STUDENT: E16089
+MSG: Compiling E16089
+MSG: Running E16089
+MSG: Checking difference E16089
+ 
+------STUDENT: E16366
+MSG: Compiling E16366
+MSG: Running E16366
+MSG: Checking difference E16366
+ 
+------STUDENT: E1642
+MSG: Compiling E1642
+MSG: Running E1642
+MSG: Checking difference E1642
+ 
+------STUDENT: E16388
+MSG: Compiling E16388
+MSG: Running E16388
+MSG: Checking difference E16388
+ 
+------STUDENT: E16221
+MSG: Compiling E16221
+MSG: Running E16221
+MSG: Checking difference E16221
+ 
+------STUDENT: E16399
+MSG: Compiling E16399
+MSG: Running E16399
+MSG: Checking difference E16399
+ 
+------STUDENT: E16364
+MSG: Compiling E16364
+MSG: Running E16364
+MSG: Checking difference E16364
+ 
+------STUDENT: E16389
+MSG: Compiling E16389
+MSG: Running E16389
+MSG: Checking difference E16389
+ 
+------STUDENT: E16168
+MSG: Compiling E16168
+MSG: Running E16168
+MSG: Checking difference E16168
+ 
+------STUDENT: E16319
+MSG: Compiling E16319
+MSG: Running E16319
+MSG: Checking difference E16319
+ 
+------STUDENT: E16087
+MSG: Compiling E16087
+MSG: Running E16087
+MSG: Checking difference E16087
+ 
+------STUDENT: E16127
+MSG: Compiling E16127
+MSG: Running E16127
+MSG: Checking difference E16127
+ 
+------STUDENT: E16368
+MSG: Compiling E16368
+MSG: Running E16368
+MSG: Checking difference E16368
+ 
+------STUDENT: E16126
+MSG: Compiling E16126
+MSG: Running E16126
+MSG: Checking difference E16126
+ 
+------STUDENT: E16267
+MSG: Compiling E16267
+MSG: Running E16267
+MSG: Checking difference E16267
+ 
+------STUDENT: E16261
+MSG: Compiling E16261
+MSG: Running E16261
+MSG: Checking difference E16261
+ 
+------STUDENT: E16332
+MSG: Compiling E16332
+MSG: Running E16332
+MSG: Checking difference E16332
+ 
+------STUDENT: E16081
+MSG: Compiling E16081
+MSG: Running E16081
+MSG: Checking difference E16081
+ 
+------STUDENT: E16049
+MSG: Compiling E16049
+MSG: Running E16049
+MSG: Checking difference E16049
+ 
+------STUDENT: E16025
+MSG: Compiling E16025
+MSG: Running E16025
+MSG: Checking difference E16025
+ 
+------STUDENT: E16360
+MSG: Compiling E16360
+MSG: Running E16360
+MSG: Checking difference E16360
+ 
+------STUDENT: E16173
+MSG: Compiling E16173
+MSG: Running E16173
+MSG: Checking difference E16173
+ 
+------STUDENT: E16115
+MSG: Compiling E16115
+MSG: Running E16115
+MSG: Checking difference E16115
+ 
+------STUDENT: E16057
+MSG: Compiling E16057
+MSG: Running E16057
+MSG: Checking difference E16057
+ 
+------STUDENT: E16076
+MSG: Compiling E16076
+MSG: Running E16076
+MSG: Checking difference E16076
+ 
+------STUDENT: E16203
+MSG: Compiling E16203
+MSG: Running E16203
+MSG: Checking difference E16203
+ 
+------STUDENT: E16286
+MSG: Compiling E16286
+MSG: Running E16286
+MSG: Checking difference E16286
+ 
+------STUDENT: E16351
+MSG: Compiling E16351
+MSG: Running E16351
+MSG: Checking difference E16351
+ 
+------STUDENT: E16069
+MSG: Compiling E16069
+MSG: Running E16069
+MSG: Checking difference E16069

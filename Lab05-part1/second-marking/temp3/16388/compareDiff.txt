@@ -1,0 +1,5 @@
+11,12c11
+< Reserved for future functional units.Operation unknown.Display previous RESULT.
+<                   50 DATA1_t: 10101011, DATA2_t: 01100110, SELECT_t: 111, RESULT_t: 01100110
+---
+>                   50 DATA1_t: 10101011, DATA2_t: 01100110, SELECT_t: 111, RESULT_t: 00000000
