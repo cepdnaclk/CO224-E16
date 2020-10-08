@@ -153,7 +153,7 @@ The full mark list is [here](https://docs.google.com/spreadsheets/d/1LuNwV9OSPD5
 
 **E16217** Many lines of difference between wavedumps
 
-**E16232** The code has been changed to nano scale for time delays. The wavedumps are different. But the answers are correct (once we divide by the scale)
+**E16232** The code has been changed to nano scale for time delays. The wavedumps are different. But the answers are correct (once we divide by the scale). **Update (08/10/2020):** Since timescale is not a major issue, you get full marks.
 
 **E16286** Issue 1: Two line are swapped in the wavedata (looks okay). Issue 2: There is a difference of #3 (might be problematic, please check)
 
